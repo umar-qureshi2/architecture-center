@@ -1,5 +1,5 @@
 ---
-title: Background: Cloud Adoption Overview
+title: Cloud Adoption Overview
 description: Describes overview concepts about integrating on-premises applications and services with the cloud or migrating on-premises applications and services to the cloud
 author: petertay
 ---
@@ -20,4 +20,7 @@ author: petertay
                 - on-prem security to cloud security
                 - on-prem compliance to cloud compliance
                 - on-prem monitoring to cloud monitoring
-            - 
+            - workforce responsibilities
+                - Finance migrate from procurement model to provision model
+                - IT migrate from managing physical hardware to managing virtual hardware
+                - dev and test migrate to DevOps
