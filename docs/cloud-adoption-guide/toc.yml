@@ -6,10 +6,10 @@
 
   items:
   - name: Enterprise migration overview
-    href: 
+    href: /migration-overview/overview.md
     items:
     - name: Background - transition to the cloud
-      href: 
+      href: /migration-overview/background.md
   
   - name: Cloud adoption strategies
     href:
