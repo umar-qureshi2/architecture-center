@@ -6,10 +6,10 @@
 
   items:
   - name: Enterprise migration overview
-    href: /migration-overview/overview.md
+    href: migration-overview/overview.md
     items:
     - name: Migrating from on-premises to the cloud
-      href: /migration-overview/background.md
+      href: migration-overview/background.md
   
   - name: Cloud adoption strategies
     href:
