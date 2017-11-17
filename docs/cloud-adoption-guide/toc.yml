@@ -1,0 +1,101 @@
+name: Azure Architecture Center
+  href: /azure/architecture
+  
+- name: Azure Cloud Adoption Guide
+  href: 
+
+  items:
+  - name: Enterprise Migration Overview
+    href: 
+    items:
+    - name: Background - Transition to the Cloud
+      href: 
+  
+  - name: Cloud Adoption Strategies
+    href:
+    items:
+      - name: Agility First Strategy
+        href:
+      - name: Innovation Enablement Strategy
+        href:
+      - name: Cost Savings Realization Strategy
+        href:
+
+  - name: Migration Planning Guide
+    href:
+      items:
+      - name: Agility First Planning Guide
+        href:
+      - name: Innovation Enablement Planning Guide
+        href:
+      - name: Cost Savings Realization Planning Guide
+        href:
+
+  - name: Architecture Design Guide
+    href:
+      items:
+      - name: Governance
+        href:
+          items:
+          - name: Tenant Design
+            href:
+          - name: Subscription Design
+            href: 
+          - name: Identity Design
+            href:
+          - name: Naming Conventions
+            href:
+          - name: Resource Tagging Conventions
+            href:
+          - name: Security Design
+            href:
+              items:
+              - name: Compliance
+                href:
+              - name: Encryption
+                href:
+              - name: Role Based Access Control
+                href:
+              - name: Azure Resource Manager Policy
+                href:
+        - name: Technology Choices
+          href:
+            items:
+              - name: Network Edge Connectivity and Security
+                href:
+              - name: Virtual Network Topology
+                href:
+              - name: Cloud Workload Migration Guide
+                href:
+              - name: DevOps and CI/CD Pipelines
+                href:
+              - name: Application and Infrastructure Monitoring
+                href:
+          - name: Workload Migration Strategy
+            href:
+              items:
+              - name: Workload Classification
+                href:
+              - name: Workload Migration Prioritization
+                href:
+              - name: Azure Migrate
+                href:
+              - name: Application Architectures
+                href:
+  
+  - name: Implementation Guide
+    href:
+      items:
+        - name: Shared Security Infrastructure
+          href:
+        - name: IaaS-based Workloads
+          href:
+          items:
+            - name: Sharepoint Reference Architecture
+              href:
+            - name: SAP Reference Architecture
+              href:
+        - name: PaaS-based Workloads
+          href:
+        - name: Automation
+          href: 
