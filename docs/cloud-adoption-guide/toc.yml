@@ -1,8 +1,8 @@
-name: Azure Architecture Center
+- name: Azure Architecture Center
   href: /azure/architecture
   
 - name: Azure Cloud Adoption Guide
-  href: 
+  href: index.md
 
   items:
   - name: Enterprise Migration Overview
