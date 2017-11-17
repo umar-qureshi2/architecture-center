@@ -54,11 +54,12 @@ Notes
 |----------|-----------------|-------------|----------------|-----------------|-------------------------|----------------|-------------|
 | Auto-scaling | VM scale sets | Built-in service | VM Scale Sets | Built-in service | Not supported | Built-in service | N/A |
 | Load balancer | Azure Load Balancer | Integrated | Azure Load Balancer | Integrated | Azure Load Balancer | Integrated | Azure Load Balancer |
-| Scale limit | Platform image: 1000 nodes per VMSS, Custom image: 100 nodes per VMSS | 20 instances, 50 with App Service Environment | 100 nodes per VMSS | Infinite <a href="#note1c"><sup>1</sup></a> | 100 | No defined limit, 200 maximum recommended | 20 core limit by default. Contact customer service for increase. |
+| Scale limit | Platform image: 1000 nodes per VMSS, Custom image: 100 nodes per VMSS | 20 instances, 50 with App Service Environment | 100 nodes per VMSS | Infinite <a href="#note1c"><sup>1</sup></a> | 100 <a href="#note2c"><sup>2</sup></a> | No defined limit, 200 maximum recommended | 20 core limit by default. Contact customer service for increase. |
 
 Notes
 
 1. <span id="note1c">If using Consumption plan. If using App Service plan, the App Service scale limits apply. See [Choose the correct service plan for Azure Functions][function-plans].</a>
+2. <span id="note2c">See [Scale agent nodes in a Container Service cluster][scale-acs]</a>
 
 ## Availability
 
@@ -100,3 +101,5 @@ Notes
 [sla-vm]: https://azure.microsoft.com/support/legal/sla/virtual-machines/
 
 [resource-manager-supported-services]: /azure/azure-resource-manager/resource-manager-supported-services
+
+[scale-acs]: /azure/container-service/kubernetes/container-service-scale#scaling-considerations

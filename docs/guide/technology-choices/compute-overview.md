@@ -38,4 +38,8 @@ When selecting a compute option, here are some factors to consider:
 - What are the overall limitations of each service? 
 - What kind of application architectures are appropriate for this service? 
 
-For a more detailed comparison of compute options in Azure, see [Criteria for choosing an Azure compute option](./compute-comparison.md).
+For more detailed comparisons of compute options in Azure, see the following articles:
+
+- [Criteria for choosing an Azure compute option](./compute-comparison.md).
+- [Azure App Service, Virtual Machines, Service Fabric, and Cloud Services comparison](/azure/app-service/choose-web-site-cloud-service-vm)
+- [Choose between Flow, Logic Apps, Functions, and WebJobs](/azure/azure-functions/functions-compare-logic-apps-ms-flow-webjobs)
