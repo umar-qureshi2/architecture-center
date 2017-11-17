@@ -58,28 +58,28 @@
           href:
         - name: Azure resource manager policy
           href:
-      - name: Technology choices
+    - name: Technology choices
+      href:
+      items:
+      - name: Network edge connectivity and security
         href:
-        items:
-        - name: Network edge connectivity and security
-          href:
-        - name: Virtual network topology
-          href:
-        - name: DevOps and CI/CD pipelines
-          href:
-        - name: Application and infrastructure monitoring
-          href:
-      - name: Workload migration strategy guide
+      - name: Virtual network topology
         href:
-        items:
-        - name: Workload classification
-          href:
-        - name: Workload migration prioritization
-          href:
-        - name: Azure migrate
-          href:
-        - name: Application architectures
-          href:
+      - name: DevOps and CI/CD pipelines
+        href:
+      - name: Application and infrastructure monitoring
+        href:
+    - name: Workload migration strategy guide
+      href:
+      items:
+      - name: Workload classification
+        href:
+      - name: Workload migration prioritization
+        href:
+      - name: Azure migrate
+        href:
+      - name: Application architectures
+        href:
   
   - name: Implementation guide
     href:
