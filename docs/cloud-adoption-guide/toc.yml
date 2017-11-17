@@ -5,97 +5,95 @@
   href: index.md
 
   items:
-  - name: Enterprise Migration Overview
+  - name: Enterprise migration overview
     href: 
     items:
-    - name: Background - Transition to the Cloud
+    - name: Background - transition to the cloud
       href: 
   
-  - name: Cloud Adoption Strategies
+  - name: Cloud adoption strategies
     href:
     items:
-      - name: Agility First Strategy
+      - name: Agility first strategy
         href:
-      - name: Innovation Enablement Strategy
+      - name: Innovation enablement strategy
         href:
-      - name: Cost Savings Realization Strategy
-        href:
-
-  - name: Migration Planning Guide
-    href:
-      items:
-      - name: Agility First Planning Guide
-        href:
-      - name: Innovation Enablement Planning Guide
-        href:
-      - name: Cost Savings Realization Planning Guide
+      - name: Cost savings strategy
         href:
 
-  - name: Architecture Design Guide
+  - name: Migration planning guide
     href:
+    items:
+    - name: Agility first planning
+      href:
+    - name: Innovation enablement planning
+      href:
+    - name: Cost savings planning
+      href:
+
+  - name: Architecture design guide
+    href:
+    items:
+    - name: Governance
+      href:
       items:
-      - name: Governance
+      - name: Tenant design
         href:
-          items:
-          - name: Tenant Design
-            href:
-          - name: Subscription Design
-            href: 
-          - name: Identity Design
-            href:
-          - name: Naming Conventions
-            href:
-          - name: Resource Tagging Conventions
-            href:
-          - name: Security Design
-            href:
-              items:
-              - name: Compliance
-                href:
-              - name: Encryption
-                href:
-              - name: Role Based Access Control
-                href:
-              - name: Azure Resource Manager Policy
-                href:
-        - name: Technology Choices
+      - name: Subscription design
+        href: 
+      - name: Identity design
+        href:
+      - name: Naming conventions
+        href:
+      - name: Resource tagging conventions
+        href:
+      - name: Security design
+        href:
+        items:
+        - name: Compliance
           href:
-            items:
-              - name: Network Edge Connectivity and Security
-                href:
-              - name: Virtual Network Topology
-                href:
-              - name: Cloud Workload Migration Guide
-                href:
-              - name: DevOps and CI/CD Pipelines
-                href:
-              - name: Application and Infrastructure Monitoring
-                href:
-          - name: Workload Migration Strategy
-            href:
-              items:
-              - name: Workload Classification
-                href:
-              - name: Workload Migration Prioritization
-                href:
-              - name: Azure Migrate
-                href:
-              - name: Application Architectures
-                href:
+        - name: Encryption
+          href:
+        - name: Role based access control
+          href:
+        - name: Azure resource manager policy
+          href:
+      - name: Technology choices
+        href:
+        items:
+        - name: Network edge connectivity and security
+          href:
+        - name: Virtual network topology
+          href:
+        - name: DevOps and CI/CD pipelines
+          href:
+        - name: Application and infrastructure monitoring
+          href:
+      - name: Workload migration strategy guide
+        href:
+        items:
+        - name: Workload classification
+          href:
+        - name: Workload migration prioritization
+          href:
+        - name: Azure migrate
+          href:
+        - name: Application architectures
+          href:
   
-  - name: Implementation Guide
+  - name: Implementation guide
     href:
+    items:
+    - name: Shared security infrastructure
+      href:
+    - name: IaaS-based workloads
+      href:
       items:
-        - name: Shared Security Infrastructure
-          href:
-        - name: IaaS-based Workloads
-          href:
-          items:
-            - name: Sharepoint Reference Architecture
-              href:
-            - name: SAP Reference Architecture
-              href:
-        - name: PaaS-based Workloads
-          href:
-        - name: Automation
-          href: 
+      - name: Sharepoint reference architecture
+        href:
+      - name: SAP reference architecture
+        href:
+    - name: PaaS-based workloads
+      href:
+    - name: Automation
+      href: 
