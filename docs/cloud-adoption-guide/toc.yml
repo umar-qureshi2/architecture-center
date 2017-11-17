@@ -8,7 +8,7 @@
   - name: Enterprise migration overview
     href: /migration-overview/overview.md
     items:
-    - name: Background - transition to the cloud
+    - name: Migrating from on-premises to the cloud
       href: /migration-overview/background.md
   
   - name: Cloud adoption strategies
