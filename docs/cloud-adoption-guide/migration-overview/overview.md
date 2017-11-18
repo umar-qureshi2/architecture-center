@@ -24,3 +24,17 @@ author: petertay
                 - Finance migrate from procurement model to provision model
                 - IT migrate from managing physical hardware to managing virtual hardware
                 - dev and test migrate to DevOps
+    - Cloud adoption strategies
+        - cloud adoption is a continuum, somewhere on the line of:
+        - agility first (less integration with on-prem)
+        - innovation first (some integration with on-prem)
+        - cost first (all-in on the cloud, full migration)
+    - Planning and Design
+        - once you've decided on a cloud adoption strategy, you can work through the planning guide to figure out what you need to do
+        - things you need to do common to all strategies
+        - things specific to each strategy
+        - Once you've worked through planning, you will need to design your cloud infrastructure
+    - Implementation guide
+        - based on your plan, here's how to implement your infrastructure, migrate your apps, secure them
+        - links to engineering artifacts
+        - links to A3G and Data Guide

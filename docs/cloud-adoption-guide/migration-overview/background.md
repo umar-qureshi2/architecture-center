@@ -1,12 +1,12 @@
 ---
 title: Migrating from on-premises to the cloud
-description: Describes background concepts about integrating on-premises applications and services with the cloud or migrating on-premises applications and services to the cloud
+description: Describes operational concerns related to integrating on-premises applications and services with the cloud or migrating on-premises applications and services to the cloud
 author: petertay
 ---
 
-# Migrating from on-premises to the cloud
+# Migrating operations from on-premises to the cloud
 
-- what are the similarities and differences between an on-prem environment and a cloud environment?
+- what are the similarities and differences between operations in an on-prem environment and a cloud environment?
 - what elements (i.e. networking, storage, servers, virtualization...applications, data) am I responsible for on-prem -> cloud -> SaaS?
 - goverance
     - what is governance?

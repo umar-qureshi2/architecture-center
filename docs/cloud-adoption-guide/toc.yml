@@ -14,8 +14,8 @@
   - name: Cloud adoption strategies
     href:
     items:
-      - name: Agility first strategy
-        href:
+      - name: Agility-first strategy
+        href: adoption-strategies/agility-first.md
       - name: Innovation enablement strategy
         href:
       - name: Cost savings strategy
