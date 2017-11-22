@@ -4,9 +4,9 @@ description: Describes the adoption strategy that allows developers to experimen
 author: petertay
 ---
 
-# Agility-first cloud adoption pattern
+# Opportunistic cloud adoption pattern
 
-- what are the characteristics of the "agility first" cloud adoption pattern?
+- what are the characteristics of the "opportunistic" cloud adoption pattern?
     - not fully committed to migrating entire enterprise to cloud?
     - creating a standalone cloud environment with low goverance requirements for proof of concept work
     - may or may not want to promote workloads from PoC to a production environment once proven

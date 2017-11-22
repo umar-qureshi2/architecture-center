@@ -14,12 +14,14 @@
   - name: Cloud adoption strategies
     href:
     items:
-      - name: Agility-first strategy
-        href: adoption-strategies/agility-first.md
-      - name: Innovation enablement strategy
-        href: adoption-strategies/innovation-enablement.md
-      - name: Cost savings strategy
-        href:
+      - name: Adoption Strategy Overview
+        href: adoption-strategies/overview.md
+      - name: Opportunistic strategy
+        href: adoption-strategies/opportunistic.md
+      - name: Bottom-up strategy
+        href: adoption-strategies/bottom-up.md
+      - name: Top-down strategy
+        href: adoption-strategies/top-down.md
 
   - name: Migration planning guide
     href:
