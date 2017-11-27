@@ -18,3 +18,7 @@ What are the major areas that require design decisions?
 - identity: typically have on identity management system on-prem, will have to integrate with multiple identity systems across multiple cloud providers
 - architecture: there will be consistent network edge between on-prem and cloud (ER, site to site VPN, etc) but there are many different ways to implement cloud architecture depending on all the above factors
 - operations and management: have to decide whether to have on-prem/cloud monitoring side-by-side, integrate on-prem monitoring with cloud monitoring (custom portals), etc.
+
+# Next steps
+
+- review the adoption strategies to determine which matches your current strategy, or, to decide on the best strategy for your enterprise   

@@ -26,11 +26,11 @@
   - name: Migration planning guide
     href:
     items:
-    - name: Agility first planning
+    - name: Opportunity strategy planning
       href:
-    - name: Innovation enablement planning
+    - name: Bottom-up strategy planning
       href:
-    - name: Cost savings planning
+    - name: Top-down strategy planning
       href:
 
   - name: Architecture design guide
@@ -42,6 +42,8 @@
       - name: Tenant design
         href:
       - name: Subscription design
+        href: 
+      - name: Resource group design
         href: 
       - name: Identity design
         href:
