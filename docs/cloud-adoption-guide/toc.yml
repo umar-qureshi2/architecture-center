@@ -40,11 +40,11 @@
       href:
       items:
       - name: Tenant design
-        href:
+        href: design-guide/governance/tenant.md
       - name: Subscription design
-        href: 
+        href: design-guide/governance/subscription.md
       - name: Resource group design
-        href: 
+        href: design-guide/governance/resource-group.md
       - name: Identity design
         href:
       - name: Naming conventions
