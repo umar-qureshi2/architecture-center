@@ -1,5 +1,5 @@
 ---
-title: Innovation enablement cloud adoption pattern
+title: Bottom-up cloud adoption pattern
 description: Describes the adoption strategy that enables enterprises to take advantage of cloud services to add innovation to existing applications and services
 author: petertay
 ---

@@ -1,5 +1,5 @@
 ---
-title: Agility first cloud adoption pattern
+title: Opportunistic cloud adoption pattern
 description: Describes the adoption strategy that allows developers to experiment in the cloud with minimal governance
 author: petertay
 ---
