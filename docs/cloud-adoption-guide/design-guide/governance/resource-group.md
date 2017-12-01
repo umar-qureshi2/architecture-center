@@ -35,3 +35,20 @@ author: petertay
     - DevOps function
         - if using multiple environments (PoC, non-prod dev, prod), use infrastructure as code to create resources in a single resource group, then tear them down and stand them up in the new environment
         - for repeatable deployment in different environments
+
+- Opportunistic design guidelines:
+    - use resource groups primarliy to manage resource lifecycle
+    - map resource groups to environments
+        - per team?
+        - if multiple teams are using the same resource group, use a naming convention or tagging to partition resources by team
+        - might need to switch to managine environments by subsciption if limit of 800 resources per resource group reached
+        - use ARM templates to manage resource deployment to tear down and stand up projects
+    - use locks to prevent resource modification or deletion at the management plane level
+    - path forward:
+        - resources can be moved between resource groups and between subscriptions so it's possible to migrate projects to different environments in the future
+
+- bottom-up design guidelines
+    - should be using subscirptions to manage environments, so use resource groups to manage projects
+    - map resource group to:
+        - durable infrastructure (ie. IaaS ad services) and use policy/locking to prevent undesired modification or deletion
+        - projects, use roles/policy/locking to manage access to the project's resources 
