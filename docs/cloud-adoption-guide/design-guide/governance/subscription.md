@@ -60,3 +60,11 @@ An Azure subscription is an agreement with Microsoft that provides access to Mic
     - Enterprise admin -> Department admin -> Account owner -> Service admin
   - Ramifications of multiple EAs?
   - Relationship to Management Groups
+
+
+
+## Opportunistic design guidelines
+
+# Bottom-up design guidelines
+
+# Top-down design guidelines
