@@ -12,8 +12,25 @@ An Azure subscription is an agreement with Microsoft that provides access to Mic
 - Organizations often have multiple subscriptions. 
 
 ## Licenses
-   - Included for PaaS offerings
-   - Additional licenses may be required for IaaS
+  - Included for PaaS offerings
+  - Additional licenses may be required for IaaS
+
+## Ownership and accounts
+
+  - Ownership/accounts
+  - Dedicated subscription for Shared IT services
+  - Access rights
+    - Full autonomy for non-IT groups?
+  - AAD groups and role
+
+## Subscription offer types
+Subscription types
+Pay-As-You-Go
+Enterprise Agreement
+Visual Studio
+Enterprise Dev/Test
+Pay-As-You-Go Dev/Test
+Etc.
 
 ## Subscriptions and tenants
 
@@ -60,8 +77,9 @@ An Azure subscription is an agreement with Microsoft that provides access to Mic
     - Enterprise admin -> Department admin -> Account owner -> Service admin
   - Ramifications of multiple EAs?
   - Relationship to Management Groups
-
-
+  - "Azure enterprise scaffold" - still relevant?
+    - [Azure enterprise scaffold - prescriptive subscription governance](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-manager-subscription-governance)
+    - [Examples of implementing Azure enterprise scaffold](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-manager-subscription-examples)
 
 ## Opportunistic design guidelines
 
