@@ -1,7 +1,7 @@
 ---
 title: Azure subscription design guide
 description: Guidance for Azure subscription design as part of a cloud adoption strategy
-author: abuck
+author: alexbuckgit
 ---
 
 # Azure subscription design guide
