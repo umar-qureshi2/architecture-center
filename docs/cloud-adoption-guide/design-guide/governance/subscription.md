@@ -52,7 +52,7 @@ Subscriptions determine how resource usage is reported and billed. Each subscrip
 Organizations who have an Enterprise Agreement with Microsoft can manage multiple subscriptions through the Enterprise Portal. Azure enrollment hierarchies define how services are structured within an Enterprise Agreement. The Enterprise Portal allows customers to divide access to Azure resources associated with an Enterprise Agreement based on flexible hierarchies customizable to an organization's unique needs. The hierarchy pattern should match an organization's management and geographic structure so that the associated billing and resource access can be accurately tracked.
 
 For more information, see:
-- [Governance in Azure](https://docs.microsoft.com/en-us/azure/security/governance-in-azure#subscription-controls).
+- [Governance in Azure](https://docs.microsoft.com/en-us/azure/security/governance-in-azure#subscription-controls)
 - [Azure Enterprise Enrollment - prescriptive subscription governance](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-manager-subscription-governance)
 
 ## Azure Management Groups
@@ -68,7 +68,7 @@ For more information, see:
 An Azure offer is the type of Azure subscription you have. Each offer has different terms and some have special benefits. Azure provides a number of different offer types, such as Pay-As-You-Go, Enterprise Agreements, Visual Studio, and Dev/Test offers. You should evaluate the [available offers](https://azure.microsoft.com/en-us/support/legal/offer-details/) based on your organization's needs.
 
 For more information, see:
-- [Change your subscription to a different offer]O(https://docs.microsoft.com/en-us/azure/billing/billing-how-to-switch-azure-offer)
+- [Change your subscription to a different offer](https://docs.microsoft.com/en-us/azure/billing/billing-how-to-switch-azure-offer)
 
 ## Subscriptions and tenants
 
@@ -82,7 +82,7 @@ For more information, see:
 - Bottom-up design guidelines
 - Top-down design guidelines
 
-## Out-of-scope
+## Out of scope
 
 - Azure Service Manager / "Classic" deployment model
 - Privileged Access Management / "Tier 0" model
