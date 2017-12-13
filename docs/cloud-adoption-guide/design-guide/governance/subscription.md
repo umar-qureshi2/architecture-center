@@ -21,10 +21,11 @@ Azure introduced the the Azure Resource Management (ARM) model in 2014. ARM prov
 Because of its more robust security and billing capabilities, the ARM model is recommended for all new Azure deployments use the ARM model, while provides a more granular Role-Based Access Control (RBAC) model for assigning administrative privileges at the resource level. This guidance focuses on deploying Azure resources via the ARM model.
 
 For more information, see the following:
-- [Manage administrator roles](https://docs.microsoft.com/en-us/azure/billing/billing-add-change-azure-subscription-administrator)
-- [Manage access to Azure resources with Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/manage-access-to-azure-resources)
-- [Understanding resource access in Azure](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-understanding-resource-access)
-- [Get started with Role-Based Access Control in the Azure portal](https://docs.microsoft.com/en-us/azure/active-directory/role-based-access-control-what-is)
+- [Introduction to Azure security](/azure/security/azure-security)
+- [Manage administrator roles](/azure/billing/billing-add-change-azure-subscription-administrator)
+- [Manage access to Azure resources with Azure Active Directory](/azure/active-directory/manage-access-to-azure-resources)
+- [Understanding resource access in Azure](/azure/active-directory/active-directory-understanding-resource-access)
+- [Get started with Role-Based Access Control in the Azure portal](/azure/active-directory/role-based-access-control-what-is)
 
 ## Ownership and administration
 
@@ -35,12 +36,12 @@ The Account Administrator is the person who signed up for or purchased an Azure 
 Each Azure subscription is associated with one (AAD) tenant. Users, groups, and applications from that directory are assigned to RBAC roles with permissions to manage resources in the Azure subscription. The scope of a role assignment can be a subscription, a resource group, or a single resource. A role assigned at a parent scope also grants access to the children contained within it.
 
 For more information, see:
-- [Transfer ownership of an Azure subscription to another account](https://docs.microsoft.com/en-us/azure/billing/billing-subscription-transfer)
+- [Transfer ownership of an Azure subscription to another account](/azure/billing/billing-subscription-transfer)
 
 ## Managing Multiple Subscriptions
 
 Most organizations using Azure will have multiple subscriptions for a variety of reasons. While each additional Azure subscription does not incur a direct cost, it can increase the complexity of managing your Azure resources. You should consider creating an additional subscription in the following cases:
-- You anticipate that the resources in a subscription will reach the defined [Azure subscription limits](https://docs.microsoft.com/en-us/azure/azure-subscription-service-limits).
+- You anticipate that the resources in a subscription will reach the defined [Azure subscription limits](/azure/azure-subscription-service-limits).
 - You may wish to deploy production environments in a different subscription than your dev/test environments, to lessen the possibilities that your production environments will reach the defined subscription limits.
 - There are trust or authority issues with the owners of your organization's existing subscriptions.
 - Rigid financial or geopolitical controls may require separate financial arrangements for different subscriptions. For example, a large organization might have multiple subsidiaries or need to handle the accounting and billing of subscriptions in multiple countries differently.
@@ -52,23 +53,23 @@ Subscriptions determine how resource usage is reported and billed. Each subscrip
 Organizations who have an Enterprise Agreement with Microsoft can manage multiple subscriptions through the Enterprise Portal. Azure enrollment hierarchies define how services are structured within an Enterprise Agreement. The Enterprise Portal allows customers to divide access to Azure resources associated with an Enterprise Agreement based on flexible hierarchies customizable to an organization's unique needs. The hierarchy pattern should match an organization's management and geographic structure so that the associated billing and resource access can be accurately tracked.
 
 For more information, see:
-- [Governance in Azure](https://docs.microsoft.com/en-us/azure/security/governance-in-azure#subscription-controls)
-- [Azure Enterprise Enrollment - prescriptive subscription governance](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-manager-subscription-governance)
+- [Governance in Azure](/azure/security/governance-in-azure#subscription-controls)
+- [Azure Enterprise Enrollment - prescriptive subscription governance](/azure/azure-resource-manager/resource-manager-subscription-governance)
 
 ## Azure Management Groups
 
 Azure Management Groups were introduced in 2018. Management groups allow all organizations with multiple descriptions to group subscriptions together to simplify management of access, policy, costs, billing, and compliance across your subscriptions. Organizations can create a hierarchy of management groups that aligns to their preferred subscription management model.
 
 For more information, see:
-- [Azure Management Groups](https://docs.microsoft.com/en-us/azure/billing/billing-enterprise-mgmt-group-overview)
-- [Azure Policy](https://docs.microsoft.com/en-us/azure/azure-policy/azure-policy-introduction)
+- [Azure Management Groups](/azure/billing/billing-enterprise-mgmt-group-overview)
+- [Azure Policy](/azure/azure-policy/azure-policy-introduction)
 
 ## Offer types
 
 An Azure offer is the type of Azure subscription you have. Each offer has different terms and some have special benefits. Azure provides a number of different offer types, such as Pay-As-You-Go, Enterprise Agreements, Visual Studio, and Dev/Test offers. You should evaluate the [available offers](https://azure.microsoft.com/en-us/support/legal/offer-details/) based on your organization's needs.
 
 For more information, see:
-- [Change your subscription to a different offer](https://docs.microsoft.com/en-us/azure/billing/billing-how-to-switch-azure-offer)
+- [Change your subscription to a different offer](/azure/billing/billing-how-to-switch-azure-offer)
 
 ## Subscriptions and tenants
 
