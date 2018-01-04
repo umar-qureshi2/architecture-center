@@ -8,9 +8,8 @@ ms.date: 12/12/2017
 cardTitle: Basic web application
 ---
 # Basic web application
-[!INCLUDE [header](../../_includes/header.md)]
 
-This reference architecture shows a set of proven practices for a web application that uses [Azure App Service][app-service] and [Azure SQL Database][sql-db]. [**Deploy this solution.**](#deploy-the-solution)
+This reference architecture shows a set of proven practices for a basic web application that uses [Azure App Service][app-service] and [Azure SQL Database][sql-db]. It is a startpoint for more complex web applications. [**Deploy this solution.**](#deploy-the-solution)
 
 ![[0]][0]
 
@@ -19,31 +18,26 @@ This reference architecture shows a set of proven practices for a web applicatio
 ## Architecture 
 
 > [!NOTE]
-> This architecture does not focus on application development, and does not assume any particular application framework. The goal is to understand how various Azure services fit together.
->
+> This architecture does not focus on application development or assume a particular application framework. The goal is to understand how various Azure services fit together.
 >
 
 The architecture has the following components:
 
 * **Resource group**. A [resource group](/azure/azure-resource-manager/resource-group-overview) is a logical container for Azure resources.
 
-* **App Service app**. [Azure App Service][app-service] is a fully managed platform for creating and deploying cloud applications.     
+* **App Service app**. [Azure App Service][app-service] is a fully managed platform for creating and deploying cloud applications. The App Service app is assigned a public IP address and a subdomain of `azurewebsites.net`, such as `contoso.azurewebsites.net`. To use a custom domain name (such as `contoso.com`) create DNS records that map the custom domain name to the IP address. For more information, see [Configure a custom domain name in Azure App Service][custom-domain-name].    
 
-* **App Service plan**. An [App Service plan][app-service-plans] provides the managed virtual machines (VMs) that host your app. All apps associated with a plan run on the same VM instances.
+* **App Service plan**. An [App Service plan][app-service-plans] provides the managed virtual machines (VMs) that host your application. All apps associated with a plan run on the same VM instances. You don't need to provision or manage the VM instances in the plan.
 
-* **Deployment slots**.  A [deployment slot][deployment-slots] lets you stage a deployment and then swap it with the production deployment. That way, you avoid deploying directly into production. See the [Manageability](#manageability-considerations) section for specific recommendations.
+* **Azure DNS**. [Azure DNS][azure-dns] is a hosting service for DNS domains, providing name resolution using Microsoft Azure infrastructure. By hosting your domains in Azure, you can manage your DNS records using the same credentials, APIs, tools, and billing as your other Azure services.   
 
-* **IP address**. The App Service app has a public IP address and a domain name. The domain name is a subdomain of `azurewebsites.net`, such as `contoso.azurewebsites.net`.  
-
-* **Azure DNS**. [Azure DNS][azure-dns] is a hosting service for DNS domains, providing name resolution using Microsoft Azure infrastructure. By hosting your domains in Azure, you can manage your DNS records using the same credentials, APIs, tools, and billing as your other Azure services. To use a custom domain name (such as `contoso.com`) create DNS records that map the custom domain name to the IP address. For more information, see [Configure a custom domain name in Azure App Service][custom-domain-name].  
+* **Azure Active Directory** (Azure AD). Use [Azure AD][aad] or another identity provider for authentication.
 
 * **Azure SQL Database**. [SQL Database][sql-db] is a relational database-as-a-service in the cloud.
 
 * **Logical server**. In Azure SQL Database, a logical server hosts your databases. You can create multiple databases per logical server.
 
 * **Azure Storage**. Create an Azure storage account with a blob container to store diagnostic logs.
-
-* **Azure Active Directory** (Azure AD). Use Azure AD or another identity provider for authentication.
 
 ## Recommendations
 
@@ -94,7 +88,10 @@ At the time of writing, the service level agreement (SLA) for App Service is 99.
 > [!NOTE]
 > The App Service SLA applies to both single and multiple instances.  
 >
->
+
+- [SLA for App Service][app-service-sla]
+- [SLA for SQL Database][sql-db-sla]
+
 
 ### Backups
 In the event of data loss, SQL Database provides point-in-time restore and geo-restore. These features are available in all tiers and are automatically enabled. You don't need to schedule or manage the backups. 
@@ -210,6 +207,7 @@ For more information, see [Deploy resources with Azure Resource Manager template
 
 <!-- links -->
 
+[aad]: /azure/active-directory/
 [aad-auth]: /azure/app-service-mobile/app-service-mobile-how-to-configure-active-directory-authentication
 [app-insights]: /azure/application-insights/app-insights-overview
 [app-insights-data-rate]: /azure/application-insights/app-insights-pricing
@@ -218,6 +216,7 @@ For more information, see [Deploy resources with Azure Resource Manager template
 [app-service-plans]: /azure/app-service/azure-web-sites-web-hosting-plans-in-depth-overview
 [app-service-plans-tiers]: https://azure.microsoft.com/pricing/details/app-service/
 [app-service-security]: /azure/app-service-web/web-sites-security
+[app-service-sla]: https://azure.microsoft.com/support/legal/sla/app-service/
 [app-settings]: /azure/app-service-web/web-sites-configure
 [arm-template]: /azure/azure-resource-manager/resource-group-overview#resource-groups
 [azure-dns]: /azure/dns/dns-overview
@@ -240,6 +239,7 @@ For more information, see [Deploy resources with Azure Resource Manager template
 [sql-db-overview]: /azure/sql-database/sql-database-technical-overview
 [sql-db-scale]: /azure/sql-database/sql-database-service-tiers#scaling-up-or-scaling-down-a-single-database
 [sql-db-service-tiers]: /azure/sql-database/sql-database-service-tiers
+[sql-db-sla]: https://azure.microsoft.com/support/legal/sla/sql-database/
 [sql-db-v12]: /azure/sql-database/sql-database-features
 [sql-dtu]: /azure/sql-database/sql-database-service-tiers
 [sql-human-error]: /azure/sql-database/sql-database-business-continuity#recover-a-database-after-a-user-or-application-error
@@ -254,5 +254,5 @@ For more information, see [Deploy resources with Azure Resource Manager template
 [web-app-autoscale]: /azure/app-service-web/web-sites-scale
 [web-app-backup]: /azure/app-service-web/web-sites-backup
 [web-app-log-stream]: /azure/app-service-web/web-sites-enable-diagnostic-log#streamlogs
-[0]: ./images/basic-web-app.png "Architecture of a basic Azure web application"
+[0]: ./images/basic-web-app.svg "Architecture of a basic Azure web application"
 [1]: ./images/paas-basic-web-app-staging-slots.png "Swapping slots for production and staging deployments"
