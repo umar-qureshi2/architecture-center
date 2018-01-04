@@ -8,7 +8,6 @@ ms.date: 11/23/2016
 cardTitle: Basic web application
 ---
 # Basic web application - DIAGRAM RESOLUTION EXAMPLES
-[!INCLUDE [header](../../-includes/header.md)]
 
 This reference architecture shows a set of proven practices for a web application that uses [Azure App Service][app-service] and [Azure SQL Database][sql-db]. [**Deploy this solution.**](#deploy-the-solution)
 
@@ -86,12 +85,3 @@ Unless otherwise noted, all diagrams were created with the default Source option
 - Resolution: Scalable
 - Size: 126k
 
-
-
-## (Template)
-
-## PNG: Resolution = 
-![](./images/ResTest-.png)
-- Resolution:  pixels/inch
-- Dimensions:  x 
-- Size: k
