@@ -80,8 +80,17 @@ Unless otherwise noted, all diagrams were created with the default Source option
 - Dimensions: 2723 x 1290
 - Size: 86k
 
-## SVG: Standard markdown syntax 
-![](./images/ResTest.svg)
+## SVG: Standard markdown syntax - No elements selected
+![](./images/ResTest-NoneSelected.svg)
 - Resolution: Scalable
 - Size: 126k
 
+## SVG: Standard markdown syntax - All elements selected
+![](./images/ResTest-AllSelected.svg)
+- Resolution: Scalable
+- Size: 127k
+
+## SVG: Standard markdown syntax 
+![](./images/ResTest-LargerDiagram.svg)
+- Resolution: Scalable
+- Size: 110k
