@@ -254,5 +254,5 @@ For more information, see [Deploy resources with Azure Resource Manager template
 [web-app-autoscale]: /azure/app-service-web/web-sites-scale
 [web-app-backup]: /azure/app-service-web/web-sites-backup
 [web-app-log-stream]: /azure/app-service-web/web-sites-enable-diagnostic-log#streamlogs
-[0]: ./images/basic-web-app.svg "Architecture of a basic Azure web application"
+[0]: ./images/basic-web-app-diagram.svg "Architecture of a basic Azure web application"
 [1]: ./images/paas-basic-web-app-staging-slots.png "Swapping slots for production and staging deployments"
