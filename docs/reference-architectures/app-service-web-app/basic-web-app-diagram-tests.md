@@ -90,9 +90,10 @@ Unless otherwise noted, all diagrams were created with the default Source option
 - Resolution: Scalable
 - Size: 127k
 
+## SVG: Standard markdown syntax - larger diagram
 ![](./images/ResTest-LargerDiagram.svg)
 - Resolution: Scalable
 - Size: 110k
 
-## SVG: Standard markdown syntax - larger diagram
+## SVG: Standard markdown syntax - <img> tag
 <img src="./images/ResTest-AllSelected.svg" width="50%">
