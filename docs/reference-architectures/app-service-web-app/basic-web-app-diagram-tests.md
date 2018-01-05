@@ -82,12 +82,14 @@ Unless otherwise noted, all diagrams were created with the default Source option
 
 ## SVG: Standard markdown syntax - No elements selected
 ![](./images/ResTest-NoneSelected.svg)
-- Resolution: Scalable
 - Size: 126k
 
 ## SVG: Standard markdown syntax - All elements selected
 ![](./images/ResTest-AllSelected.svg)
-- Resolution: Scalable
+- Size: 127k
+
+## SVG: Standard markdown syntax - All elements selected, height & width attributes removed
+![](./images/ResTest-AllSelected-NoHeightWidth.svg)
 - Size: 127k
 
 ## SVG: Standard markdown syntax - larger diagram
