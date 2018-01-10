@@ -10,7 +10,7 @@
     items:
     - name: Adopting the Cloud - Background (the pillars/perspectives/whatever)
       href: migration-overview/background.md
-    - name: Explainer - Identity (covers the differ )
+    - name: Explainer - Identity (covers the differ  )
       href:
     - name: Explainer - Goverance
       href:
@@ -69,16 +69,16 @@
         href:
   
   - name: Workload migration strategy guide
+    href:
+    items:
+    - name: Workload classification
       href:
-      items:
-      - name: Workload classification
-        href:
-      - name: Workload migration prioritization
-        href:
-      - name: Azure migrate
-        href:
-      - name: Application architectures
-        href:
+    - name: Workload migration prioritization
+      href:
+    - name: Azure migrate
+      href:
+    - name: Application architectures
+      href:
   
   - name: Implementation guide
     href:
