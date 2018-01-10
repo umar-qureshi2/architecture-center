@@ -5,37 +5,30 @@
   href: index.md
 
   items:
-  - name: Enterprise migration overview
+  - name: Enterprise migration overview (what this guide covers)
     href: migration-overview/overview.md
     items:
-    - name: Migrating from on-premises to the cloud
+    - name: Adopting the Cloud - Background (the pillars/perspectives/whatever)
       href: migration-overview/background.md
+    - name: Explainer - Identity (covers the differ )
+      href:
+    - name: Explainer - Goverance
+      href:
+    - name: Explainer - Security
+      href:
+    - name: Explainer - Architecture
+      href:
+    - name: Explainer - Operations and Management
+      href: 
   
-  - name: Cloud adoption strategies
+  - name: Adoption design guides
     href:
     items:
-      - name: Adoption Strategy Overview
-        href: adoption-strategies/overview.md
-      - name: Opportunistic strategy
-        href: adoption-strategies/opportunistic.md
-      - name: Bottom-up strategy
-        href: adoption-strategies/bottom-up.md
-      - name: Top-down strategy
-        href: adoption-strategies/top-down.md
-
-  - name: Migration planning guide
-    href:
-    items:
-    - name: Opportunity strategy planning
+    - name: Identity 
       href:
-    - name: Bottom-up strategy planning
-      href:
-    - name: Top-down strategy planning
-      href:
-
-  - name: Architecture design guide
-    href:
-    items:
+      items: 
+      - name: Identity design
+        href:
     - name: Governance
       href:
       items:
@@ -45,24 +38,18 @@
         href: design-guide/governance/subscription.md
       - name: Resource group design
         href: design-guide/governance/resource-group.md
-      - name: Identity design
+      - name: Role based access control
         href:
-      - name: Naming conventions
+      - name: Azure resource manager policy
         href:
-      - name: Resource tagging conventions
+    - name: Security 
+      href:
+      items:
+      - name: Compliance
         href:
-      - name: Security design
+      - name: Encryption
         href:
-        items:
-        - name: Compliance
-          href:
-        - name: Encryption
-          href:
-        - name: Role based access control
-          href:
-        - name: Azure resource manager policy
-          href:
-    - name: Technology choices
+    - name: Architecture
       href:
       items:
       - name: Network edge connectivity and security
@@ -73,7 +60,15 @@
         href:
       - name: Application and infrastructure monitoring
         href:
-    - name: Workload migration strategy guide
+    - name: Operations and Management
+      href:
+      items:
+      - name: Naming conventions
+        href:
+      - name: Resource tagging conventions
+        href:
+  
+  - name: Workload migration strategy guide
       href:
       items:
       - name: Workload classification

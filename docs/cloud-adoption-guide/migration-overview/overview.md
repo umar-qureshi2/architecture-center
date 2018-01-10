@@ -26,9 +26,9 @@ author: petertay
                 - dev and test migrate to DevOps
     - Cloud adoption strategies
         - cloud adoption is a continuum, somewhere on the line of:
-        - agility first (less integration with on-prem)
-        - innovation first (some integration with on-prem)
-        - cost first (all-in on the cloud, full migration)
+        - experimentation/proof-of-concept (less integration with on-prem)
+        - on-prem first (some integration with on-prem)
+        - Enterprise IT (all-in on the cloud, full migration)
     - Planning and Design
         - once you've decided on a cloud adoption strategy, you can work through the planning guide to figure out what you need to do
         - things you need to do common to all strategies

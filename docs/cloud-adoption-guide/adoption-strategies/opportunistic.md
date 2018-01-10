@@ -7,7 +7,7 @@ author: petertay
 # Opportunistic cloud adoption pattern
 
 - what are the characteristics of the "opportunistic" cloud adoption pattern?
-    - not fully committed to migrating entire enterprise to cloud?
+    - not fully committed to migrating entire enterprise to cloud
     - creating a standalone cloud environment with low goverance requirements for proof of concept work
     - may or may not want to promote workloads from PoC to a production environment once proven
     - may or may not be experimenting with multiple clouds
@@ -29,7 +29,7 @@ author: petertay
     - billing and chargeback
         - okay with using tagging and/or naming conventions for managing resource spend?
     - architectures
-        - cloud environment is made up of multiple subscription-based self contained projects
+        - cloud environment is made up of single subscription-based self contained projects
             - segmented by subnet, VNet, resource group, subscription?
         - can use whatever architecture is best for the PoC, or, can be used for learning
         - does each dev org own their own cloud environment segment (subnet, VNet, etc)
