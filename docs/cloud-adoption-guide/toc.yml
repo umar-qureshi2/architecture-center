@@ -96,3 +96,10 @@
       href:
     - name: Automation
       href: 
+
+  - name: Architectural discussion framework
+    href: migration-overview/discussion-framework/index.md
+    items:
+    - name: Lift-and-shift
+      href: migration-overview/discussion-framework/lift-and-shift.md
+      
