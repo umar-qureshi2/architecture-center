@@ -98,8 +98,8 @@
       href: 
 
   - name: Architectural discussion framework
-    href: migration-overview/discussion-framework/index.md
+    href: discussion-framework/index.md
     items:
     - name: Lift-and-shift
-      href: migration-overview/discussion-framework/lift-and-shift.md
+      href: discussion-framework/lift-and-shift.md
       

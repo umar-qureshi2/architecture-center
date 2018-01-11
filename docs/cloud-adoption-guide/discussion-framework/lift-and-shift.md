@@ -30,13 +30,26 @@ Governance involves the policies and processes that control access to Azure reso
 
 - Azure Policy? [Azure Policy documentation](/azure/azure-policy/)
 
+**Is there a defined SLA for the workload?**
+
+It is important to understand how this impacts the SLA that you provide your  end-users. You should define a target SLA for each workload. An SLA makes it possible to evaluate whether the architecture meets the business requirements.  Calculate the composite SLA of Azure and other dependent services that make up the workload, to ensure they meet your target SLA. 
+
+- [Defining Resiliency Requirements](../../resiliency/index.md#defining-your-resiliency-requirements)
+
+- [Azure SLAs](https://azure.microsoft.com/support/legal/sla/)
+
+
 **How does the application communicate? Are there legacy applications that need to be taken into account that cannot be migrated?**
 
 Determine data flows, as well as dependencies within the application.    
 
 [Design Principles for Applications hosted in Azure](https://docs.microsoft.com/en-us/azure/architecture/resiliency/)
 
-[WASSON: I don't understand how this link supports the discussion question]
+[REVIEWER: I don't understand how this link supports the discussion question]
+
+
+
+
 
 **Have you considered the load and runtime requirements of your solution?** It is important to plan the VM size and storage appropriately, to ensure that performance is not compromised once the solution has been migrated to Azure. Understand the VM sizes in terms of memory, processing, and storage and disk throughput. 
 
@@ -50,7 +63,7 @@ Determine data flows, as well as dependencies within the application.
 >
 > [Azure Site Recovery Deployment Planner for Hyper-V to Azure](/azure/site-recovery/site-recovery-hyper-v-deployment-planner)
 
-[WASSON - How do the last 2 support lift and shift?]
+[REVIEWER - How do the last 2 support lift and shift?]
 
 **Have you defined your networking requirements?**
 
@@ -133,14 +146,6 @@ Is part of the application on-premises, or an alternate cloud provider, or third
 It is critical that there are defind Resiliency (High Availability &amp; Disaster Recovery) metrics like RPO/RTO/SLA. Without these metrics it will be hard to design an application to hit business needs.    
 
 [Designing resilient applications for Azure](https://docs.microsoft.com/en-us/azure/architecture/resiliency/index#defining-your-resiliency-requirements)
-
-* **Is there a defined SLA for the workload?**
-
-It is important to understand how this impacts the SLA that you provide your end-users. You should define a target SLA for each workload. An SLA makes it possible to evaluate whether the architecture meets the business requirements.  Ensure that you calculate Composite SLA (SLA of multiple Azure and other dependent services that makes up the workload) and see if that meets the business SLA requirements.  You can then cross compare your SLAs with Microsoft Azure's to determine the neccessary requirements needed.    
-
-[Defining Resiliency Requirements](https://docs.microsoft.com/en-us/azure/architecture/resiliency/index#defining-your-resiliency-requirements)
-
-[Azure SLAs](https://azure.microsoft.com/en-us/support/legal/sla/)
 
 * **Have you performed Failure Mode Analysis (FMA)?**
 
