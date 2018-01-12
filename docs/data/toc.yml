@@ -1,10 +1,30 @@
+
 - name: Azure Architecture Center
   href: /azure/architecture
   
 - name: Data Architecture Guide
   href: index.md
   
+  items:
   - name: Implementation examples
+  
   - name: Common data architectures
-  - name: Data pipelines
+    href: common-architectures/overview.md
+    items:
+    - name: Relational data
+      href: common-architectures/relational-data.md 
+      items: 
+      - name: Transactional data
+        href: common-architectures/transactional-data.md 
+      - name: Semantic modeling
+        href: common-architectures/semantic-modeling.md 
+    - name: Non-relational data and NoSQL
+      href: common-architectures/non-relational-data.md 
+    - name: Big data
+    - name: Data pipeline
+    - name: Advanced analytics
+    - name: Interactive data exploration
+    
+  - name: Pipeline patterns
+  
   - name: Technology choices
