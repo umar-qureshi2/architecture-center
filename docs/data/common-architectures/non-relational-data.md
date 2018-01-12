@@ -1,4 +1,4 @@
-# Non-Relational Data & No-SQL 
+# Non-relational data and NoSQL 
 
 **In this article**
 
@@ -16,7 +16,7 @@
 <a name="about"></a>
 Non-relational data is not represented in the tabular schema of rows and columns used by many traditional databases, but is instead represented in a storage model that better suits the specific requirements of the application in which the data is used. For example, the data may stored as simple key/value pairs, as JSON documents, or as a graph consisting of edges and vertices. These data stores break from the tradition of representing the data in a relational model and tend to more specific in the type of data they support, and in the ways in which the data can be queried. For example, time series data stores are optimized for supporting queries over time based sequences of data, and graph data stores are optimized for exploring weighted relationships between entities. Neither format would generalize well to the task of managing transactional data. 
 
-No-SQL refers to data stores that do not use SQL for performing their querying, and instead use other programming languages and constructs to query the data. In practice, when the term No-SQL is used, what is really meant is non-relational. This is because overtime, many non-relational data stores have added in SQL compatible query support. So while they have remained non-relational, they are no longer strictly No-SQL.  <!--The MS style to to avoide semicolons because they can make it harder for ESL readers to parse the sentence. They suggest breaking into two.-->
+NoSQL refers to data stores that do not use SQL for performing their querying, and instead use other programming languages and constructs to query the data. In practice, when the term No-SQL is used, what is really meant is non-relational. This is because overtime, many non-relational data stores have added in SQL compatible query support. So while they have remained non-relational, they are no longer strictly No-SQL.  <!--The MS style to to avoide semicolons because they can make it harder for ESL readers to parse the sentence. They suggest breaking into two.-->
 
 ## <a name="common"></a> Common data architectures
 There are various non-relational data stores that take their own unique approach to data storage, data representation, data processing, and querying&mdash;and by extension have their own data architecture. The following introduces each.
