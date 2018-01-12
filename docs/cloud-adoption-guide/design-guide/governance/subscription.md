@@ -10,7 +10,7 @@ author: alexbuckgit
 
 An Azure subscription is an agreement with Microsoft that provides access to Microsoft's Platform-as-a-Service (PaaS) and Infrastructure-as-a-Service (IaaS) offerings. Subscriptions grant users access to available Azure services and to the Azure management portal. Subscriptions are the first thing a user establishes when starting to use Azure. 
 
-Subscriptions provide a logical boundary of administration, scale, and billing for users who are consuming Azure services. Subscriptions help you organize access to cloud service resources, and also help you control how resource usage is reported, billed, and paid for. A subscription is a top-level billing unit, and each subscription can have a different billing and payment setup, so you can have different subscriptions and different plans by department, project, regional office, and so on. Every Azure resource belongs to an Azure subscription.
+Subscriptions provide a logical boundary of scale, administration, and billing for users who are consuming Azure services. Subscriptions help you organize access to cloud service resources, and also help you control how resource usage is reported, billed, and paid for. A subscription is a top-level billing unit, and each subscription can have a different billing and payment setup, so you can have different subscriptions and different plans by department, project, regional office, and so on. Every Azure resource belongs to an Azure subscription.
 
 ## Administration and access control
 
@@ -29,7 +29,7 @@ For more information, see the following:
 
 ## Scale and subscription limits
 
-A subscriptions are a logical limit of scale by which resources can be allocated. These limits include quotas of various Azure resource types. Organizations often have multiple multiple Azure subscriptions in order to avoid these limits. Planning for scalability is an important part of your Azure subscription strategy.  
+A subscription is a logical limit of scale by which resources can be allocated. These limits include quotas of various Azure resource types. Organizations often have multiple multiple Azure subscriptions in order to avoid these limits. Planning for scalability is an important part of your Azure subscription strategy.  
 
 For more information, see [Azure subscription limits](/azure/azure-subscription-service-limits).
 
