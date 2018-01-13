@@ -8,7 +8,7 @@ author: petertay
 
 One of the most fundamental concepts in computing is digital identity. Digital identity is used to control access to all types of resources - from computer systems and mobile devices to online services. 
 
-Most modern enterprises control access to physical resources using digital identity. When an employee is hired, an administrator creates an account for the employee in an identity service - such as Active Directory - for the employee. The employee uses this account and password to access many different physical resources - buildings, computers, networks. 
+Most modern enterprises control access to physical resources using digital identity. When an employee is hired, an administrator creates an account for the employee in an on-premises identity service - such as Active Directory. The employee uses this account and password to access many different physical resources - buildings, computers, networks. 
 
 Things are slightly different in the Cloud: resources are "virtual" - virtual machines, virtual networks, and so on. However, these virtual resources can be integrated with the enterprise's on-premises identity services over a network gateway and employees can access them in a similar way.
 
