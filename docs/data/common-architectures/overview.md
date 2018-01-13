@@ -1,4 +1,4 @@
-# Common Data Architectures
+# Common data architectures
 
 **In this article**
 
@@ -18,9 +18,9 @@ To understand how to apply a common data architecture to your scenario, start wi
 - [Data pipelines](./data-pipeline.md)
 - [Advanced analytics](./advanced-analytics.md)
 
-For implementation examples of these common data architectures, see [Implementation Examples](../overview.md#implementation-examples) in the [Azure Data Architecture Guide Overview](../overview.md).
+For implementation examples of these common data architectures, see [Implementation examples](../overview.md#implementation-examples) in the [Azure Data Architecture Guide overview](../overview.md).
 
-Use the following flow chart to begin your exploration: <!-- Note that the image uses "Nonrelational" it should be hyphenated to match the text. Typically the prefix "non" doesn't take a hyphen, but this is one of those terms that does.-->
+Use the following flow chart to begin your exploration: <!-- Note that the image uses "Nonrelational" it should be hyphenated to match the text. Typically the prefix "non" doesn't take a hyphen, but this is one of those terms that does. Try the image with less pastel. Also, add "Data warehouse" under "Relational."-->
 
 ![Common Data Architectures Conceptual Flow Chart](./images/concept-flowchart.png)
 
@@ -30,10 +30,10 @@ If you are curious about a specific topic, you can also navigate this flowchart 
 
 ## <a name="wheretogo"></a>Where to go from here
 
-Read next: [Relational Data Common Architecture](./relational-data.md)
+Read next: [Relational data common architecture](./relational-data.md)
 
-See also:
+**See also:**
 
 Related common architectures
-- [Transactional Data](./transactional-data.md)
-- [Semantic Modeling](./semantic-modeling.md)
+- [Transactional data](./transactional-data.md)
+- [Semantic modeling](./semantic-modeling.md)
