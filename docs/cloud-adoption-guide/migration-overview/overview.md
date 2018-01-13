@@ -4,37 +4,14 @@ description: Describes overview concepts about integrating on-premises applicati
 author: petertay
 ---
 
-# Overview: Cloud Adoption
+# Overview: Enterprise cloud adoption
 
-- this guide covers:
-    - cloud adoption background
-        - differences between on-prem environment and cloud environment
-        - not possible to transition everything at once (i.e. not one big switch gets thrown and suddenly you're in the cloud)
-        - people's roles and responsibilities will change at different rates, company culture will have to change
-        - the amount of cloud adoption is on a continuum
-            - on one side, treating the cloud as just more on-prem capacity, extending security perimeter to contain cloud VMs
-            - on the other side, tearing down on-prem (or having never had on-prem) and replacing it completely with cloud
-        - depending on where you are on this continuum, there are many things that will be affected
-            - governance 
-                - on-prem roles to cloud roles
-                - on-prem security to cloud security
-                - on-prem compliance to cloud compliance
-                - on-prem monitoring to cloud monitoring
-            - workforce responsibilities
-                - Finance migrate from procurement model to provision model
-                - IT migrate from managing physical hardware to managing virtual hardware
-                - dev and test migrate to DevOps
-    - Cloud adoption strategies
-        - cloud adoption is a continuum, somewhere on the line of:
-        - experimentation/proof-of-concept (less integration with on-prem)
-        - on-prem first (some integration with on-prem)
-        - Enterprise IT (all-in on the cloud, full migration)
-    - Planning and Design
-        - once you've decided on a cloud adoption strategy, you can work through the planning guide to figure out what you need to do
-        - things you need to do common to all strategies
-        - things specific to each strategy
-        - Once you've worked through planning, you will need to design your cloud infrastructure
-    - Implementation guide
-        - based on your plan, here's how to implement your infrastructure, migrate your apps, secure them
-        - links to engineering artifacts
-        - links to A3G and Data Guide
+The cloud presents a fundamental shift in the way that enterprises procure and utilize technology resources. In the past, enterprises assumed ownership and responsibility of all levels of technology from infrastructure to software. Now, the cloud offers the potential to transform the way enterprises utilize technology by provisioning and consuming resources as needed.
+
+While the cloud offers nearly unlimited flexibilty in terms of design choices, enterprises seek proven and consistent methodology for the adoption of cloud technologies. And each enterprise has different goals and timelines for cloud adoption, making a a one-size-fits-all approach to adoption nearly impossible.
+
+The Azure cloud adoption guide outlines and enumerates the design decisions necessary to incorporate Azure into an enterprise's existing infrastructure, operations, and governance. The guide then provides implementation guidance and recommendations for each decision.
+
+# Next steps
+
+Learn more about the [cloud adoption decision domains]() - identity, governance, security, architecture, operations and management, and people. 

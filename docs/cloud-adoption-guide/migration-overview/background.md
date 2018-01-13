@@ -1,13 +1,15 @@
 ---
-title: Migrating from on-premises to the cloud
-description: Describes operational concerns related to integrating on-premises applications and services with the cloud or migrating on-premises applications and services to the cloud
+title: Background - cloud adoption decision domains
+description: describes the decision domains for enterprise cloud adoption
 author: petertay
 ---
 
-# Migrating operations from on-premises to the cloud
+# Background: Cloud adoption decision domains
 
-- Adopting the cloud requires a large number of design decisions; these design decision fall into six buckets:
+This guide breaks enterprise cloud adoption into six decision domains:
+
 1. identity: services that Azure trusts to authenticate user identity when providing access to resources (Microsoft accounts & Azure AD accounts)
+    - federation/synchronization of existing on-prem domain
 2. governance: features, tools, and process to control access to Azure resources, ensuring enterprise IP and costs are protected in the cloud just as they are on-prem, includes:
     - subscriptions:
     - resource groups: 
@@ -20,3 +22,7 @@ author: petertay
 have to decide whether to have on-prem/cloud monitoring side-by-side, integrate on-prem monitoring with cloud monitoring (custom portals), etc, includes billing and chargeback: 
     - naming standards and tags
 6. people: many roles on-prem are different in the cloud, planning is required to transition people's skillsets from on-prem to the cloud
+
+# Next steps
+
+Read the [enterprise identity explainer]() to learn how digital identity in the cloud. Then, read the 

@@ -1,17 +1,25 @@
 ---
-title: Explainer - Identity in Azure
+title: Explainer - Enterprise identity in Azure
 description: Explains how user identity works in Azure
 author: petertay
 ---
 
-# Explainer: Identity in the cloud
+# Explainer: Enterprise identity in the cloud
 
-One of the most fundamental concepts in computing is identity for access management. Identity is used to control access to all types of resources - from online services to hardware devices. Access to your mobile phone or tablet is controlled by registering your device with your mobile provider and specifying a password or personal identification number (PIN) that you use to unlock the device. Access to your email is controlled with a user name and a password.
+One of the most fundamental concepts in computing is digital identity. Digital identity is used to control access to all types of resources - from computer systems and mobile devices to online services. 
 
-Enterprises control access to physical resources using identity. When an employee is hired, an administrator creates an account for the employee. Employee accounts are stored in a directory service database, such as Active Directory. The employee uses their account and password to get access to many different resources - buildings, computers, networks. 
+Most modern enterprises control access to physical resources using digital identity. When an employee is hired, an administrator creates an account for the employee in an identity service - such as Active Directory - for the employee. The employee uses this account and password to access many different physical resources - buildings, computers, networks. 
 
-For enterprises whose business is providing online services to the public, customer user identity is typically stored in a separate database. When a customer accesses the enterprise's service, the enterprise takes the user's identity and password to authenticate that user and authorize access to the service.
+Things are slightly different in the Cloud: resources are "virtual" - virtual machines, virtual networks, and so on. However, these virtual resources can be integrated with the enterprise's on-premises identity services over a network gateway and employees can access them in a similar way.
 
-Cloud computing is similar, however, there is an extra level of access control. In cloud computing, resources are not procured as they are in the on-premises environment. Rather, resources such as virtual networks and virtual machines are provisioned by a cloud management layer. The cloud computing provider maintains a database of customers and user accounts associated with those customers. When a user for a particular customer makes a request to provision a cloud resource, they provide their user name and password to the cloud management layer for authentication.
+Cloud computing also introduces another key difference: while procuring physical resources on-premises does not require a digital identity, procuring resources in the cloud does require a digital identity. This is because the procurement of physical resources on-premises is typically performed manually, while procurement of virtual resources is automated using a cloud management layer.
 
-In Azure, there are two tiers of user identity - the first tier is the enterprise enrollment tier, where user identity is used to control access to an enterprise's Azure enrollment. Azure trusts Microsoft accounts and Azure Active Directory (AAD) accounts for this tier. The next tier is the 
+This difference brings with it another consideration - where the digital identity is stored. On-premises, digital identity is most likely stored in a database associated with the directory service, and that database exists on a physical machine owned by the enterprise. In the cloud, digital identity is stored and managed by the cloud provider, typically as a service. This is known as identity as a service (IDaaS). 
+
+As a result, enterprises have to integrate and synchronize their on-premises digital identity services with those in the cloud. Enterprises also have to replicate existing enterprise administration models in the cloud identity service.
+
+## Identity in Azure
+
+Azure's IDaaS offer is named Azure Active Directory (AAD). AAD is Azure's multi-tenant cloud based directory and identity management service. 
+
+A tenant is simply a dedicated instance of Azure Active Directory (Azure AD) that an organization receives and owns when it signs up for a Microsoft cloud service such as Azure or Office 365.
