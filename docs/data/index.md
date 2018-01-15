@@ -1,19 +1,20 @@
 # Azure Data Architecture Guide
 
-This guide presents a structured approach for designing data-centric solutions on Microsoft Azure. It is based on proven practices derived from customer engagements and is intended as an entry point for all data-related topics in Azure. The guide covers the big picture concepts in common data architectures and leads you to the pipeline patterns used by that architecture. The pipeline patterns are used to describe how the various processing and storage components fit together when handling the data. Finally, the technology choices will help you narrow the list of candidate Azure services--that are appropriate to your pipeline pattern--down to those services that are most appropriate to your specific requirements.
-
-The [Implementation Examples](#implementation-examples) section below offers a snapshot of recommended services for our top customer scenarios. Each example shows you one possible technology implementation and leads you into the content to understand the right technology choices for your business.
-
-<br>
-
-![Overview of the structure of the guide](./images/overview-flowchart.png)
-
-# Introduction
 The cloud is changing the way applications are designed, including how data is processed and stored. Instead of a single general-purpose database that handles all of a solution's data, the _polyglot persistence_ approach is to use multiple, specialized databases and datastores — each is optimized to provide specific capabilities needed by the solution. The perspective on data in the solution changes as a result. It is no longer the case that there are multiple layers of business logic and a single data layer. Instead modern, polyglot persistence solutions are designed around the notion of a data pipeline which describe how data flows through a solution, where it is processed, where it is stored, and how it is consumed by the next component in the pipeline. 
 
 Owing to the fundamental importance of the data pipeline throughout modern data architectures, this guide demonstrates all data pipelines as variants of the following canonical data pipeline:  
 
 ![Overview Data Pipeline](./images/overall-data-pipeline.png)
+
+The [Implementation Examples](#implementation-examples) section below offers a snapshot of recommended services for our top customer scenarios. Each example shows you one possible technology implementation and leads you into the content to understand the right technology choices for your business.
+
+# How this guide is structured
+
+This guide presents a structured approach for designing data-centric solutions on Microsoft Azure. It is based on proven practices derived from customer engagements and is intended as an entry point for all data-related topics in Azure. The guide covers the big picture concepts in common data architectures and leads you to the pipeline patterns used by that architecture. The pipeline patterns are used to describe how the various processing and storage components fit together when handling the data. Finally, the technology choices will help you narrow the list of candidate Azure services--that are appropriate to your pipeline pattern--down to those services that are most appropriate to your specific requirements.
+
+![Overview of the structure of the guide](./images/overview-flowchart.png)
+
+At the end of each article a read next link is provided that you can follow to take a linear path through the content. In addition, links to alternate and related content are provided to guide you to material that provides additional perspective on the options. 
 
 # <a name="implementation-examples"></a>Implementation Examples
 
@@ -286,16 +287,11 @@ Application Insights --> Blob Storage --> Azure Data Factory (transform with SSI
     * [Options for pipeline orchestration, control flow, and data movement](./technology-choices/pipeline-orchestration-data-movement.md)
     * [Data ingest](./technology-choices/data-ingest.md)
 
-# How this guide is structured
-This guide is structured so that your entry point to the content can be at the level of the common architecture, the pipeline pattern, or the technology choices for a particular pipeline scenario. 
-
-At the end of each article a read next link is provided that you can follow to take a linear path through the content. In addition, links to alternate and related content are provided to guide you to material that provides additional perspective on the options, as well as provides links back up to the related parent topics and links to drill down into further detail. <!--This last sentence is confusing. What do you mean by links back up to the related parent topics? I looked at some docs and can't figure it out. Do you really need anything after options?-->
-
-## <a name="wheretogo"></a>Where to go from here
+# <a name="wheretogo"></a>Where to go from here
 Read next:
 [Common Data Architectures](./common-architectures/overview.md)
 
-See also:
+**See also:**
 
 Alternative common architectures
 - [Non-Relational Data](./common-architectures/non-relational-data.md)
