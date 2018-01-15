@@ -1,4 +1,3 @@
-
 - name: Azure Architecture Center
   href: /azure/architecture
   
@@ -21,10 +20,39 @@
     - name: Non-relational data and NoSQL
       href: common-architectures/non-relational-data.md 
     - name: Big data
+      href: big-data.md 
     - name: Data pipeline
+      href: data-pipeline.md 
     - name: Advanced analytics
+      href: advanced-analytics.md 
     - name: Interactive data exploration
+      href: interactive-data-exploration.md 
     
   - name: Pipeline patterns
-  
+    items:
+    - name: Working with transactional data
+      items:
+      - name: Online transaction processing (OLTP)
+        href: online-transaction-processing.md 
+      - name: Online analytical processing (OLAP)
+        href: online-analytical-processing.md 
+      - name: Data warehousing and data marts
+        href: data-warehousing.md 
+    - name: Handling unstructured data
+      items:
+      - name: Processing CSV and JSON files
+        href: processing-csv-and-json-files.md 
+      - name: Processing free-form text
+        href: processing-free-form-text.md 
+    - name: Time series solutions
+      href: time-series.md 
+    - name: Hybrid on-premises and cloud solutions
+      href: hybrid-on-premises-and-cloud.md 
+    - name: Secure solutions
+      href: secure-solutions.md 
+    - name: Machine learning at scale
+      href: machine-learning-at-scale.md 
+    - name: Monitoring data solutions
+      href: monitoring-data-solutions.md 
+      
   - name: Technology choices
