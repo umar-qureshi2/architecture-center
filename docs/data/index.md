@@ -257,7 +257,7 @@ Capture web application logs and custom telemetry with [Application Insights](ht
 Read next:
 [Common Data Architectures](./common-architectures/overview.md)
 
-**See also:**
+####See also
 
 Alternative common architectures
 - [Non-Relational Data](./common-architectures/non-relational-data.md)
