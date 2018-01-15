@@ -1,3 +1,7 @@
+---
+layout: LandingPage
+---
+
 # Azure Data Architecture Guide
 
 The cloud is changing the way applications are designed, including how data is processed and stored. Instead of a single general-purpose database that handles all of a solution's data, the _polyglot persistence_ approach is to use multiple, specialized databases and datastores — each is optimized to provide specific capabilities needed by the solution. The perspective on data in the solution changes as a result. It is no longer the case that there are multiple layers of business logic and a single data layer. Instead modern, polyglot persistence solutions are designed around the notion of a data pipeline which describe how data flows through a solution, where it is processed, where it is stored, and how it is consumed by the next component in the pipeline. 
