@@ -9,7 +9,7 @@ TODO: This image needs an update with the lighter blue and the gray arrows.
 
 The [Implementation Examples](#implementation-examples) section below offers a snapshot of recommended services for our top customer scenarios. Each example shows you one possible technology implementation and leads you into the content to understand the right technology choices for your business.
 
-# How this guide is structured
+## How this guide is structured
 
 This guide presents a structured approach for designing data-centric solutions on Microsoft Azure. It is based on proven practices derived from customer engagements and is intended as an entry point for all data-related topics in Azure. The guide covers the big picture concepts in common data architectures and leads you to the pipeline patterns used by that architecture. The pipeline patterns are used to describe how the various processing and storage components fit together when handling the data. Finally, the technology choices will help you narrow the list of candidate Azure services--that are appropriate to your pipeline pattern--down to those services that are most appropriate to your specific requirements.
 
@@ -17,11 +17,11 @@ This guide presents a structured approach for designing data-centric solutions o
 
 At the end of each article a read next link is provided that you can follow to take a linear path through the content. In addition, links to alternate and related content are provided to guide you to material that provides additional perspective on the options. 
 
-# <a name="implementation-examples"></a>Implementation examples
+## <a name="implementation-examples"></a>Implementation examples
 
 The following examples are technology implementations we have seen directly in our customer engagements. The examples can help lead you into the content to make the right technology choices for your business.
 
-## On-demand big data analytics
+### On-demand big data analytics
 
 Create cloud-scale, enterprise-ready Hadoop clusters in a matter of minutes for batch and real-time data processing. With Azure, you can build your entire big data processing and analytics pipeline from massive data ingest to world-class business intelligence and reporting, using the technology that's right for you.
 
@@ -29,7 +29,7 @@ Create cloud-scale, enterprise-ready Hadoop clusters in a matter of minutes for 
 
 ![On-Demand Big Data Analytics](./images/implementation-example_big-data-analytics.png)
 
-### Highlighted services
+#### Highlighted services
 
 * [Azure Storage blobs](https://docs.microsoft.com/azure/storage/blobs/storage-blobs-introduction)
 * [Interactive Query (Hive LLAP) on HDInsight](https://docs.microsoft.com/azure/hdinsight/interactive-query/apache-interactive-query-get-started)
@@ -38,7 +38,7 @@ Create cloud-scale, enterprise-ready Hadoop clusters in a matter of minutes for 
 * [Azure Stream Analytics](https://docs.microsoft.com/azure/stream-analytics/)
 * [Azure SQL Database](https://docs.microsoft.com/azure/sql-database/)
 
-### In this guide
+#### In this guide
 
 * Common Data Architectures
     * [Big Data](./common-architectures/big-data.md)
@@ -53,7 +53,7 @@ Create cloud-scale, enterprise-ready Hadoop clusters in a matter of minutes for 
     * [Data ingest](./technology-choices/data-ingest.md)
     * [Analysis, visualizations, and reporting](./technology-choices/analysis-visualizations-reporting.md)
 
-## Advanced analytics and deep learning
+### Advanced analytics and deep learning
 
 Go beyond historical reporting and exploratory analysis of your data by enabling predictive processing and automated decision making with Azure services like [Azure Machine Learning](https://docs.microsoft.com/azure/machine-learning/preview/overview-what-is-azure-ml) and [Apache Spark on HDInsight](https://docs.microsoft.com/azure/hdinsight/spark/apache-spark-jupyter-spark-sql). When you need to harness the power of multiple GPUs to build sophisticated deep neural architectures and train them on a large data set, get a jump start on the task with [Deep Learning Virtual Machines](https://docs.microsoft.com/azure/machine-learning/data-science-virtual-machine/deep-learning-dsvm-overview) and [CNTK](https://github.com/Microsoft/CNTK/wiki), the unified deep-learning toolkit by Microsoft.
 
@@ -63,7 +63,7 @@ Go beyond historical reporting and exploratory analysis of your data by enabling
 
 See this [deep learning sample architecture](https://github.com/Azure/cortana-intelligence-product-detection-from-images/tree/master/technical_deployment).
 
-### Highlighted services
+#### Highlighted services
 
 * [Azure Machine Learning](https://docs.microsoft.com/azure/machine-learning/preview/overview-what-is-azure-ml)
 * [Deep Learning Virtual Machines](https://docs.microsoft.com/azure/machine-learning/data-science-virtual-machine/deep-learning-dsvm-overview)
@@ -72,7 +72,7 @@ See this [deep learning sample architecture](https://github.com/Azure/cortana-in
 * [HDInsight with Spark](https://docs.microsoft.com/azure/hdinsight/spark/apache-spark-overview)
 * [Azure App Service](https://docs.microsoft.com/azure/app-service/)
 
-### In this guide
+#### In this guide
 
 * Common Data Architectures
     * [Big Data](./common-architectures/big-data.md)
@@ -83,7 +83,7 @@ See this [deep learning sample architecture](https://github.com/Azure/cortana-in
     * [Options for processing CSV and JSON files](./technology-choices/csv-json-options.md)
     * [Data science and machine learning](./technology-choices/data-science-and-machine-learning.md)
 
-## Hybrid
+### Hybrid
 
 When you need hybrid on-premises and cloud options, nothing comes close to Azure. Use [Azure Stack](https://docs.microsoft.com/azure/azure-stack/azure-stack-poc) to deliver Azure services from your own datacenter, using the same tools in both environments for unmatched consistency, allowing you to deploy your data solution to the location that best meets your needs. Use [ExpressRoute](https://docs.microsoft.com/azure/azure-stack/azure-stack-connect-expressroute) for a private, dedicated and high speed connection that extends your on-premises network into Azure. See this example [hybrid reference architecture](https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/hybrid-networking/expressroute-vpn-failover).
 
@@ -91,14 +91,14 @@ When you need hybrid on-premises and cloud options, nothing comes close to Azure
 
 ![Hybrid](./images/implementation-example_hybrid.png)
 
-### Highlighted services
+#### Highlighted services
 
 * [Azure Stack](https://docs.microsoft.com/azure/azure-stack/azure-stack-poc)
 * [ExpressRoute](https://docs.microsoft.com/azure/expressroute/expressroute-introduction)
 * [Azure App Service](https://docs.microsoft.com/azure/app-service/)
 * [SQL Server Stretch Database](https://docs.microsoft.com/azure/sql-server-stretch-database/)
 
-### In this guide
+#### In this guide
 
 * Common Data Architectures
     * [Relational data](./common-architectures/relational-data.md)
@@ -110,7 +110,7 @@ When you need hybrid on-premises and cloud options, nothing comes close to Azure
     * [Data transfer](./technology-choices/data-transfer.md)
     * [Data ingest](./technology-choices/data-ingest.md)
 
-## Clickstream analysis
+### Clickstream analysis
 
 Engage with your customers and uncover insights from data generated by clickstream logs in real-time, using Azure. Rapidly ingest incoming data through [Event Hubs](https://docs.microsoft.com/azure/event-hubs/) (or leverage [Apache Kafka](https://docs.microsoft.com/azure/hdinsight/kafka/apache-kafka-get-started)), process it with [Spark](https://docs.microsoft.com/azure/hdinsight/spark/apache-spark-jupyter-spark-sql) streaming and Spark ML for predicting product recommendations, then use the Spark to [Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/) connector to save the processed data to Cosmos DB for global distribution to your customers, wherever they are.
 
@@ -118,14 +118,14 @@ Engage with your customers and uncover insights from data generated by clickstre
 
 ![Clickstream Analytics](./images/implementation-example_clickstream-analytics.png)
 
-### Highlighted services
+#### Highlighted services
 
 * [Azure Event Hubs](https://docs.microsoft.com/azure/event-hubs/)
 * [HDInsight with Apache Spark](https://docs.microsoft.com/azure/hdinsight/spark/apache-spark-jupyter-spark-sql)
 * [HDInsight with Kafka](https://docs.microsoft.com/azure/hdinsight/kafka/apache-kafka-get-started)
 * [Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/)
 
-### In this guide
+#### In this guide
 
 * Common Data Architectures
     * [Big Data](./common-architectures/big-data.md)
@@ -138,7 +138,7 @@ Engage with your customers and uncover insights from data generated by clickstre
     * [Natural language processing](./technology-choices/natural-language-processing.md)
     * [Real-time processing](./technology-choices/real-time-processing.md)
 
-## Business intelligence
+### Business intelligence
 
 Azure offers a rich data and analytics platform so you can build scalable BI and reporting solutions. Create rich, interactive reports with [Power BI](https://docs.microsoft.com/power-bi/) by having it connect to [Azure Analysis Services](https://docs.microsoft.com/en-us/azure/analysis-services/analysis-services-overview/), which uses a highly optimized in-memory engine to provide responses to queries against user-friendly semantic models, within a fraction of a second. The underlying data is provided by [Azure SQL Data Warehouse](https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-overview-what-is), which acts as a central repository of integrated data from one or more disparate sources.
 
@@ -146,14 +146,14 @@ Azure offers a rich data and analytics platform so you can build scalable BI and
 
 ![Business Intelligence](./images/implementation-example_business-intelligence.png)
 
-### Highlighted services
+#### Highlighted services
 
 * [Power BI](https://docs.microsoft.com/power-bi/)
 * [Azure Analysis Services](https://docs.microsoft.com/en-us/azure/analysis-services/analysis-services-overview)
 * [Azure SQL Data Warehouse](https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-overview-what-is)
 * [Azure Data Factory](https://docs.microsoft.com/en-us/azure/data-factory/)
 
-### In this guide
+#### In this guide
 
 * Common Data Architectures
     * [Semantic modeling](./common-architectures/semantic-modeling.md)
@@ -166,7 +166,7 @@ Azure offers a rich data and analytics platform so you can build scalable BI and
     * [Data warehouses](./technology-choices/data-warehouses.md)
     * [Options for pipeline orchestration, control flow, and data movement](./technology-choices/pipeline-orchestration-data-movement.md)
 
-## Intelligent applications
+### Intelligent applications
 
 Quickly add intelligence to your applications with [Cognitive Services](https://docs.microsoft.com/en-us/azure/#pivot=products&panel=cognitive), and coordinate automated interactions using [Azure Bot Service](https://docs.microsoft.com/bot-framework/bot-service-overview-introduction). This can save you months of creating and refining sophisticated algorithms to naturally interact with your users through speech, text, vision, knowledge, and search capabilities.
 
@@ -174,7 +174,7 @@ Quickly add intelligence to your applications with [Cognitive Services](https://
 
 ![Intelligent Applications](./images/implementation-example_intelligent-applications.png)
 
-### Highlighted services
+#### Highlighted services
 
 * [Azure App Service](https://docs.microsoft.com/azure/app-service/)
 * [Azure SQL Database](https://docs.microsoft.com/azure/sql-database/)
@@ -183,7 +183,7 @@ Quickly add intelligence to your applications with [Cognitive Services](https://
 * [Azure Cognitive Services](https://docs.microsoft.com/en-us/azure/#pivot=products&panel=cognitive)
 * [Azure Active Directory B2C](https://docs.microsoft.com/azure/active-directory-b2c)
 
-### In this guide
+#### In this guide
 
 * Common Data Architectures
     * [Advanced Analytics](./common-architectures/advanced-analytics.md)
@@ -193,7 +193,7 @@ Quickly add intelligence to your applications with [Cognitive Services](https://
     * [Online Transaction Processing (OLTP) data stores](./technology-choices/oltp-data-stores.md)
     * [Cognitive Services](./technology-choices/cognitive-services.md)
 
-## Data warehousing
+### Data warehousing
 
 Store data coming in from multiple sources into [Azure Data Lake Store](https://docs.microsoft.com/en-us/azure/data-lake-store/data-lake-store-overview), in their native format. [SQL Data Warehouse](https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-overview-what-is) can directly query against the data with a combination of external tables and schema on read capabilities through [PolyBase](https://docs.microsoft.com/sql/relational-databases/polybase/get-started-with-polybase). Use [Azure Data Factory](https://docs.microsoft.com/en-us/azure/data-factory/) to store the data you need within your warehouse, and quickly analyze and visualize the combined data with [Power BI](https://docs.microsoft.com/power-bi/).
 
@@ -202,7 +202,7 @@ Store data coming in from multiple sources into [Azure Data Lake Store](https://
 ![Data Warehousing](./images/implementation-example_data-warehousing.png) 
 TODO: Change bottom line of diagram to display "Orchestration: PolyBase / ADF" instead.
 
-### Highlighted services
+#### Highlighted services
 
 * [Azure Data Lake Store](https://docs.microsoft.com/en-us/azure/data-lake-store/data-lake-store-overview)
 * [Azure SQL Data Warehouse](https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-overview-what-is)
@@ -210,7 +210,7 @@ TODO: Change bottom line of diagram to display "Orchestration: PolyBase / ADF" i
 * [PolyBase](https://docs.microsoft.com/sql/relational-databases/polybase/get-started-with-polybase)
 * [Power BI](https://docs.microsoft.com/power-bi/)
 
-### In this guide
+#### In this guide
 
 * Common Data Architectures
     * [Semantic modeling](./common-architectures/semantic-modeling.md)
@@ -225,7 +225,7 @@ TODO: Change bottom line of diagram to display "Orchestration: PolyBase / ADF" i
     * [Data transfer](./technology-choices/data-transfer.md)
     * [Analysis, Visualizations, & Reporting](./technology-choices/analysis-visualizations-reporting.md)
 
-## Extract, transform, load (ETL)
+### Extract, transform, load (ETL)
 
 Capture web application logs and custom telemetry with [Application Insights](https://docs.microsoft.com/azure/application-insights/app-insights-overview), and create, schedule, and manage your ETL data pipeline using [Azure Data Factory](https://docs.microsoft.com/en-us/azure/data-factory/). Deploy your SSIS packages to Azure--with the [Azure-SSIS integration runtime](https://docs.microsoft.com/azure/data-factory/tutorial-deploy-ssis-packages-azure) (IR) in Azure Data Factory--to apply data transformation as a step in the ETL pipeline, before loading the transformed data into [Azure SQL Database](https://docs.microsoft.com/azure/sql-database/).
 
@@ -233,7 +233,7 @@ Capture web application logs and custom telemetry with [Application Insights](ht
 
 ![ETL](./images/implementation-example_etl.png)
 
-### Highlighted services
+#### Highlighted services
 
 * [Azure Data Factory](https://docs.microsoft.com/en-us/azure/data-factory/)
 * [Azure-SSIS integration runtime](https://docs.microsoft.com/azure/data-factory/tutorial-deploy-ssis-packages-azure)
@@ -241,7 +241,7 @@ Capture web application logs and custom telemetry with [Application Insights](ht
 * [Azure SQL Database](https://docs.microsoft.com/azure/sql-database/)
 * [Application Insights](https://docs.microsoft.com/azure/application-insights/app-insights-overview)
 
-### In this guide
+#### In this guide
 
 * Common Data Architectures
     * [Data pipeline](./common-architectures/data-pipeline.md)
@@ -253,7 +253,7 @@ Capture web application logs and custom telemetry with [Application Insights](ht
     * [Options for pipeline orchestration, control flow, and data movement](./technology-choices/pipeline-orchestration-data-movement.md)
     * [Data ingest](./technology-choices/data-ingest.md)
 
-# <a name="wheretogo"></a>Where to go from here
+## <a name="wheretogo"></a>Where to go from here
 Read next:
 [Common Data Architectures](./common-architectures/overview.md)
 
