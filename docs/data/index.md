@@ -29,10 +29,6 @@ Create cloud-scale, enterprise-ready Hadoop clusters in a matter of minutes for 
 
 ![On-Demand Big Data Analytics](./images/implementation-example_big-data-analytics.png)
 
-COLD PATH: Source data (web, mobile) --> Azure Blob storage --> HDInsight Interactive Query (Hive LLAP) --> Power BI (HDI Interactive Query connector)
-
-HOT PATH: Source data (web, mobile) --> Event Hubs --> Azure Stream Analytics (windowing queries for pre-aggregation) --> Azure SQL Server (in-memory columnstore) --> Power BI
-
 ### Highlighted services
 
 * [Azure Storage blobs](https://docs.microsoft.com/azure/storage/blobs/storage-blobs-introduction)
