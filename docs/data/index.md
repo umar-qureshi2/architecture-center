@@ -5,7 +5,7 @@ The cloud is changing the way applications are designed, including how data is p
 Owing to the fundamental importance of the data pipeline throughout modern data architectures, this guide demonstrates all data pipelines as variants of the following canonical data pipeline:  
 
 ![Overview Data Pipeline](./images/overall-data-pipeline.png)
-# (This image needs an update with the lighter blue and the thicker gray arrows.)
+[comment]: # (This image needs an update with the lighter blue and the thicker gray arrows.)
 
 The [Implementation Examples](#implementation-examples) section below offers a snapshot of recommended services for our top customer scenarios. Each example shows you one possible technology implementation and leads you into the content to understand the right technology choices for your business.
 
