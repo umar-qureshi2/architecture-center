@@ -5,7 +5,7 @@ The cloud is changing the way applications are designed, including how data is p
 Owing to the fundamental importance of the data pipeline throughout modern data architectures, this guide demonstrates all data pipelines as variants of the following canonical data pipeline:  
 
 ![Overview Data Pipeline](./images/overall-data-pipeline.png)
-[comment]: # (This image needs an update with the lighter blue and the thicker gray arrows.)
+TODO: This image needs an update with the lighter blue and the gray arrows.
 
 The [Implementation Examples](#implementation-examples) section below offers a snapshot of recommended services for our top customer scenarios. Each example shows you one possible technology implementation and leads you into the content to understand the right technology choices for your business.
 
@@ -204,7 +204,7 @@ Store data coming in from multiple sources into [Azure Data Lake Store](https://
 <br>
 
 ![Data Warehousing](./images/implementation-example_data-warehousing.png) 
-<> Change bottom line to display "Orchestration: PolyBase / ADF"
+TODO: Change bottom line of diagram to display "Orchestration: PolyBase / ADF" instead.
 
 ### Highlighted services
 
