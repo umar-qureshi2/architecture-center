@@ -56,3 +56,38 @@
       href: monitoring-data-solutions.md 
       
   - name: Technology choices
+    items:
+    - name: Transactional data stores
+      items:
+      - name: Online transaction processing (OLTP) data stores
+        href: oltp-data-stores.md 
+      - name: Online analytical processing (OLAP) data stores
+        href: olap-data-stores.md 
+      - name: Data warehouses
+        href: data-warehouses.md 
+    - name: Pipeline orchestration, control flow, and data movement
+      href: pipeline-orchestration-data-movement.md 
+    - name: Data transfer
+      href: data-transfer.md 
+    - name: Data ingest
+      href: data-ingest.md 
+    - name: Batch processing
+      href: batch-processing.md 
+    - name: Real-time processing
+      href: real-time-processing.md 
+    - name: Data serving storage
+      href: data-serving-storage.md 
+    - name: Options for processing CSV and JSON files
+      href: csv-json-options.md 
+    - name: Applied artificial intelligence & cognitive services
+      items:
+      - name: Data science and machine learning
+        href: data-science-and-machine-learning.md 
+      - name: Cognitive services
+        href: cognitive-services.md 
+      - name: Search data stores
+        href: search-options.md 
+      - name: Natural language processing
+        href: natural-language-processing.md 
+    - name: Analysis, visualizations, and reporting
+      href: analysis-visualizations-reporting.md 
