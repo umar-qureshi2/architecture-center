@@ -269,8 +269,8 @@ Read next:
 
 All common architectures
 - [Relational data](./common-architectures/relational-data.md)
--- [Transactional data](./common-architectures/transactional-data.md)
--- [Semantic modeling](./common-architectures/semantic-modeling.md)
+    - [Transactional data](./common-architectures/transactional-data.md)
+    - [Semantic modeling](./common-architectures/semantic-modeling.md)
 - [Non-relational data](./common-architectures/non-relational-data.md)
 - [Big data](./common-architectures/big-data.md)
 - [Data pipeline](./common-architectures/data-pipeline.md)
