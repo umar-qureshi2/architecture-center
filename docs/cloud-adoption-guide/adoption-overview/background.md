@@ -25,4 +25,4 @@ have to decide whether to have on-prem/cloud monitoring side-by-side, integrate 
 
 # Next steps
 
-Read the [enterprise identity explainer]() to learn how digital identity in the cloud. Then, read the 
+Read the [enterprise identity explainer]() for an explanation of the inner workings of digital identity in the cloud.

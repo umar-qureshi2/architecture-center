@@ -25,7 +25,7 @@
   - name: Adoption design guides
     href: 
     items:
-    - name: Identity design guie
+    - name: Identity design guide
       href: design-guide/identity/tenant.md
     - name: Governance design guide
       href:
