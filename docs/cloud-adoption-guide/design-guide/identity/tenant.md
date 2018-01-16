@@ -10,11 +10,11 @@ The definition of a tenant in the Microsoft cloud differs depending on the type 
 
 The main point to consider is that a tenant provides identity services for a given customer. And you refer to the tenant as an Azure Active Directory ([Azure AD][azure-ad]) tenant.
 
-In this guide you will learn how to desig the usage of tenants in your Azure environment.
+In this guide you will learn how to design the usage of tenants in your Azure environment.
 
 ## Overview
 
-An Azure AD tenant provides a security boundary for identity services ad namespace used for one or more [Azure subscriptions][subscription]. You want to have as few tenants as possible, to simplify management. However, there are specific scenarios where you may need more than one scenario.
+An Azure AD tenant provides a security boundary for identity services and namespace used for one or more [Azure subscriptions][subscription]. You want to have as few tenants as possible, to simplify management. However, there are specific scenarios where you may need more than one scenario.
 
 - **Resources in different Azure regions**. Azure provides four distinct types of cloud environments today: public, sovereign, government, and private. In the public cloud, you can use a single tenant to host services in any public region. However, to use sovereign and government clouds you need a specific tenant just for that cloud environment. TODO: what about private (Stack)?
 
@@ -35,15 +35,6 @@ An Azure AD tenant provides a security boundary for identity services ad namespa
 ### Office365 tenant
 
 ## Guidelines
-
-### Opportunistic
-
-### Bottom-up
-
-- tenants per cost center
-- no EA
-
-### Top-down
 
 - identify existing 'rogue' subscriptions
 - identify needs for multiple tenants

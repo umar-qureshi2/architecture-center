@@ -23,15 +23,13 @@
       href: 
   
   - name: Adoption design guides
-    href:
+    href: 
     items:
     - name: Identity design guie
-      href:
+      href: design-guide/identity/tenant.md
     - name: Governance design guide
       href:
       items:
-      - name: Tenant design
-        href: design-guide/governance/tenant.md
       - name: Subscription design
         href: design-guide/governance/subscription.md
       - name: Resource group design
