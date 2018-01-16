@@ -6,14 +6,15 @@
 
   items:
   - name: Enterprise cloud adoption overview (what this guide covers)
-    href: migration-overview/overview.md
+    href: adoption-overview/overview.md
     items:
     - name: Adopting the Cloud - Background (the pillars/perspectives/whatever)
-      href: migration-overview/background.md
+      href: adoption-overview/background.md
     - name: Explainer - Identity
-      href: migration-overview/identity-explainer.md
-    - name: Explainer - Governance (2 documents - grouping resources for management [subscriptions, resource groups]; managing access to resources [rbac, policy])
+      href: adoption-overview/identity-explainer.md
+    - name: Explainer - Governance - grouping resources for management in the cloud (subscriptions, resource groups)
       href:
+    - name: Explainer - Governance - managing access to resources in the cloud (rbac, policy)
     - name: Explainer - Security (covers distinguishing between securing Azure resources, and, preventing unauthorized penetration of vnet/vm/etc.)
       href:
     - name: Explainer - Architecture (what are the functional and architectural differences between SaaS, PaaS, and IaaS in terms of what design decisions must be made)
@@ -24,12 +25,9 @@
   - name: Adoption design guides
     href:
     items:
-    - name: Identity 
+    - name: Identity design guie
       href:
-      items: 
-      - name: Identity design
-        href:
-    - name: Governance
+    - name: Governance design guide
       href:
       items:
       - name: Tenant design

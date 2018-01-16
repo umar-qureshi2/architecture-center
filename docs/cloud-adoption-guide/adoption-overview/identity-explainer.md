@@ -16,10 +16,9 @@ Cloud computing also introduces another key difference: while procuring physical
 
 This difference brings with it another consideration - where the digital identity is stored. On-premises, digital identity is most likely stored in a database associated with the directory service, and that database exists on a physical machine owned by the enterprise. In the cloud, digital identity is stored and managed by the cloud provider, typically as a service. This is known as identity as a service (IDaaS). 
 
-As a result, enterprises have to integrate and synchronize their on-premises digital identity services with those in the cloud. Enterprises also have to replicate existing enterprise administration models in the cloud identity service.
+Each of the enterprise and the cloud provider maintain their own security boundary. That is, each digital identity is defined and trusted within the security boundary because each entity has enacted all the necessary security protocols to create that trust. This results in the first choice that enterprise adopting the cloud will have to make - either maintain two distinct digital identities in each trusted location, or extend the trusted security boudnary to encompass both locations.
 
 ## Identity in Azure
 
-Azure's IDaaS offer is named Azure Active Directory (AAD). AAD is Azure's multi-tenant cloud based directory and identity management service. 
+Azure's IDaaS offer is named Azure Active Directory (AAD). AAD is Azure's multi-tenant cloud based directory and identity management service. A tenant is simply a dedicated instance of Azure Active Directory (Azure AD) that an organization receives and owns when it signs up for a Microsoft cloud service such as Azure or Office 365.
 
-A tenant is simply a dedicated instance of Azure Active Directory (Azure AD) that an organization receives and owns when it signs up for a Microsoft cloud service such as Azure or Office 365.
