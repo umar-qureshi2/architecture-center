@@ -12,7 +12,6 @@ To understand how to apply a common data architecture to your scenario, start wi
 - [Data pipelines](./data-pipeline.md)
 - [Advanced analytics](./advanced-analytics.md)
 
-For implementation examples of these common data architectures, see [Implementation examples](../index.md#implementation-examples) in the [Azure Data Architecture Guide overview](../index.md).
 
 Use the following flow chart to begin your exploration: <!-- Note that the image uses "Nonrelational" it should be hyphenated to match the text. Typically the prefix "non" doesn't take a hyphen, but this is one of those terms that does. Try the image with less pastel. Also, add "Data warehouse" under "Relational."-->
 

@@ -15,8 +15,6 @@ Owing to the fundamental importance of the data pipeline throughout modern data 
 ![Overview Data Pipeline](./images/overall-data-pipeline.png)
 TODO: This image needs an update with the lighter blue and the gray arrows.
 
-The [Implementation Examples](#implementation-examples) section below offers a snapshot of recommended services for our top customer scenarios. Each example shows you one possible technology implementation and leads you into the content to understand the right technology choices for your business.
-
 ## How this guide is structured
 
 This guide covers the big picture concepts in [common data architectures](./common-architectures/index.md) and leads you to the pipeline patterns used by each architecture. The pipeline patterns are used to describe how the various processing and storage components fit together when handling the data. Finally, the technology choices will help you narrow the list of candidate Azure services--that are appropriate to your pipeline pattern--down to those services that are most appropriate to your specific requirements.
@@ -27,7 +25,7 @@ At the end of each article a read next link is provided that you can follow to t
 
 ## Implementation examples
 
-The following examples are technology implementations we have seen directly in our customer engagements. The examples can help lead you into the content to make the right technology choices for your business.
+The following examples are technology implementations we have seen directly in our customer engagements. The examples can help lead you into the content to make the right technology choices for your business. [TODO link]
 
 
 
