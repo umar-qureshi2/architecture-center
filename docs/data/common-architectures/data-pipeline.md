@@ -18,7 +18,7 @@ Relevant Azure service:
 - [Azure Data Factory v2](https://azure.microsoft.com/services/data-factory/)
 
 Other tools:
-- [SQL Server Integration Services (SSIS)](https://docs.microsoft.com/sql/integration-services/sql-server-integration-services)
+- [SQL Server Integration Services (SSIS)](/sql/integration-services/sql-server-integration-services)
 
 ## Extract, load, and transform
 
@@ -33,13 +33,13 @@ In practice the data store is a data warehouse using either a Hadoop cluster (us
 The final phase of the ELT pipeline is typically to transform the source data into a final format that is more performant with respect to the types of queries that will need to be supported. Examples of this include partitioning the data and using optimized storage formats like Parquet that store row-oriented data in a columnar fashion and provides indexing that optimizes reading from only those files that contain the data requested by the query. 
 
 Relevant Azure service:
-- [Azure SQL Data Warehouse](https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-overview-what-is)
-- [HDInsight with Hive](https://docs.microsoft.com/azure/hdinsight/hadoop/hdinsight-use-hive)
+- [Azure SQL Data Warehouse](/azure/sql-data-warehouse/sql-data-warehouse-overview-what-is)
+- [HDInsight with Hive](/azure/hdinsight/hadoop/hdinsight-use-hive)
 - [Azure Data Factory v2](https://azure.microsoft.com/services/data-factory/)
-- [Oozie on HDInsight](https://docs.microsoft.com/azure/hdinsight/hdinsight-use-oozie-linux-mac)
+- [Oozie on HDInsight](/azure/hdinsight/hdinsight-use-oozie-linux-mac)
 
 Other tools:
-- [SQL Server Integration Services (SSIS)](https://docs.microsoft.com/sql/integration-services/sql-server-integration-services)
+- [SQL Server Integration Services (SSIS)](/sql/integration-services/sql-server-integration-services)
 
 ## Data flow & control flow
 
@@ -55,7 +55,7 @@ Relevant Azure service:
 - [Azure Data Factory v2](https://azure.microsoft.com/services/data-factory/)
 
 Other tools:
-- [SQL Server Integration Services (SSIS)](https://docs.microsoft.com/sql/integration-services/sql-server-integration-services)
+- [SQL Server Integration Services (SSIS)](/sql/integration-services/sql-server-integration-services)
 
 ## Where to go from here
 

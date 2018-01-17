@@ -4,7 +4,7 @@
 There are several options for transferring data to and from Azure, depending on your needs:
 
 - Physical transfer:
-    - [Azure Import/Export Service](https://docs.microsoft.com/azure/storage/common/storage-import-export-service)
+    - [Azure Import/Export Service](/azure/storage/common/storage-import-export-service)
     - [Azure Data Box](https://azure.microsoft.com/services/storage/databox/)
 - Network transfer:
     - [Command line tools and APIs](#cli)
@@ -28,7 +28,7 @@ Using physical hardware to transfer data to Azure is a great option when your ne
 
 #### Azure Import/Export service
 
-The [Azure Import/Export service](https://docs.microsoft.com/azure/storage/common/storage-import-export-service) allows you to securely transfer large amounts of data to Azure Blob Storage or Azure Files by shipping **internal** SATA HDDs or SDDs to an Azure datacenter. This can also be used to transfer data from Azure Storage to hard disk drives and have them shipped to you for loading on-premises.
+The [Azure Import/Export service](/azure/storage/common/storage-import-export-service) allows you to securely transfer large amounts of data to Azure Blob Storage or Azure Files by shipping **internal** SATA HDDs or SDDs to an Azure datacenter. This can also be used to transfer data from Azure Storage to hard disk drives and have them shipped to you for loading on-premises.
 
 You can use this service in scenarios such as:
 
@@ -36,9 +36,9 @@ You can use this service in scenarios such as:
 - **Backup**: Take backups of your on-premises data to store in Azure Storage when transferring over your network is not a viable option.
 - **Data recovery**: Recover large amounts of data stored in Azure Storage and have it delivered to your on-premises location.
 
-Back up a series of folders or a list of files to send to the service. You will need to use the [Azure Import/Export tool](https://docs.microsoft.com/azure/storage/common/storage-import-export-tool-setup) to prepare your hard drive(s) that you'll send to the service.
+Back up a series of folders or a list of files to send to the service. You will need to use the [Azure Import/Export tool](/azure/storage/common/storage-import-export-tool-setup) to prepare your hard drive(s) that you'll send to the service.
 
-The [detailed steps for using this service](https://docs.microsoft.com/azure/storage/common/storage-import-export-service) can be simplified to the following:
+The [detailed steps for using this service](/azure/storage/common/storage-import-export-service) can be simplified to the following:
 
 * Step 1: Prepare the drive(s) using [WAImportExport tool](http://download.microsoft.com/download/3/6/B/36BFF22A-91C3-4DFC-8717-7567D37D64C5/WAImportExportV2.zip) and generate journal file(s)
 * Step 2: Create an Import Job in Azure
@@ -57,7 +57,7 @@ These options should be considered when you want scripted and programmatic data 
 
 #### Azure CLI
 
-The [Azure CLI](https://docs.microsoft.com/azure/hdinsight/hdinsight-upload-data#commandline) is a cross-platform tool that allows you to manage Azure services and upload data to Azure Storage. To use the CLI, [install it](https://docs.microsoft.com/azure/cli-install-nodejs), [connect it with your Azure subscription](https://docs.microsoft.com/azure/xplat-cli-connect), then run the `azure` commands from your command-line interface (Bash, Terminal, Command prompt, and so on) to work with your Azure resources.
+The [Azure CLI](/azure/hdinsight/hdinsight-upload-data#commandline) is a cross-platform tool that allows you to manage Azure services and upload data to Azure Storage. To use the CLI, [install it](/azure/cli-install-nodejs), [connect it with your Azure subscription](/azure/xplat-cli-connect), then run the `azure` commands from your command-line interface (Bash, Terminal, Command prompt, and so on) to work with your Azure resources.
 
 Sample syntax for uploading a file to Blob storage:
 
@@ -65,9 +65,9 @@ Sample syntax for uploading a file to Blob storage:
 
 #### AzCopy
 
-Use AzCopy from a [Windows](https://docs.microsoft.com/azure/storage/common/storage-use-azcopy?toc=%2fazure%2fstorage%2fblobs%2ftoc.json) or [Linux](https://docs.microsoft.com/azure/storage/common/storage-use-azcopy-linux?toc=%2fazure%2fstorage%2fblobs%2ftoc.json) command-line to easily copy data to and from Azure Blob, File, and Table storage with optimal performance. AzCopy is very widely used for a variety of data transfer options to Azure, due to advantages like concurrency and parallelism, the ability to resume copy operations when interrupted, and greater speed than most other options.
+Use AzCopy from a [Windows](/azure/storage/common/storage-use-azcopy?toc=%2fazure%2fstorage%2fblobs%2ftoc.json) or [Linux](/azure/storage/common/storage-use-azcopy-linux?toc=%2fazure%2fstorage%2fblobs%2ftoc.json) command-line to easily copy data to and from Azure Blob, File, and Table storage with optimal performance. AzCopy is very widely used for a variety of data transfer options to Azure, due to advantages like concurrency and parallelism, the ability to resume copy operations when interrupted, and greater speed than most other options.
 
-If you would like to programmatically integrate AzCopy functionality into your .NET applications, or with just a simple, cross-platform .NET Core console application, consider using the [Microsoft Azure Storage Data Movement Library](https://docs.microsoft.com/azure/storage/common/storage-use-data-movement-library). This library is the core data movement framework that powers AzCopy, and allows you to set the number of parallel operations, track transfer progress, easily resume a canceled transfer, and more.
+If you would like to programmatically integrate AzCopy functionality into your .NET applications, or with just a simple, cross-platform .NET Core console application, consider using the [Microsoft Azure Storage Data Movement Library](/azure/storage/common/storage-use-data-movement-library). This library is the core data movement framework that powers AzCopy, and allows you to set the number of parallel operations, track transfer progress, easily resume a canceled transfer, and more.
 
 Sample syntax:
 
@@ -77,11 +77,11 @@ Both platforms offer the same filtering capabilities and copy options.
 
 #### PowerShell
 
-Another command-line option is to use the [`Start-AzureStorageBlobCopy` PowerShell cmdlet](https://docs.microsoft.com/powershell/module/azure.storage/start-azurestorageblobcopy?view=azurermps-5.0.0), a familiar option for Windows administrators who are used to PowerShell. This cmdlet can be used alongside other cmdlets by using the pipeline operator. For instance, the following command retrieves all of the blobs in a container named ContosoUploads, by using the `Get-AzureStorageBlob` cmdlet, and then passes the results to the `Start-AzureStorageBlobCopy` cmdlet to start copying the blobs to the ContosoArchives container: `Get-AzureStorageBlob -Container "ContosoUploads" | Start-AzureStorageBlobCopy -DestContainer "ContosoArchives"`.
+Another command-line option is to use the [`Start-AzureStorageBlobCopy` PowerShell cmdlet](/powershell/module/azure.storage/start-azurestorageblobcopy?view=azurermps-5.0.0), a familiar option for Windows administrators who are used to PowerShell. This cmdlet can be used alongside other cmdlets by using the pipeline operator. For instance, the following command retrieves all of the blobs in a container named ContosoUploads, by using the `Get-AzureStorageBlob` cmdlet, and then passes the results to the `Start-AzureStorageBlobCopy` cmdlet to start copying the blobs to the ContosoArchives container: `Get-AzureStorageBlob -Container "ContosoUploads" | Start-AzureStorageBlobCopy -DestContainer "ContosoArchives"`.
 
 #### AdlCopy
 
-[AdlCopy](https://docs.microsoft.com/azure/data-lake-store/data-lake-store-copy-data-azure-storage-blob) enables you to copy data from Azure Storage Blobs into Data Lake Store. It can also be used to copy data between two Azure Data Lake Store accounts. However, it cannot be used to copy data from Data Lake Store to Storage Blobs.
+[AdlCopy](/azure/data-lake-store/data-lake-store-copy-data-azure-storage-blob) enables you to copy data from Azure Storage Blobs into Data Lake Store. It can also be used to copy data between two Azure Data Lake Store accounts. However, it cannot be used to copy data from Data Lake Store to Storage Blobs.
 
 AdlCopy can be used in two different modes:
 
@@ -94,7 +94,7 @@ Sample syntax:
 
 #### Distcp
 
-If you have an HDInsight cluster with access to Data Lake Store, you can use Hadoop ecosystem tools like [Distcp](https://docs.microsoft.com/azure/data-lake-store/data-lake-store-copy-data-wasb-distcp) to copy data **to and from** an HDInsight cluster storage (WASB) into a Data Lake Store account.
+If you have an HDInsight cluster with access to Data Lake Store, you can use Hadoop ecosystem tools like [Distcp](/azure/data-lake-store/data-lake-store-copy-data-wasb-distcp) to copy data **to and from** an HDInsight cluster storage (WASB) into a Data Lake Store account.
 
 Sample syntax for copying files from WASB to a Data Lake Store account:
 
@@ -102,7 +102,7 @@ Sample syntax for copying files from WASB to a Data Lake Store account:
 
 #### Sqoop
 
-[Sqoop](https://docs.microsoft.com/azure/hdinsight/hadoop/hdinsight-use-sqoop) is an Apache project and part of the Hadoop ecosystem. It comes preinstalled on all HDInsight clusters. It allows data transfer between an HDInsight cluster and relational databases such as SQL, Oracle, MySQL, and so on. Sqoop is a collection of related tools, for example import, export, list-all-tables, and list-databases. To use Sqoop, you specify the tool you want to use and the arguments that control the tool. For more information on Sqoop, please refer to the [Sqoop User Guide](https://sqoop.apache.org/docs/1.4.4/SqoopUserGuide.html).
+[Sqoop](/azure/hdinsight/hadoop/hdinsight-use-sqoop) is an Apache project and part of the Hadoop ecosystem. It comes preinstalled on all HDInsight clusters. It allows data transfer between an HDInsight cluster and relational databases such as SQL, Oracle, MySQL, and so on. Sqoop is a collection of related tools, for example import, export, list-all-tables, and list-databases. To use Sqoop, you specify the tool you want to use and the arguments that control the tool. For more information on Sqoop, please refer to the [Sqoop User Guide](https://sqoop.apache.org/docs/1.4.4/SqoopUserGuide.html).
 
 You only need to use Sqoop when you are trying to import/export data between Hadoop and a relational database. It works with both Azure Storage blobs and Data Lake Store.
 
@@ -112,9 +112,9 @@ Sample syntax for copying data out of a SQL database table into Data Lake Store:
 
 #### PolyBase
 
-[PolyBase](https://docs.microsoft.com/sql/relational-databases/polybase/get-started-with-polybase) is a technology that accesses data outside of the database via the T-SQL language. In SQL Server 2016, it allows you to run queries on external data in Hadoop or to import/export data from Azure Blob Storage. Queries are optimized to push computation to Hadoop. In Azure SQL Data Warehouse, you can import/export data from Azure Blob Storage and Azure Data Lake Store. Currently, PolyBase is the fastest method of importing data into SQL Data Warehouse.
+[PolyBase](/sql/relational-databases/polybase/get-started-with-polybase) is a technology that accesses data outside of the database via the T-SQL language. In SQL Server 2016, it allows you to run queries on external data in Hadoop or to import/export data from Azure Blob Storage. Queries are optimized to push computation to Hadoop. In Azure SQL Data Warehouse, you can import/export data from Azure Blob Storage and Azure Data Lake Store. Currently, PolyBase is the fastest method of importing data into SQL Data Warehouse.
 
-View [sample syntax](https://docs.microsoft.com/sql/relational-databases/polybase/get-started-with-polybase#create-t-sql-objects) for creating T-SQL objects that use PolyBase to import data from Hadoop or Azure Blob Storage.
+View [sample syntax](/sql/relational-databases/polybase/get-started-with-polybase#create-t-sql-objects) for creating T-SQL objects that use PolyBase to import data from Hadoop or Azure Blob Storage.
 
 #### Hadoop command line
 
@@ -136,9 +136,9 @@ Both Blob storage and Data Lake Store provide a web-based interface for explorin
 
 #### Azure Data Factory
 
-[Azure Data Factory](https://docs.microsoft.com/azure/data-factory/) is a powerful, cloud-based service best suited for regularly transferring files between a number of Azure services, on-premises, or a combination of the two. Using Azure Data Factory, you can create and schedule data-driven workflows (called pipelines) that can ingest data from disparate data stores. It can process and transform the data by using compute services such as Azure HDInsight Hadoop, Spark, Azure Data Lake Analytics, and Azure Machine Learning. In other words, Azure Data Factory is a cloud-based data integration service that allows you to create data-driven workflows in the cloud for [orchestrating](pipeline-orchestration-data-movement.md) and automating data movement and data transformation.
+[Azure Data Factory](/azure/data-factory/) is a powerful, cloud-based service best suited for regularly transferring files between a number of Azure services, on-premises, or a combination of the two. Using Azure Data Factory, you can create and schedule data-driven workflows (called pipelines) that can ingest data from disparate data stores. It can process and transform the data by using compute services such as Azure HDInsight Hadoop, Spark, Azure Data Lake Analytics, and Azure Machine Learning. In other words, Azure Data Factory is a cloud-based data integration service that allows you to create data-driven workflows in the cloud for [orchestrating](pipeline-orchestration-data-movement.md) and automating data movement and data transformation.
 
-If your data store is behind a firewall and you are using v1 of Data Factory, use a [data management gateway](https://docs.microsoft.com/azure/data-factory/v1/data-factory-data-management-gateway) that's installed in your on-premises environment to move the data instead. If using version 2 of Data Factory, use the new self-hosted [integration runtime](https://docs.microsoft.com/azure/data-factory/create-self-hosted-integration-runtime) (IR) in place of the data management gateway.
+If your data store is behind a firewall and you are using v1 of Data Factory, use a [data management gateway](/azure/data-factory/v1/data-factory-data-management-gateway) that's installed in your on-premises environment to move the data instead. If using version 2 of Data Factory, use the new self-hosted [integration runtime](/azure/data-factory/create-self-hosted-integration-runtime) (IR) in place of the data management gateway.
 
 ### Data ingest
 
@@ -191,7 +191,7 @@ Based on your responses to the questions above, the following tables will help y
 
 \** AdlCopy is optimized for transferring big data when used with a Data Lake Analytics account.
 
-\*** PolyBase [performance can be increased](https://docs.microsoft.com/sql/relational-databases/polybase/polybase-guide#performance) by pushing computation to Hadoop and using [PolyBase  scale-out groups](https://docs.microsoft.com/sql/relational-databases/polybase/polybase-scale-out-groups) to enable parallel data transfer between SQL Server instances and Hadoop nodes.
+\*** PolyBase [performance can be increased](/sql/relational-databases/polybase/polybase-guide#performance) by pushing computation to Hadoop and using [PolyBase  scale-out groups](/sql/relational-databases/polybase/polybase-scale-out-groups) to enable parallel data transfer between SQL Server instances and Hadoop nodes.
 
 #### Graphical user interface capabilities
 

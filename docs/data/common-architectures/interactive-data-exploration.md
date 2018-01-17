@@ -11,7 +11,7 @@ Self-service BI is a name given to a modern approach to business decision making
 In a self-service BI solution, business users typically find and consume data sources that are relevant to their particular area of the business, and use intuitive tools and productivity applications to define personal data models and reports that they can share with their colleagues.
 
 Relevant Azure service:
-- [Azure Data Catalog](https://docs.microsoft.com/azure/data-catalog/data-catalog-what-is-data-catalog)
+- [Azure Data Catalog](/azure/data-catalog/data-catalog-what-is-data-catalog)
 - Microsoft Office 365 - in particular Excel and Power Pivot
 - [Microsoft Power BI](https://powerbi.microsoft.com/)
 
@@ -20,9 +20,9 @@ When an organization requires advanced analytics and predictive modeling, the in
 
 Relevant Azure service:  
 - [Azure Notebooks](https://notebooks.azure.com/)
-- [Azure Machine Learning Studio](https://docs.microsoft.com/azure/machine-learning/studio/what-is-ml-studio)
-- [Azure Machine Learning Experimentation Services](https://docs.microsoft.com/azure/machine-learning/preview/experimentation-service-configuration)
-- [The Data Science Virtual Machine](https://docs.microsoft.com/azure/machine-learning/data-science-virtual-machine/overview)
+- [Azure Machine Learning Studio](/azure/machine-learning/studio/what-is-ml-studio)
+- [Azure Machine Learning Experimentation Services](/azure/machine-learning/preview/experimentation-service-configuration)
+- [The Data Science Virtual Machine](/azure/machine-learning/data-science-virtual-machine/overview)
 
 ## Where to go from here
 

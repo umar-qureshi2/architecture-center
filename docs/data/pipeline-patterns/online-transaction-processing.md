@@ -27,13 +27,13 @@ In practice, most workloads are not purely OLTP - there tends to be an [analytic
 Related services:
 
 - Data storage
-    - [Azure SQL Database](https://docs.microsoft.com/azure/sql-database/)
-    - [SQL Server in an Azure VM](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-server-iaas-overview?toc=%2Fazure%2Fvirtual-machines%2Fwindows%2Ftoc.json)
-    - [Azure Database for MySQL](https://docs.microsoft.com/azure/mysql/)
-    - [Azure Database for PostgreSQL](https://docs.microsoft.com/azure/postgresql/)
+    - [Azure SQL Database](/azure/sql-database/)
+    - [SQL Server in an Azure VM](/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-server-iaas-overview?toc=%2Fazure%2Fvirtual-machines%2Fwindows%2Ftoc.json)
+    - [Azure Database for MySQL](/azure/mysql/)
+    - [Azure Database for PostgreSQL](/azure/postgresql/)
 - Data sources
-    - [Web/API Apps](https://docs.microsoft.com/azure/app-service/)
-    - [Mobile Apps](https://docs.microsoft.com/azure/app-service-mobile/)
+    - [Web/API Apps](/azure/app-service/)
+    - [Mobile Apps](/azure/app-service-mobile/)
 
 ## Where to go from here
 Read next:
