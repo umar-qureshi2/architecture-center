@@ -5,7 +5,7 @@
   items:
   - name: Implementation examples
   - name: Common data architectures
-    href: common-architectures/overview.md
+    href: common-architectures/index.md
     items:
     - name: Relational data
       href: common-architectures/relational-data.md 
