@@ -48,7 +48,7 @@ Read next: [Online Analytical Processing (OLAP) Solution Pattern](../pipeline-pa
 See also:
 
 Related common architectures
-- [Relational data stores](./relational-data-stores.md)
+- [Relational data stores](./relational-data.md)
 
 Alternative common architectures
 - [Non-relational and No-SQL data stores](./non-relational-data.md)

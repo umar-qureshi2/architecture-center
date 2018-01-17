@@ -68,6 +68,6 @@ See also:
 
 Related pipeline patterns
 - Working with text data
-    - [Processing CSV and JSON files](../pipeline-patterns/processing-csv-and-json.md)
+    - [Processing CSV and JSON files](../pipeline-patterns/processing-csv-and-json-files.md)
     - [Processing free-form text data](../pipeline-patterns/processing-free-form-text.md)
 - [Machine learning at scale](../pipeline-patterns/machine-learning-at-scale.md)

@@ -143,8 +143,8 @@ See also: <!--These needed links. Some seem to map and others don't so I wasn't 
 
 Related pipeline patterns 
 - Handling unstructured data
-    - [Processing CSV and JSON files](./processing-csv-and-json-files.md)
-    - [Processing Free-form Text](./processing-free-form-text.md)
+    - [Processing CSV and JSON files](../pipeline-patterns/processing-csv-and-json-files.md)
+    - [Processing Free-form Text](../pipeline-patterns/processing-free-form-text.md)
 - [Handling Time Series Data](../pipeline-patterns/time-series.md)
     - Internet of Things
     - Real-time analytics
@@ -153,6 +153,6 @@ Related technology choices
 - Handling unstructured data
     - [CSV and JSON file processing technology choices](../technology-choices/csv-json-options.md) 
     - Free-form text files
-- [Time series solutions](../technology-choices/time-series.md)<!--I grabbed this link from another doc, but I don't see this doc?-->
+- Time series solutions
     - Internet of Things
     - Real-time analytics
