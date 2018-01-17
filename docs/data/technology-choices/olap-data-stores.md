@@ -1,14 +1,5 @@
 # Online Analytical Processing (OLAP) data stores
 
-[About]()  
-[What are your options when choosing an OLAP data store?](#options)  
-[How do you choose?](#howtochoose)  
-[Key selection criteria](#criteria)  
-[Capability matrix](#matrix)   
-[Where to go from here](#wheretogo)  
-
-
-
 ## What are your options when choosing an OLAP data store?
 In Azure, all of the following data stores will meet the core requirements for OLAP:
 

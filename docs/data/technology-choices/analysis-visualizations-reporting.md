@@ -1,16 +1,5 @@
 # Analysis, Visualizations, & Reporting
 
-**In this article** <!--Note, none of the tech choices docs appear to have this heading. I didn't add everywhere in case you had a reason for excluding. But I wanted to point it out.-->
-
-[About]()  
-[What are your options when choosing analysis, visualization, and reporting methods?](#options)  
-[How do you choose?](#howtochoose)  
-[Key selection criteria](#criteria)  
-[Capability matrix](#matrix)   
-[Where to go from here](#wheretogo)  
-
-
-
 ## What are your options when choosing analysis, visualization, and reporting methods?
 There are several options for analysis, visualizations, and reporting in Azure, depending on your needs:
 

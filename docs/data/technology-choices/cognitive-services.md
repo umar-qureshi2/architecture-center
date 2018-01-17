@@ -1,13 +1,6 @@
 
 # Cognitive services technology choices
 
-[About]()  
-[What are your options when choosing amongst the cognitive services?](#options)  
-[How do you choose?](#howtochoose)  
-[Key selection criteria](#criteria)  
-[Capability matrix](#matrix)   
-[Where to go from here](#wheretogo)  
-
 Microsoft cognitive services are cloud-based APIs that you can leverage in artificial intelligence (AI) applications and data flows. In essence they provide you with pretrained models that are ready to use within your application, requiring no data and no model training on your part. The cognitive services are developed by Microsoft's AI and Research team and leverage the latest deep learning algorithms. They are consumed over HTTP REST interfaces and software development kits (SDKs) for many common application development frameworks are available.
 
 The cognitive services include:

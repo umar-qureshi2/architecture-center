@@ -1,14 +1,5 @@
 # Data transfer
 
-[About]()  
-[What are your options when choosing a data transfer method?](#options)  
-[How do you choose?](#howtochoose)  
-[Key selection criteria](#criteria)  
-[Capability matrix](#matrix)   
-[Where to go from here](#wheretogo)  
-
-
-
 ## What are your options when choosing a data transfer method?
 There are several options for transferring data to and from Azure, depending on your needs:
 

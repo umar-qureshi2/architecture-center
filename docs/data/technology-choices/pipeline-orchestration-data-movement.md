@@ -1,14 +1,5 @@
 # Options for Pipeline Orchestration, Control Flow, and Data Movement
 
-[About]()  
-[What are your options for pipeline orchestration, control flow, and data movement?](#options)  
-[How do you choose?](#howtochoose)  
-[Key selection criteria](#criteria)  
-[Capability matrix](#matrix)   
-[Where to go from here](#wheretogo)  
-
-
-
 ## What are your options for pipeline orchestration, control flow, and data movement?
 In Azure, the following services and tools will meet the core requirements for pipeline orchestration, control flow, and data movement:
 

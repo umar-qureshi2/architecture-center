@@ -1,14 +1,5 @@
 # Data ingest
 
-[About]()  
-[What are your options when choosing a data ingest method?](#options)  
-[How do you choose?](#howtochoose)  
-[Key selection criteria](#criteria)  
-[Capability matrix](#matrix)   
-[Where to go from here](#wheretogo)  
-
-
-
 ## What are your options when choosing a data ingest method?
 There are several options for ingesting data into Azure, depending on your needs:
 

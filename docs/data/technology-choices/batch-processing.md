@@ -1,13 +1,5 @@
 # Batch processing
 
-[About]()  
-[What are your options when choosing a technology for batch processing?](#options)  
-[How do you choose?](#howtochoose)  
-[Key selection criteria](#criteria)  
-[Capability matrix](#matrix)   
-[Where to go from here](#wheretogo)  
-
-
 Because the data sets are so large, often a big data solution must process data files using long-running batch jobs to filter, aggregate, and otherwise prepare the data for analysis. Usually these jobs involve reading source files from scalable storage (like HDFS, Azure Data Lake Store, and Azure Storage), processing them, and writing the output to new files in scalable storage. 
 
 The key requirement of such batch processing engines is that they are capable of applying their computation in a scale out fashion that can handle significant data volumes. Unlike for real-time processing, with batch processing latency (in terms of time until the results are ready) is expected to measure in minutes to hours.   

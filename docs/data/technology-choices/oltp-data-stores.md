@@ -1,13 +1,5 @@
 # Online Transaction Processing (OLTP) data stores
 
-[About]()  
-[What are your options when choosing an OLTP data store?](#options)  
-[How do you choose?](#howtochoose)  
-[Key selection criteria](#criteria)  
-[Capability matrix](#matrix)   
-[Where to go from here](#wheretogo)  
-
-
 
 ## What are your options when choosing an OLTP data store?
 In Azure, all of the following data stores will meet the core requirements for OLTP and for the management of transaction data:

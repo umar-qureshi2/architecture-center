@@ -1,14 +1,5 @@
 # Search Technology Choices
 
-[About]()  
-[What are your options when choosing a search data store?](#options)  
-[How do you choose?](#howtochoose)  
-[Key selection criteria](#criteria)  
-[Capability matrix](#matrix)   
-[Where to go from here](#wheretogo)  
-
-
-
 ## What are your options when choosing a search data store?
 In Azure, all of the following data stores will meet the core requirements for search against free-form text data by providing a search index:
 - [Azure Search](https://docs.microsoft.com/azure/search/search-what-is-azure-search)

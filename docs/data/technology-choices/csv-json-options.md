@@ -1,14 +1,5 @@
 # Options for processing CSV and JSON files
 
-[About]()  
-[What are your options for processing CSV and JSON files?](#options)  
-[How do you choose?](#howtochoose)  
-[Key selection criteria](#criteria)  
-[Capability matrix](#matrix)   
-[Where to go from here](#wheretogo)  
-
-
-
 ## What are your options for processing CSV and JSON files?
 In Azure, the following services will help you process CSV and JSON files:
 
