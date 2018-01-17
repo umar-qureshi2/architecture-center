@@ -9,9 +9,9 @@
 [Capability matrix](#matrix)   
 [Where to go from here](#wheretogo)  
 
-<a name="about"></a>
 
-## <a name="options"></a> What are your options when choosing analysis, visualization, and reporting methods?
+
+## What are your options when choosing analysis, visualization, and reporting methods?
 There are several options for analysis, visualizations, and reporting in Azure, depending on your needs:
 
 - [Power BI](https://docs.microsoft.com/power-bi/)
@@ -57,10 +57,10 @@ Considerations:
 * You will be unable to access your notebooks when offline.
 * Limited processing capabilities of the free notebook service may not be enough to train large or complex models.
 
-## <a name="howtochoose"></a> How do you choose?
+## How do you choose?
 Each analysis, visualization, and reporting method brings with it a unique set of capabilities, giving you the option to select the one that most closely meets your requirements.
 
-## <a name="criteria"></a> Key selection criteria
+## Key selection criteria
 
 The following tables summarize the key differences in capabilities between each. <!--You might want to move this after the list. It may make more sense to introduce the questions, and then introduce the table with something like: "Based on your responses to the questions, the following table will help you select the choice that's right for you." or something along those lines. Also, BTW, this is one of the best decision making processes I've seen. Normally you get a table that tries to answer all the questions, but doesn't. Breaking it out this way is much easier to follow. -->For analysis, visualizations, and reporting scenarios, choose the appropriate system for your needs by answering these questions:
 
@@ -73,7 +73,7 @@ The following tables summarize the key differences in capabilities between each.
 - Do you need heavy processing power to train large or complex AI models or work with very large data sets?
     - If yes, then narrow your options to those that can tap into the power of a big data cluster, such as Spark on HDInsight.
 
-## <a name="matrix"></a> Capability matrix
+## Capability matrix
 
 ### General capabilities
 
@@ -100,7 +100,7 @@ The following tables summarize the key differences in capabilities between each.
 
 \++ Python packages can be installed using either pip or conda. R packages can be installed from CRAN or GitHub. Packages in F# can be installed via nuget.org using the [Paket dependency manager](https://fsprojects.github.io/Paket/).
 
-## <a name="wheretogo"></a>Where to go from here
+## Where to go from here
 Read Next: [Big Data Common Architecture](../common-architectures/big-data.md)
 
 See also:

@@ -7,9 +7,9 @@
 [Capability matrix](#matrix)   
 [Where to go from here](#wheretogo)  
 
-<a name="about"></a>
 
-## <a name="options"></a> What are your options when choosing a data transfer method?
+
+## What are your options when choosing a data transfer method?
 There are several options for transferring data to and from Azure, depending on your needs:
 
 - Physical transfer:
@@ -60,7 +60,7 @@ The [detailed steps for using this service](https://docs.microsoft.com/azure/sto
 
 Azure Data Box is supported by a number of industry-leading Azure partners to make it easier to seamlessly leverage offline transport to the cloud from their products. Partners include Commvault, Veritas, Peer, Veeam, CloudLanes, NetApp, WANdisco, Rubrik, and many more.
 
-### <a name="cli"></a> Command line tools and APIs
+### Command line tools and APIs
 
 These options should be considered when you want scripted and programmatic data movement, to integrate data movement into an existing application, and to automate your data transfer workloads.
 
@@ -133,7 +133,7 @@ In order to use the Hadoop command, you must first connect to the head node. Onc
 
 `hadoop -copyFromLocal <localFilePath> <storageFilePath>`
 
-### <a name="gui"></a> Graphical user interface tools
+### Graphical user interface tools
 
 #### Azure Storage Explorer
 
@@ -149,14 +149,14 @@ Both Blob storage and Data Lake Store provide a web-based interface for explorin
 
 If your data store is behind a firewall and you are using v1 of Data Factory, use a [data management gateway](https://docs.microsoft.com/azure/data-factory/v1/data-factory-data-management-gateway) that's installed in your on-premises environment to move the data instead. If using version 2 of Data Factory, use the new self-hosted [integration runtime](https://docs.microsoft.com/azure/data-factory/create-self-hosted-integration-runtime) (IR) in place of the data management gateway.
 
-### <a name="data-ingest"></a> Data ingest
+### Data ingest
 
 Your data sources may need to be ingested into Azure, rather than simply copied from a data storage location. An example of this is ingesting telemetry data from internet of things (IoT) devices. Other examples include clickstream data from web applications, or distributed software. Read the [data ingest](../technology-choices/data-ingest.md) technology choices article for more information.
 
-## <a name="howtochoose"></a> How do you choose?
+## How do you choose?
 Each data transfer solution brings with it a unique set of capabilities, giving you the option to select the one that most closely meets your requirements.
 
-## <a name="criteria"></a> Key Selection Criteria
+## Key Selection Criteria
 
 For data transfer scenarios, choose the appropriate system for your needs by answering these questions:
 
@@ -169,7 +169,7 @@ For data transfer scenarios, choose the appropriate system for your needs by ans
 - Do you need to transfer data to/from a relational database?
     - If yes, narrow your options to those that support one or more relational databases, taking note of which options also require a Hadoop cluster, which may or may not fit your needs.
 
-## <a name="matrix"></a> Capability matrix
+## Capability matrix
 
 Based on your responses to the questions above, the following tables will help you select the choice that's right for you.
 
@@ -219,7 +219,7 @@ Based on your responses to the questions above, the following tables will help y
 
 \* Azure portal in this case means using the web-based exploration tools for Blob storage and Data Lake Store. This excludes using the portal for other services, such as Azure Data Factory.
 
-## <a name="wheretogo"></a>Where to go from here
+## Where to go from here
 Read next: [Data Pipeline Common Architecture](../common-architectures/data-pipeline.md)
 
 See also:

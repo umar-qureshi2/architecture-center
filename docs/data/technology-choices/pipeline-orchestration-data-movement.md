@@ -7,19 +7,19 @@
 [Capability matrix](#matrix)   
 [Where to go from here](#wheretogo)  
 
-<a name="about"></a>
 
-## <a name="options"></a> What are your options for pipeline orchestration, control flow, and data movement?
+
+## What are your options for pipeline orchestration, control flow, and data movement?
 In Azure, the following services and tools will meet the core requirements for pipeline orchestration, control flow, and data movement:
 
 - [Azure Data Factory](https://docs.microsoft.com/azure/data-factory/)
 - [Oozie on HDInsight](https://docs.microsoft.com/azure/hdinsight/hdinsight-use-oozie-linux-mac)
 - [SQL Server Integration Services (SSIS)](https://docs.microsoft.com/sql/integration-services/sql-server-integration-services)
 
-## <a name="howtochoose"></a> How do you choose?
+## How do you choose?
 These services and tools can be used independently from one another, or at times, used together to create a hybrid solution for your data pipeline needs. For instance, the new Integration Runtime (IR) in Azure Data Factory V2 is capable of natively executing SSIS packages in a managed Azure compute environment. While there is some overlap in functionality between these services, there are a few key differences that will lead you to select one over the other in certain situations.
 
-## <a name="criteria"></a> Key Selection Criteria
+## Key Selection Criteria
 
 Answer the following questions to help you narrow down your choices, then use the matrices below to select your options for your scenario: <!--I like this intro text, it's different than the ones that talk about the tables first that I typically flag. Maybe use this consistently?-->
 
@@ -32,7 +32,7 @@ Answer the following questions to help you narrow down your choices, then use th
 - Is your source data stored in Blob storage on an HDFS filesystem?
     - Look for options that support Hive queries.
 
-## <a name="matrix"></a> Capability matrix
+## Capability matrix
 
 ### General capabilities
 
@@ -67,7 +67,7 @@ Answer the following questions to help you narrow down your choices, then use th
 | Scale out | Yes | No | Yes (by adding worker nodes to cluster) |
 | Optimized for big data | Yes | No | Yes |
 
-## <a name="wheretogo"></a>Where to go from here
+## Where to go from here
 Read next:
 [Data Warehouse Pipeline Pattern](../pipeline-patterns/data-warehousing.md)
 

@@ -7,7 +7,7 @@
 [Hybrid in Azure](#inazure)   
 [Where to go from here](#wheretogo)  
 
-<a name="about"></a>
+
 There has been an upward trend for the past several years of businesses moving to the cloud. The reasons are numerous, given the benefits cloud architectures bring, such as eliminating the need to procure and maintain physical servers, taking advantage of the latest innovations unique to the cloud, and virtually endless scalability of your solutions. But on-premises datacenters also have an important role to play, both today and in the future. For many organizations, integrating these two to create a hybrid cloud is essential.
 
 Hybrid cloud uses compute or storage resources on your on-premises network and in the cloud. You can use hybrid cloud as a path to migrate your business and its IT needs to the cloud or integrate cloud platforms and services with your existing on-premises infrastructure as part of your overall IT strategy.
@@ -51,11 +51,11 @@ Another option is to move a portion of the data to cloud storage, while keeping 
 
 In situations where you desire to keep all of your data on-premises, yet harness the compute power and accessibility of the cloud, you could consider using a hybrid application. To do this, you would host your application (compute, web/mobile, data, analytics, IoT, media, and so on) in the cloud and connect it to your on-premises data store over a secure connection.
 
-## <a name="whentouse"></a>When to use this architecture
+## When to use this architecture
 
 There are several strong cases for hybrid cloud, such as meeting industry regulations for how and where data can be stored. When connectivity and latency issues have a performance impact on your ability to transfer data between your on-premises data stores and the cloud, you may opt to maintain select data to work with locally. A hybrid approach to cloud could make sense for using existing on-premises technology as an asset in digital transformation as opposed to treating them as purely legacy investments. Once you realize that cloud doesn't have to be an all or nothing prospect, there are many ways to harness the power of the cloud while maximizing your current investments.
 
-## <a name="benefits"></a>Benefits
+## Benefits
 
 Using a hybrid on-premises and cloud solution offers the following benefits:
 
@@ -69,7 +69,7 @@ Using a hybrid on-premises and cloud solution offers the following benefits:
 * Reducing operational risk by cloud-based backup and/or disaster recovery strategies.
 * Leveraging public cloud-based services to extend management capabilities.
 
-## <a name="challenges"></a>Challenges
+## Challenges
 
 Establishing a hybrid architecture can include <!--Not sure this is the best word choice, but the common meanings of surface may confuse ESL readers.--> some of the following challenges:
 
@@ -77,7 +77,7 @@ Establishing a hybrid architecture can include <!--Not sure this is the best wor
 * Creating a reliable, low latency and secure data connection between your on-premises and cloud environments.
 * Replicating your data and modifying your applications and tools to use the correct data stores within each environment.
 
-## <a name="inazure"></a>Hybrid in Azure
+## Hybrid in Azure
 
 Enabling a consistent hybrid cloud experience across on-premises and the cloud has long been a goal of Azure. As the diagram below shows, Azure provides consistent solutions to the four areas covered at the beginning of this topic: identity, management and security, data platform, and development/DevOps.
 
@@ -160,7 +160,7 @@ An ExpressRoute circuit connects to the Azure region where the circuit is provis
 
 Compare your options with a set of [Hybrid network reference architectures](https://docs.microsoft.com/azure/architecture/reference-architectures/hybrid-networking/index).
 
-## <a name="wheretogo"></a>Where to go from here
+## Where to go from here
 Read next:
 [Pipeline Orchestration, Control Flow, and Data Movement technology choices](../technology-choices/pipeline-orchestration-data-movement.md)
 

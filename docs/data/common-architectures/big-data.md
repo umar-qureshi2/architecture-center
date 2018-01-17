@@ -9,7 +9,7 @@
 [Internet of Things](#internetofthings)  <!--leaving caps per the style guide.-->
 [Where to go from here](#wheretogo)  
 
-<a name="about"></a>
+
 A big data architecture is designed to handle the ingestion, processing, and analysis of data that is too large or complex for traditional database systems. The threshold at which organizations enter into the big data realm differs, depending on the capabilities of the users and their tools. For some, it can mean hundreds of gigabytes of data, while for others it means hundreds of terabytes. As tools to help you work with big data sets advance, so does the meaning of big data. More and more, this term relates to the value you can extract from your data sets through advanced analytics, like predictive or user behavior analytics, than strictly the size of your data set, though in these cases they tend to be quite large.
 
 Over the years, the data landscape has changed. What you can do, or are expected to do, with that data has changed. The cost of storage keeps plummeting, while the means by which data is collected keeps growing. The old data doesn't just go away, in many respects.<!--It feels like there should be somethng that follows "respects" here. Otherwise this sentence feels like a throw away.--> Some data arrives at a rapid pace, constantly demanding to be collected and observed. Other data comes in slow, but in very large chunks, oftentimes in the form of decades of historical data. You might be facing an advanced analytics problem, or one that requires machine learning. These are all examples of challenges that big data architectures seek to solve.
@@ -51,7 +51,7 @@ Most big data architectures include some or all of the following components:
 
 * **Orchestration**: Most big data solutions consist of repeated data processing operations, encapsulated in workflows, that transform source data, move data between multiple sources and sinks, load the processed data into an analytical data store, or push the results straight to a report or dashboard. To automate these workflows, you can use an orchestration technology such Azure Data Factory or Apache Oozie and Sqoop.
 
-## <a name="datalake"></a> Data lake
+## Data lake
 If you have read anything about big data before now, it is very likely you've seen or heard the term _data lake_. You may have seen the word used for the name of a product, or perhaps a concept about storing large quantities of data. Before we start talking about data lake technologies, let us first define the concept of a data lake.
 
 A data lake consists of both storage and processing. Data lake storage is built with several goals in mind: fault-tolerance, infinite scalability, optimized for both real-time and long-term storage ingestion velocities of data with varying shapes and sizes. Data lake processing involves one or more processing engines built with these goals in mind, and can operate on data stored in a data lake at scale.
@@ -63,7 +63,7 @@ Another term commonly used in data scenarios, is _datamart_. Typically, a datama
 Relevant Azure service:
 - [Azure Data Lake](https://azure.microsoft.com/solutions/data-lake/)
 
-### <a name="lambdaarchitecture"></a> Lambda architecture
+### Lambda architecture
 
 The lambda architecture is a pipeline architecture originally devised with the goal to reduce complexity of a real-time analytics pipeline by constraining incremental computation activities to only a small portion of this architecture. This is accomplished by creating two paths for data flow into the pipeline:
 
@@ -79,7 +79,7 @@ Data flowing into the cold path, on the other hand, is not subject to the same l
 
 Eventually, the hot and cold paths converge at the analytics client application. If the client needs to display timely, yet potentially less accurate data in real time, it will acquire its result from the hot path. Otherwise, it will select results from the cold path to display less timely but more accurate data. In other words, the hot path has data for a relatively small window of time, after which the results can be updated with more accurate data from the cold path.
 
-### <a name="kappaarchitecture"></a> Kappa architecture
+### Kappa architecture
 
 The kappa architecture is another type of pipeline with the same basic goals as the lambda architecture, but with one important distinction: all data (called events in this architecture) flows through a single hot path, where all processing occurs in a near-real-time streaming mode. It was created due to the nature of lambda architectures containing two paths, leading to potentially duplicate computation logic and the complexity of managing the architecture for both paths. Because there is no cold path in this architecture, any recomputation of data is performed by streaming through the kappa pipeline once again.
 
@@ -87,7 +87,7 @@ The kappa architecture is another type of pipeline with the same basic goals as 
 
 There are some similarities to the lambda architecture's cold path, in that the event data is immutable and all of it is collected, instead of a subset. The data, or events, are ingested into a distributed and fault tolerant unified log, of which there is a single deployment. These events are ordered, and the current state of an event is changed only by a new event being appended. Similar to a lambda architecture's hot path, all processing of events is performed on the input streams and persisted as a real-time view. This data can be recomputed at any point, as it is persisted to scalable, fault-tolerant storage.
 
-### <a name="internetofthings"></a> Internet of Things (IoT)
+### Internet of Things (IoT)
 
 From a practical viewpoint, Internet of Things (IoT) represents any device that is connected to the Internet. This includes your PC, mobile phone, smart watch, smart thermostat, smart refrigerator, connected automobile, heart monitoring implants, and anything else that connects to the Internet and sends or receives data. The number of connected devices grows every day, as does the amount of data collected from them. Oftentimes this data is being collected on the edge, in highly constrained, sometimes high latency environments. In other cases, data is sent from low latency environments by thousands or millions of devices, requiring the ability to rapidly ingest the barrage of data and process accordingly. Therefore, proper planning is required to handle these constraints and unique requirements.
 
@@ -126,7 +126,7 @@ Relevant Azure service:
 
 Learn more about IoT on Azure by reading the [Azure IoT reference architecture](https://azure.microsoft.com/updates/microsoft-azure-iot-reference-architecture-available/).
 
-## <a name="wheretogo"></a>Where to go from here
+## Where to go from here
 
 Read next: [Processing CSV and JSON Files pipeline pattern](../pipeline-patterns/processing-csv-and-json-files.md)
 

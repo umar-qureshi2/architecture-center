@@ -25,7 +25,7 @@ This guide covers the big picture concepts in [common data architectures](./comm
 
 At the end of each article a read next link is provided that you can follow to take a linear path through the content. In addition, links to alternate and related content are provided to guide you to material that provides additional perspective on the options. 
 
-## <a name="implementation-examples"></a>Implementation examples
+## Implementation examples
 
 The following examples are technology implementations we have seen directly in our customer engagements. The examples can help lead you into the content to make the right technology choices for your business.
 
@@ -261,7 +261,7 @@ Capture web application logs and custom telemetry with [Application Insights](ht
     * [Options for pipeline orchestration, control flow, and data movement](./technology-choices/pipeline-orchestration-data-movement.md)
     * [Data ingest](./technology-choices/data-ingest.md)
 
-## <a name="wheretogo"></a>Where to go from here
+## Where to go from here
 Read next:
 [Common data architectures](./common-architectures/overview.md)
 

@@ -7,7 +7,7 @@
 [Secure solutions in Azure](#inazure)   
 [Where to go from here](#wheretogo)  
 
-<a name="about"></a>
+
 For many, making data accessible in the cloud, particularly when transitioning from working exclusively in on-premises data stores, can cause some concern around increased accessibility to that data and new ways in which to secure it.
 
 Security in the cloud is a partnership between you and your cloud provider. Your cloud provider provides you security controls and capabilities to help you protect your data and applications, while you own your data and identities and the responsibility for protecting them, the security of your on-premises resources, and the security of cloud components you control.
@@ -57,11 +57,11 @@ Get to know the various types of logs provided by your cloud platform, as well a
 
 Learn more about [logging and auditing in Azure](https://docs.microsoft.com/azure/security/azure-log-audit).
 
-## <a name="whentouse"></a>When to use this architecture
+## When to use this architecture
 
 Security should be part of your plan from the beginning of your project lifecycle. For many, the security capabilities a cloud provider offers is the first indicator of its viability for their solution.
 
-## <a name="benefits"></a>Benefits
+## Benefits
 
 Using a secure solution offers the following benefits:
 
@@ -71,7 +71,7 @@ Using a secure solution offers the following benefits:
 * Protect your users' important information; gain and maintain their trust.
 * Proper security monitoring and auditing goes beyond simply keeping your data safe - those practices also help ensure the health and stability of your applications in the cloud.
 
-## <a name="challenges"></a>Challenges
+## Challenges
 
 Establishing a secure solution can cause you to face some of the following challenges:
 
@@ -79,7 +79,7 @@ Establishing a secure solution can cause you to face some of the following chall
 * Implementing encryption and authorization management across your applications and services.
 * Ensuring that centralized identity management works across all of your solution components, whether on-premises or in the cloud.
 
-## <a name="inazure"></a>Secure solutions in Azure
+## Secure solutions in Azure
 
 Starting with data protection, how you secure your data at rest in Azure depends on where you are keeping it. When using Azure to host your virtual machines, you can leverage [Azure Disk Encryption](https://docs.microsoft.com/azure/security/azure-security-disk-encryption) on your Linux or Windows VMs to help protect and safeguard your data stored by encrypting the attached disks. This solution integrates with [Azure Key Vault](https://docs.microsoft.com/azure/key-vault/) to help you safely control and manage the disk-encryption keys and secrets in your key vault subscription. [Azure Storage Service Encryption](https://docs.microsoft.com/azure/storage/common/storage-service-encryption) for data at rest enables Azure Storage to automatically encrypt your data prior to persisting to storage, and decrypts prior to retrieval. The encryption, decryption, and key management are totally transparent to users. You can use a combination of [Client-Side Encryption and Azure Key Vault](https://docs.microsoft.com/azure/storage/common/storage-client-side-encryption) to easily encrypt at the client before sending your data to Azure Storage.
 
@@ -104,7 +104,7 @@ For security monitoring on your managed Azure SQL Database instances, you can ta
 For information on securing your own application code that runs in the cloud, refer to the [cloud design security patterns](https://docs.microsoft.com/azure/architecture/patterns/category/security) article, and consider following the code security best practices found in the Microsoft [Security Development Lifecycle](https://www.microsoft.com/sdl) (SDL) to minimize
 vulnerabilities and their security impact.
 
-## <a name="wheretogo"></a>Where to go from here
+## Where to go from here
 Read Next:
 - [Monitoring Data Solutions](../pipeline-patterns/monitoring-data-solutions.md)
 

@@ -13,15 +13,15 @@
 [External index data](#externalindexdata)  
 [Where to go from here](#wheretogo)  
 
-<a name="about"></a>
+
 Non-relational data is not represented in the tabular schema of rows and columns used by many traditional databases, but is instead represented in a storage model that better suits the specific requirements of the application in which the data is used. For example, the data may stored as simple key/value pairs, as JSON documents, or as a graph consisting of edges and vertices. These data stores break from the tradition of representing the data in a relational model and tend to more specific in the type of data they support, and in the ways in which the data can be queried. For example, time series data stores are optimized for supporting queries over time based sequences of data, and graph data stores are optimized for exploring weighted relationships between entities. Neither format would generalize well to the task of managing transactional data. 
 
 NoSQL refers to data stores that do not use SQL for performing their querying, and instead use other programming languages and constructs to query the data. In practice, when the term No-SQL is used, what is really meant is non-relational. This is because overtime, many non-relational data stores have added in SQL compatible query support. So while they have remained non-relational, they are no longer strictly No-SQL.  <!--The MS style to to avoide semicolons because they can make it harder for ESL readers to parse the sentence. They suggest breaking into two.-->
 
-## <a name="common"></a> Common data architectures
+## Common data architectures
 There are various non-relational data stores that take their own unique approach to data storage, data representation, data processing, and querying&mdash;and by extension have their own data architecture. The following introduces each.
 
-### <a name="documentdata"></a> Document data stores
+### Document data stores
 A document data store manages a set of named string fields and object data values in an entity referred to as a document. The term document refers to the fact that these data stores typcially store their data in the form of JSON documents. Each field value could be a simple scalar item or a compound element, such as a list or a parent-child collection. The data in the fields of a document can be encoded in a variety of ways, including XML, YAML, JSON, BSON, or even stored as plain text. The fields within documents are exposed to the storage management system, enabling an application to query and filter data by using the values in these fields.  
 
 Typically, a document contains the entire data for an entity. What items constitute an entity are application specific. For example, an entity could contain the details of a customer, an order, or a combination of both. A single document might contain information that would be spread across several relational tables in a relational database management system (RDBMS). A document store does not require that all documents have the same structure. This free-form approach provides a great deal of flexibility. For example, applications can store different data in documents in response to a change in business requirements.  
@@ -35,7 +35,7 @@ Many document databases support in-place updates, enabling an application to mod
 Relevant Azure service:  
 - [Azure Cosmos DB](https://azure.microsoft.com/services/cosmos-db/)
 
-### <a name="columnardata"></a> Columnar data stores
+### Columnar data stores
 A columnar or column-family data store organizes data into columns and rows. In its simplest form, a column-family data store can appear very similar to a relational database, at least conceptually. The real power of a column-family database lies in its denormalized approach to structuring sparse data, which stems from the column- oriented approach to the storage of data taken.  
 
 You can think of a column-family data store as holding tabular data with rows and columns, but the columns are divided into groups known as column families. Each column family holds a set of columns that are logically related together and are typically retrieved or manipulated as a unit. Other data that is accessed separately can be stored in separate column families. Within a column family, new columns can be added dynamically, and rows can be sparse (that is, a row doesn't need to have a value for every column). 
@@ -53,7 +53,7 @@ Read and write operations for a row are usually atomic within a single column fa
 Relevant Azure service:  
 - [HBase in HDInsight](https://docs.microsoft.com/azure/hdinsight/hdinsight-hbase-overview)
 
-### <a name="keyvaluedata"></a> Key/value data stores
+### Key/value data stores
 A key/value store is essentially a large hash table. You associate each data value with a unique key, and the key/value store uses this key to store the data by using an appropriate hashing function. The hashing function is selected to provide an even distribution of hashed keys across the data storage.
 
 Most key/value stores only support simple query, insert, and delete operations. To modify a value (either partially or completely), an application must overwrite the existing data for the entire value. In most implementations, reading or writing a single value is an atomic operation. If the value is large, writing may take some time.
@@ -73,7 +73,7 @@ Relevant Azure services:
 - [Azure Redis Cache](https://azure.microsoft.com/services/cache/)  
 - [Azure Table Storage](https://azure.microsoft.com/services/storage/tables/)
 
-### <a name="graphdata"></a> Graph data stores
+### Graph data stores
 A graph data store manages two types of information, nodes and edges. Nodes represent entities, and edges specify the relationships between these entities. Both nodes and edges can have properties that provide information about that node or edge, similar to columns in a table. Edges can also have a direction indicating the nature of the relationship.  
 
 The purpose of a graph data store is to allow an application to efficiently perform queries that traverse the network of nodes and edges, and to analyze the relationships between entities. The follow diagram shows an organization's personnel data structured as a graph. The entities are employees and departments, and the edges indicate reporting relationships and the department in which employees work. In this graph, the arrows on the edges show the direction of the relationships.
@@ -85,7 +85,7 @@ This structure makes it straightforward to perform queries such as "Find all emp
 Relevant Azure service:  
 - [Azure Cosmos DB](https://azure.microsoft.com/services/cosmos-db/)  
 
-### <a name="timeseriesdata"></a> Time series data stores
+### Time series data stores
 Time series <<!--Not sure why column-family is typically hyphenated when it's a compound modifier and time series is not, but a quick search shows this is the case so I'm leaving it as is.--> data is a set of values organized by time, and a time series data store is optimized for this type of data. Time series data stores must support a very high number of writes, as they typically collect large amounts of data in real time from a large number of sources. Time series data stores are optimized for storing telemetry data. Scenarios include IoT sensors or application/system counters.   
 
 ![Example of time series data](./images/time-series.png)
@@ -96,7 +96,7 @@ Relevant Azure service:
 - [Azure Time Series Insights](https://azure.microsoft.com/services/time-series-insights/)  
 - [OpenTSDB with HBase on HDInsight](https://docs.microsoft.com/azure/hdinsight/hdinsight-hbase-overview)
 
-### <a name="objectdata"></a> Object data stores
+### Object data stores
 Object data stores are optimized for storing and retrieving large binary objects or blobs such as images, text files, video and audio streams, large application data objects and documents, and virtual machine disk images. Objects are composed of the stored data, some metadata, and a unique ID for accessing the object. Object stores are designed to support files that are individually very large, as well provide large amounts of total storage to manage all files.  
 
 ![Example of object data](./images/object.png)
@@ -111,7 +111,7 @@ Relevant Azure service:
 - [Azure File Storage](https://azure.microsoft.com/services/storage/files/)  
 
 
-### <a name="externalindexdata"></a> External index data stores
+### External index data stores
 External index data stores provide the ability to search for information held in other data stores and services. External index data stores effectively provide a secondary index for any data store, and can be used to index massive volumes of data and provide near real-time access to these indexes. For example, in a file system the primary index used to uniquely identify a file is defined by the full path to the file. This makes searching for a file fast if you know its full path, but what if you want to search based on the contents of the file or some alternate metadata about the file? An external index lets you create these secondary search indexes and quickly retrieve the path to the files that match your criteria. Another example application of an external index is with key/value stores that only index the key for querying&mdash;if you have to be able to quickly query using data stored in the value, then you can build a secondary index on the value component of the data in an external index and use the result to return the key that uniquely identifies each matched item. 
 
 ![Example of search data](./images/search.png)
@@ -124,7 +124,7 @@ Relevant Azure service:
 - [Azure Search](https://azure.microsoft.com/services/search/)
 
 
-<a name="requirements"></a>
+
 ### Typical requirements
 Non-relational data stores often use a different storage architecture from that used by relational databases to address the requirements of the type of data they manage. Specifically, they tend towards having no fixed schema, thus enabling agility in evolving storage with the client application needs. Additionally, they tend not to support transactions (or they restrict the scope of transactions) and they generally don't include secondary indexes for scalability reasons.
 
@@ -150,7 +150,7 @@ The following compares the requirements for each of the non-relational data stor
 | Overall Maximum Scale | Very Large (PBs) | Very Large (PBs) | Very Large (PBs) | Large (TBs) | Large (low TBs)  | Very Large (PBs) | Large (low TBs) | 
 
 
-## <a name="wheretogo"></a>Where to go from here
+## Where to go from here
 Read next: Handling Unstructured Data Solution Pattern<!--This doesn't appear to exist.Did you want to link to the two patterns below? If so, they probably don't need to be repeated here.-->
 
 See also: <!--These needed links. Some seem to map and others don't so I wasn't sure how you wanted them organized. I took my best guess. Also, actual titles of docs can be in title caps, everything else should be in sentence caps. Again, I did a little guessing here.-->

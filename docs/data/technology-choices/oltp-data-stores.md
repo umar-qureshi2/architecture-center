@@ -7,9 +7,9 @@
 [Capability matrix](#matrix)   
 [Where to go from here](#wheretogo)  
 
-<a name="about"></a>
 
-## <a name="options"></a> What are your options when choosing an OLTP data store?
+
+## What are your options when choosing an OLTP data store?
 In Azure, all of the following data stores will meet the core requirements for OLTP and for the management of transaction data:
 - [Azure SQL Database](https://docs.microsoft.com/azure/sql-database/)
 - Azure SQL Database Managed Instance
@@ -17,10 +17,10 @@ In Azure, all of the following data stores will meet the core requirements for O
 - [Azure Database for MySQL](https://docs.microsoft.com/azure/mysql/)
 - [Azure Database for PostgreSQL](https://docs.microsoft.com/azure/postgresql/)
 
-## <a name="howtochoose"></a> How do you choose?
+## How do you choose?
 Each data store brings with it a unique set of capabilities, giving you the option to select the one that most closely meets your requirements. 
 
-## <a name="criteria"></a> Key selection criteria
+## Key selection criteria
 
 The following table summarize the key differences in capabilities between each option. For the OLTP scenarios, begin choosing the appropriate database for your needs by answering these questions:
 
@@ -39,7 +39,7 @@ The following table summarize the key differences in capabilities between each o
 - Does your database have specific security needs?
     - If yes, examine the options that provide capabilities like row level security, data masking, and transparent data encryption.
 
-## <a name="matrix"></a> Capability matrix
+## Capability matrix
 
 ### General capabilities 
 | | Azure SQL Database | Azure SQL Database managed instance | SQL Server in an Azure virtual machine | Azure Database for MySQL | Azure Database for PostgreSQL |
@@ -89,7 +89,7 @@ The following table summarize the key differences in capabilities between each o
 | [Always Encrypted](https://docs.microsoft.com/sql/relational-databases/security/encryption/always-encrypted-database-engine) | Yes | Yes | Yes | No | No |
 | Private IP | No | Yes | Yes | No | No |
 
-## <a name="wheretogo"></a>Where to go from here
+## Where to go from here
 Read next:
  [Data Warehousing Pipeline Pattern](../pipeline-patterns/data-warehousing.md)
 

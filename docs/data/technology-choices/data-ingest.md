@@ -7,9 +7,9 @@
 [Capability matrix](#matrix)   
 [Where to go from here](#wheretogo)  
 
-<a name="about"></a>
 
-## <a name="options"></a> What are your options when choosing a data ingest method?
+
+## What are your options when choosing a data ingest method?
 There are several options for ingesting data into Azure, depending on your needs:
 
 - [File storage](#filestorage)
@@ -23,7 +23,7 @@ There are several options for ingesting data into Azure, depending on your needs
     - [Azure IoT Hub](https://docs.microsoft.com/azure/iot-hub/)
     - [Kafka on HDInsight](https://docs.microsoft.com/azure/hdinsight/kafka/apache-kafka-get-started)
 
-### <a name="filestorage"></a> File storage
+### File storage
 
 #### Azure Storage blobs
 
@@ -60,7 +60,7 @@ As an alternative to Azure Storage, Data Lake Store can be accessed from Hadoop 
 
 Coupled with Azure Data Lake Analytics, Data Lake Store is specifically designed to enable analytics on the stored data and is tuned for performance for data analytics scenarios. Data Lake Store can also be accessed via Azure SQL Data Warehouse using its PolyBase feature.
 
-### <a name="nosql"></a> NoSQL databases
+### NoSQL databases
 
 #### Azure Cosmos DB
  <!--Style guide says it's always Azure Cosmos DB.-->
@@ -84,7 +84,7 @@ Data is stored in the rows of a table, and data within a row is grouped by colum
 
 The [HDInsight implementation](https://docs.microsoft.com/azure/hdinsight/hbase/apache-hbase-overview) leverages the scale-out architecture of HBase to provide automatic sharding of tables, strong consistency for reads and writes, and automatic failover. Performance is enhanced by in-memory caching for reads and high-throughput streaming for writes. In most cases, you'll want to [create the HBase cluster inside a virtual network](https://docs.microsoft.com/azure/hdinsight/hbase/apache-hbase-provision-vnet) so other HDInsight clusters and applications can directly access the tables.
 
-### <a name="streaming"></a> Streaming/real-time ingest
+### Streaming/real-time ingest
 
 #### Azure Event Hubs
 
@@ -120,11 +120,11 @@ Some common use cases for Kafka are:
 * **Aggregation**: Using stream processing, you can aggregate information from different streams to combine and centralize the information into operational data.
 * **Transformation**: Using stream processing, you can combine and enrich data from multiple input topics into one or more output topics.
 
-## <a name="howtochoose"></a> How do you choose?
+## How do you choose?
 
 Each data ingest service brings with it a unique set of capabilities, giving you the option to select the one that most closely meets your requirements.
 
-## <a name="criteria"></a> Key selection criteria
+## Key selection criteria
 
 For data ingest scenarios, choose the appropriate system for your needs by answering these questions:
 
@@ -143,7 +143,7 @@ For data ingest scenarios, choose the appropriate system for your needs by answe
 - Can you use the service in your region?
     - Check the [regional availability for each Azure service](https://azure.microsoft.com/regions/#services) to find out. If the service you want to use is not in your region, or nearby, then that could automatically disqualify it from your options. This is especially true in situations when data sovereignty is a high priority.
 
-## <a name="matrix"></a> Capability matrix
+## Capability matrix
 
 Based on your responses to the questions above, the following tables will help you select the choice that's right for you.
 
@@ -201,7 +201,7 @@ Based on your responses to the questions above, the following tables will help y
 | File upload | Enables IoT solutions to upload files from devices to the cloud. Includes a file notification endpoint for workflow integration and an operations monitoring category for debugging support. | Not supported | Not supported |
 | Route messages to multiple endpoints | Up to 10 custom endpoints are supported. Rules determine how messages are routed to custom endpoints. For more information, see [Send and receive messages with IoT Hub](https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-messaging). | Requires additional code to be written and hosted for message dispatching | Kafka partitions streams across the nodes in the HDInsight cluster. Consumer processes can be associated with individual partitions to provide load balancing when consuming records. |
 
-## <a name="wheretogo"></a>Where to go from here
+## Where to go from here
 Read next: [Data Pipeline Common Architecture](../common-architectures/data-pipeline.md)
 
 See also:

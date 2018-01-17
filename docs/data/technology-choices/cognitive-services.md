@@ -27,7 +27,7 @@ Considerations:
 * Only available over the web&mdash;Internet connectivity is generally required. The primary exception to this is the Custom Vision Service, whose trained model you can export for prediction on devices and at the IoT edge.
 * Although considerable customization is supported, the available services may not suit all predictive analytics requirements.
 
-## <a name="options"></a> What are your options when choosing amongst the cognitive services?
+## What are your options when choosing amongst the cognitive services?
 In Azure, there are dozens of Cognitive Services available. The current listing of these is available in a directory categorized by the functional area they support:
 - [Vision](https://azure.microsoft.com/en-us/services/cognitive-services/directory/vision/)
 - [Speech](https://azure.microsoft.com/en-us/services/cognitive-services/directory/speech/)
@@ -35,10 +35,10 @@ In Azure, there are dozens of Cognitive Services available. The current listing 
 - [Search](https://azure.microsoft.com/en-us/services/cognitive-services/directory/search/)
 - [Language](https://azure.microsoft.com/en-us/services/cognitive-services/directory/lang/)
 
-## <a name="howtochoose"></a> How do you choose?
+## How do you choose?
 Each cognitive service is purpose built to meet a particular application requirement and as such brings with it a unique set of capabilities.  
 
-## <a name="criteria"></a> Key Selection Criteria
+## Key Selection Criteria
 
 The following tables summarize the key differences in capabilities between each of the cognitive services. <!--See note from analysis-visualizations-reporting.md-->A good way to begin finding the right service is by answering these questions:
 - What type of data are you dealing with?
@@ -47,7 +47,7 @@ The following tables summarize the key differences in capabilities between each 
     - If yes, consider the custom services that enable you to train their underlying models with data you provide for improved accuracy and performance. 
 
 
-## <a name="matrix"></a> Capability matrix
+## Capability matrix
 
 ### Uses prebuilt models
 | | Input type | Key benefit |
@@ -87,7 +87,7 @@ The following tables summarize the key differences in capabilities between each 
 | Bing Custom Search API | Text (web search query) | An easy to use, ad free, commercial-grade search tool that lets you deliver the results you want |
 
 
-## <a name="wheretogo"></a>Where to go from here
+## Where to go from here
 Read next: [Data Science and Machine Learning](../technology-choices/data-science-and-machine-learning.md)
 
 See also:

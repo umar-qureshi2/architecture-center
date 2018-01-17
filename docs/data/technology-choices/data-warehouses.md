@@ -7,9 +7,9 @@
 [Capability matrix](#matrix)   
 [Where to go from here](#wheretogo)  
 
-<a name="about"></a>
 
-## <a name="options"></a> What are your options when choosing a data warehouse?
+
+## What are your options when choosing a data warehouse?
 There are several options for implementing a data warehouse in Azure, depending on your needs:<!--I would probably have the text below these options first. In fact, I originally had a comment about whether we needed to spell out SMP and MPP for the audience. If the reader isn't familiar with these concepts would they really benefit from going off and reading the material at the links without the context provided by the info below?-->
 
 SMP (small/medium data):
@@ -39,10 +39,10 @@ Read more about SQL Data Warehouse patterns and common scenarios:
 - [Migrating Data to Azure SQL Data Warehouse](https://blogs.msdn.microsoft.com/sqlcat/2016/08/18/migrating-data-to-azure-sql-data-warehouse-in-practice/)
 - [Common ISV Application Patterns Using Azure SQL Data Warehouse](https://blogs.msdn.microsoft.com/sqlcat/2017/09/05/common-isv-application-patterns-using-azure-sql-data-warehouse/)
 
-## <a name="howtochoose"></a> How do you choose?
+## How do you choose?
 Each data warehouse solution brings with it a unique set of capabilities, giving you options in selecting the one that most closely meets your requirements.
 
-## <a name="criteria"></a> Key selection criteria
+## Key selection criteria
 
 For data warehouse scenarios, choose the appropriate system for your needs by answering these questions:
 
@@ -63,7 +63,7 @@ For data warehouse scenarios, choose the appropriate system for your needs by an
 - What sort of workload do you have?
     - In general, MPP-based warehouse solutions are best suited for analytical, batch-oriented workloads. If your workloads are transactional by nature, with many small read/write operations or multiple row-by-row operations, consider using one of the SMP options. One exception to this guideline is when using stream processing on an HDInsight cluster, such as Spark Streaming, and storing the data within a Hive table.
 
-## <a name="matrix"></a> Capability Matrix
+## Capability Matrix
 
 Based on your responses to the questions above, the following tables will help you select the choice that's right for you.
 
@@ -122,7 +122,7 @@ Read more about securing your data warehouse:
 * [Extend Azure HDInsight using an Azure Virtual Network](https://docs.microsoft.com/azure/hdinsight/hdinsight-extend-hadoop-virtual-network)
 * [Enterprise-level Hadoop security with domain-joined HDInsight clusters](https://docs.microsoft.com/azure/hdinsight/domain-joined/apache-domain-joined-introduction)
 
-## <a name="wheretogo"></a>Where to go from here
+## Where to go from here
 Read next:
 [Online Transaction Processing (OLTP) pipeline pattern](../pipeline-patterns/online-transaction-processing.md)
 

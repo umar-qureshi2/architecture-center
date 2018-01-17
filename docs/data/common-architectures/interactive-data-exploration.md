@@ -24,7 +24,7 @@ Relevant Azure service:
 - [Azure Machine Learning Experimentation Services](https://docs.microsoft.com/azure/machine-learning/preview/experimentation-service-configuration)
 - [The Data Science Virtual Machine](https://docs.microsoft.com/azure/machine-learning/data-science-virtual-machine/overview)
 
-## <a name="wheretogo"></a>Where to go from here
+## Where to go from here
 
 Read next: [Relational Data Common Architecture](./relational-data.md)
 

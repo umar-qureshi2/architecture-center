@@ -7,7 +7,7 @@
 [Capability matrix](#matrix)   
 [Where to go from here](#wheretogo)  
 
-<a name="about"></a>
+
 
 In the [big data](../common-architectures/big-data.md) common architecture, we reviewed the overall layout and uses of both the lambda and kappa architectures. Both of these pipelines require an analytical data store that serves processed data in a structured format that can be queried using analytical tools. The analytical data stores that support querying of both hot path data and cold path data by client applications and BI tools are collectively referred to as the serving layer, or data serving storage.
 
@@ -15,7 +15,7 @@ The serving layer deals with processed data from both the hot path and cold path
 
 There is no single best data management choice for all data storage tasks. Different data management solutions are optimized for different tasks. Most real-world cloud apps and big data processes have a variety of data storage requirements and are often served best by a combination of multiple data storage solutions.
 
-## <a name="options"></a> What are your options when choosing data serving storage?
+## What are your options when choosing data serving storage?
 There are several options for data serving storage in Azure, depending on your needs:
 
 - [SQL Data Warehouse](https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-overview-what-is)
@@ -33,11 +33,11 @@ These options provide various database models that are optimized for different t
 - [Column-family](https://msdn.microsoft.com/en-us/library/dn313285.aspx#sec9) databases are key/value data stores that enable you to structure data storage into collections of related columns called column families. For example, a census database might have one group of columns for a person's name (first, middle, last), one group for the person's address, and one group for the person's profile information (DOB, gender, and so on). The database can then store each column family in a separate partition while keeping all of the data for one person related to the same key. You can then read all profile information without having to read through all of the name and address information as well.
 - [Graph](https://msdn.microsoft.com/en-us/library/dn313285.aspx#sec10) databases store information as a collection of objects and relationships. The purpose of a graph database is to enable an application to efficiently perform queries that traverse the network of objects and the relationships between them. For example, the objects might be employees in a human resources database, and you might want to facilitate queries such as "find all employees who directly or indirectly work for Scott."
 
-## <a name="howtochoose"></a> How do you choose?
+## How do you choose?
 Each data serving solution brings with it a unique set of capabilities, giving you the option to select the one that most closely meets your requirements.
 Each data serving solution brings with it a unique set of capabilities, giving you options in selecting the one that most closely meets your requirements.
 
-## <a name="criteria"></a> Key selection criteria
+## Key selection criteria
 
 The following tables summarize the key differences in capabilities between each. <!--See note from analysis-visualizations-reporting.md-->For data serving storage scenarios, choose the appropriate system for your needs by answering these questions:
 
@@ -48,7 +48,7 @@ The following tables summarize the key differences in capabilities between each.
 - Do you prefer to use a relational data store?
     - If so, narrow your options to those with a relational database model, but also note that it is possible to use a tool like PolyBase to query non-relational data stores if needed.
 
-## <a name="matrix"></a> Capability matrix
+## Capability matrix
 
 ### General capabilities
 
@@ -88,7 +88,7 @@ The following tables summarize the key differences in capabilities between each.
 \*** Supported when [used within an Azure Virtual Network](https://docs.microsoft.com/azure/hdinsight/hdinsight-extend-hadoop-virtual-network).
 
 
-## <a name="wheretogo"></a>Where to go from here
+## Where to go from here
 See also:
 
 Related pipeline patterns

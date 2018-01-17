@@ -7,7 +7,7 @@
 [Time series in Azure](#inazure)   
 [Where to go from here](#wheretogo)  
 
-<a name="about"></a>
+
 Time series data represents how an asset or process changes over time. It’s unique in that it has a timestamp and time is most meaningful as an axis. Time series data typically arrives in order of time and is usually treated as an insert rather than an update to your database. Because of this, change is measured over time, enabling you to look backward and to predict future change. As such, time series data is best visualized with scatter or line charts.
 
 ![Time series data visualized in a line chart](./images/time-series-chart.png)
@@ -33,11 +33,11 @@ Often, data is most valuable at its time of arrival. Whether your data is stream
 
 Ideally, you would have a stream processing layer that can handle the influx of data and process all of it with high precision and high granularity. This isn't always possible, depending on your streaming architecture and the components of your stream buffering and stream processing layers. You may need to sacrifice some precision of the time series data by reducing it. This is done by processing sliding windows of several seconds apiece, allowing the processing layer to perform calculations in a timely manner. If you are capable of capturing full fidelity of your streaming data, you need the compute power and ability to down sample (through aggregates) your data when displaying longer periods of time, such as zooming out your graph to display data captured over several months, for example.
 
-## <a name="whentouse"></a>When to use this architecture
+## When to use this architecture
 
 Choose a time series architecture when you need to ingest data whose strategic value is centered around changes over a period of time, and you are primarily inserting new data and rarely updating, if at all. You can use this information to detect anomalies, visualize trends, compare current data to historical data, among other things. This type of architecture is also best suited for predictive modeling and forecasting results, because you have historical record of changes over time that can then be applied to any number of forecasting models. Forecasting means understanding how a metric moves through time and being able to project/predict the future.
 
-## <a name="benefits"></a>Benefits
+## Benefits
 
 Using time series offers the following benefits:
 
@@ -45,14 +45,14 @@ Using time series offers the following benefits:
 * Helps you quickly detect changes to a number of related sources, making anomalies and emerging trends clearly stand out.
 * Best suited for predictive modeling and forecasting.
 
-## <a name="challenges"></a>Challenges
+## Challenges
 
 Establishing a time series architecture can have some of the following challenges:
 
 * In large volumes, storing, indexing, querying, analyzing, and visualizing time series data can be challenging. <!--Since this is the challenges section, saying it can be challening seems like a given. Can you elaborate on what at all?-->
 * Finding the right combination of high-speed storage and powerful compute operations for handling real-time/near real-time analytics, while minimizing time to market and overall cost investment.
 
-## <a name="inazure"></a>Time series in Azure
+## Time series in Azure
 
 In Azure, data from one or more data sources is ingested into the stream buffering layer by a [IoT Hub](https://docs.microsoft.com/azure/iot-hub/), [Event Hubs](https://docs.microsoft.com/azure/event-hubs/), or [Kafka on HDInsight](https://docs.microsoft.com/azure/hdinsight/kafka/apache-kafka-introduction). Next, the data is processed in the stream processing layer that can optionally hand off the processed data to a machine learning service for predictive analytics. The processed data is stored in an analytical data store, such as [HBase](https://docs.microsoft.com/azure/hdinsight/hbase/apache-hbase-overview), [Azure Cosmos DB](https://docs.microsoft.com/en-us/azure/cosmos-db/), Azure Data Lake, or Blob Storage. An analytics and reporting application or service, like Power BI or OpenTSDB (if stored in HBase) can be used to display the time series data for analysis.
 
@@ -65,7 +65,7 @@ This service is schema adaptive, which means that you do not have to do any data
 ![Time Series Insights](./images/time-series-insights.png) <!--Should have a comma after analytics in the last box.-->
 
 
-## <a name="wheretogo"></a>Where to go from here
+## Where to go from here
 Read next:
 [Data ingest technology choices](../technology-choices/data-ingest.md)
 

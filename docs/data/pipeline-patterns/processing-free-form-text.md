@@ -7,7 +7,7 @@
 [Processing free-form text in Azure](#inazure)   
 [Where to go from here](#wheretogo)  
 
-<a name="about"></a>
+
 Free-form text processing is performed against documents containing paragraphs of text, typically for the purpose of supporting search, but is also used to perform other natural language processing (NLP) tasks such as sentiment analysis, topic detection, language detection, key phrase extraction, and document categorization.
 
 In the case of search, a query is built containing the text the documents need to contain and a result set is produced consisting of a list of documents sorted by how well the content of each document matches the search criteria. The query is executed against a specialized index that is precomputed against the collection of documents. The result set may also include the context in which the the document matches the criteria, which enables hit-highlighting in search results user interfaces that extract and highlight the matching phrase in the document. 
@@ -23,20 +23,20 @@ Another use for free-form text processing is summarization of text content by id
 - **Sentence boundary detection**: detecting complete sentences within paragraphs of text.
 
 
-## <a name="whentouse"></a>When to use this architecture
+## When to use this architecture
 Use free-form text processing when your text data arrives in an unstructured format and you want to enable full-text search or perform some additional natural language processing against it. Generally this means it arrives in a document format, where applying a schema to the data would be difficult or impossible.
 
-## <a name="benefits"></a>Benefits
+## Benefits
 Free-form text processing has the benefit that it can produce useful, actionable data from large amounts of noisy text data. The results can, in effect, give your unstructured documents a well-defined and queryable structure.
 
-## <a name="challenges"></a>Challenges
+## Challenges
 The approach utilized to process free-form text produces a few challenges:
 
 - The processing of a collection of free-form text documents is typically computationally resource intensive, as well as being time intensive.
 - The querying of free-form processed data tends to trade precision for robustness. For example, search indexes are built with lemmatization and linguistic stemming so that queries for "run" will match documents that contain "ran" and "running."
 - In the absence of a standardized document format, it can be very difficult to achieve consistently accurate results using free-form text processing to extract specific facts from a document. For example, think of a text representation of an invoice&mdash;it can be difficult to build a process that correctly extracts the invoice number and invoice date for invoices across any number of vendors.
 
-## <a name="inazure"></a>Processing free-form text in Azure
+## Processing free-form text in Azure
 In Azure, various services support the indexing of free-form text data (for example, provided a document they process the document and populate the index that can later be used for searching thru the document collection).
 
 ### Processing free-form text for search in Azure
@@ -56,7 +56,7 @@ The actual processing that applies NLP techniques varies based on the desired ou
 
 ![Using NLP with free-form text in Azure](./images/nlp-pipeline.png) <!-- see previous comment about comment after analytics. This should match whatever you decided.-->
 
-## <a name="wheretogo"></a>Where to go from here
+## Where to go from here
 Read next:
 [Search technology choices](../technology-choices/search-options.md)
 

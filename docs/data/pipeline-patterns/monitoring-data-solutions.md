@@ -7,7 +7,7 @@
 [Monitoring data solutions in Azure](#inazure)   
 [Where to go from here](#wheretogo)  
 
-<a name="about"></a>
+
 
 Cloud applications are complex with many moving parts. Monitoring provides data to ensure that your applications and data pipelines stay up and running in a healthy state. It also helps you to stave off potential problems or troubleshoot past ones. In addition, you can use monitoring data to gain deep insights about your various solutions. This knowledge can help you to improve performance or maintainability, or automate actions that would otherwise require manual intervention.
 
@@ -29,11 +29,11 @@ Alerts are also important in security monitoring. This type of monitoring should
 
 Azure services (IaaS, PaaS, SaaS, and so on) generate a plethora <!--This is one of those words that might be challenging for ESL readers and only appears on MSDN a little over 100 times. I'm not sure if you want to emphasize the idea of too many, like surplus, excess, or overabundance or if you just mean a number or many or?--> of logs, many of which you can opt in or out of as well as set the level of detail. The challenge is in monitoring these logs and easily accessing the information within so you can troubleshoot and diagnose issues. The important thing is to ensure you have enabled ample logging, but logs are just the starting point. Data operations that you run, and the applications that invoke the operations, could emit telemetry that you can collect and analyze. An example of this could be specific values and user events that flow through your system that you could later use to correlate with any errors that occur. This allows you to answer questions like, "when this error shows up, what does my data normally look like at that time, or what steps did the user take leading up to the issue?"
 
-## <a name="whentouse"></a>When to use this architecture
+## When to use this architecture
 
 Ideally, monitoring your data solutions should be practiced from the moment of inception. Realistically, monitoring and alerting should be applied in production to your most critical services and components. The earlier you apply data monitoring practices, the better chance you have at selecting the right things to monitor and be alerted on, and will have a better sense of your solution's overall capacity and resiliency, based on real evidence.
 
-## <a name="benefits"></a>Benefits
+## Benefits
 
 Monitoring offers the following benefits:
 
@@ -44,7 +44,7 @@ Monitoring offers the following benefits:
 * Gather valuable data that will help you troubleshoot issues.
 * Make huge diagnostic logs usable by adding search and alerting mechanisms.
 
-## <a name="challenges"></a>Challenges
+## Challenges
 
 Establishing monitoring can have some of the following challenges:
 
@@ -52,7 +52,7 @@ Establishing monitoring can have some of the following challenges:
 * Controlling access to sensitive logs and the personally identifiable information (PII) within those logs.
 * Capitalizing on being able to add alerts to key services by setting useful thresholds and other triggers on the services you need most.
 
-## <a name="inazure"></a>Monitoring in Azure
+## Monitoring in Azure
 
 The flexibility of Azure means that you have many choices when it comes to monitoring solutions. You can use any number of third-party solutions, such as Stackify, Nagios, Splunk, DataDog, and so on hosted on virtual machines or as part of a service offering, or you can select from a wide range of specialized monitoring tools that Azure provides. One such tool is [Log Analytics](https://docs.microsoft.com/azure/log-analytics/log-analytics-overview), which is part of the [Operations Management Suite](https://docs.microsoft.com/azure/operations-management-suite/operations-management-suite-overview) (OMS). This service monitors your Azure and on-premises environments to give you a single pane of glass through which you can view logging and other monitoring data from multiple sources. This helps address one of the primary monitoring challenges we mentioned above. It also assists in searching your diagnostic logs, performance data, and custom data, as well as setting alerts.
 
@@ -70,7 +70,7 @@ Another option for monitoring the health of your Azure SQL Database instances, i
 
 Another option for taking advantage of the intelligent analytics that Azure Machine Learning provides, is to use the [ANOMALYDETECTION operator](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-machine-learning-anomaly-detection) in Stream Analytics. Up to now, IoT customers, and others, who monitor streaming data relied on expensive custom machine learning models. Implementers needed to have intimate familiarity with the use case and the problem domain, and integrating these models with the stream processing mechanisms required complex data pipeline engineering. The high barrier to entry precluded adoption of anomaly detection in streaming pipelines despite the associated value for many industrial IoT sites. This new capability makes it quick and easy to do service monitoring by tracking key performance indicators (KPIs) over time, as well as usage monitoring through metrics such as number of searches/clicks, or performance monitoring through counters like memory, CPU, and file IO over time.
 
-## <a name="wheretogo"></a>Where to go from here
+## Where to go from here
 Read next:
 [Data ingest technology choices](../technology-choices/data-ingest.md)
 

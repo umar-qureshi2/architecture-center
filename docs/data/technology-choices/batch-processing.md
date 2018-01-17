@@ -7,12 +7,12 @@
 [Capability matrix](#matrix)   
 [Where to go from here](#wheretogo)  
 
-<a name="about"></a>
+
 Because the data sets are so large, often a big data solution must process data files using long-running batch jobs to filter, aggregate, and otherwise prepare the data for analysis. Usually these jobs involve reading source files from scalable storage (like HDFS, Azure Data Lake Store, and Azure Storage), processing them, and writing the output to new files in scalable storage. 
 
 The key requirement of such batch processing engines is that they are capable of applying their computation in a scale out fashion that can handle significant data volumes. Unlike for real-time processing, with batch processing latency (in terms of time until the results are ready) is expected to measure in minutes to hours.   
 
-## <a name="options"></a> What are your options when choosing a technology for batch processing?
+## What are your options when choosing a technology for batch processing?
 In Azure, all of the following data stores will meet the core requirements supporting batch processing:
 
 - [Azure Data Lake Analytics](https://docs.microsoft.com/azure/data-lake-analytics/)
@@ -21,11 +21,11 @@ In Azure, all of the following data stores will meet the core requirements suppo
 - [HDInsight with Hive](https://docs.microsoft.com/azure/hdinsight/hadoop/hdinsight-use-hive)
 - [HDInsight with Hive LLAP](https://docs.microsoft.com/azure/hdinsight/interactive-query/apache-interactive-query-get-started)
 
-## <a name="howtochoose"></a> How do you choose?
+## How do you choose?
 
 Each service brings with it a unique set of capabilities, giving you the option to select the one that most closely meets your requirements. 
 
-## <a name="criteria"></a> Key selection criteria
+## Key selection criteria
 
 For batch processing processing scenarios, begin choosing the appropriate service for your needs by answering these questions:
 
@@ -38,7 +38,7 @@ For batch processing processing scenarios, begin choosing the appropriate servic
 - Do you need to query relational data stores along with your batch processing, for example to lookup reference data?
     - If yes, consider the options that enable querying of external relational stores.
 
-## <a name="matrix"></a> Capability matrix
+## Capability matrix
 
 Based on your responses to the questions above, the following tables will help you select the choice that's right for you.
 
@@ -84,7 +84,7 @@ Based on your responses to the questions above, the following tables will help y
 
 \*** Supported when [used within an Azure Virtual Network](https://docs.microsoft.com/azure/hdinsight/hdinsight-extend-hadoop-virtual-network).
 
-## <a name="wheretogo"></a>Where to go from here
+## Where to go from here
 See also: 
 
 Related pipeline patterns

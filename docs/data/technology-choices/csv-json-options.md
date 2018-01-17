@@ -7,9 +7,9 @@
 [Capability matrix](#matrix)   
 [Where to go from here](#wheretogo)  
 
-<a name="about"></a>
 
-## <a name="options"></a> What are your options for processing CSV and JSON files?
+
+## What are your options for processing CSV and JSON files?
 In Azure, the following services will help you process CSV and JSON files:
 
 - [Azure Data Factory](https://docs.microsoft.com/azure/data-factory/)
@@ -53,10 +53,10 @@ If you would like to use advanced data preparation tools for efficiently explori
 
 Consider using [SQL Data Warehouse](https://docs.microsoft.com/azure/sql-data-warehouse/) when you need to integrate your relational and non-relational data, such as data stored in CSV and JSON files, in a cloud-based, scale-out database capable of processing massive volumes of data. This is an ideal solution for those more comfortable with using SQL Server Transact-SQL (T-SQL) and related tools. PolyBase is what allows SQL Data Warehouse to access and combine both non-relational and relational data. It allows you to run queries on external data in Hadoop or Azure blob storage. PolyBase uses external tables to access data in Azure Blob storage. By simply using Transact-SQL (T-SQL) statements, you can import and export data back and forth between relational tables in SQL Server and non-relational data stored in Hadoop or Azure Blob Storage. You can also query the external data using a T-SQL query and join it with relational data. However, the most common use of PolyBase is to load data into the data warehouse as part of the extract transform load (ETL) process, rather than performing ad hoc queries against CSV and JSON files.
 
-## <a name="howtochoose"></a> How do you choose?
+## How do you choose?
 Each service brings with it a unique set of capabilities, giving you options in selecting the one that most closely meets your requirements. You need to consider your specific challenges, like scale. Do you need to process one at a time, in large batches, or lots of incoming files streaming in real time?
 
-## <a name="criteria"></a> Key Selection Criteria
+## Key Selection Criteria
 
 Answer the following questions to help you narrow down your choices, then use the matrices below to select your options for your scenario:
 
@@ -71,7 +71,7 @@ Answer the following questions to help you narrow down your choices, then use th
 - Do you need to be able to re-process large amounts of data?
     - If so, select one of the big data options.
 
-## <a name="matrix"></a> Capability matrix
+## Capability matrix
 
 Capabilities are separated into the following categories: big data, machine learning, compute, and orchestration. These categories help compare like-services, due to the breadth of options and scenarios for processing CSV and JSON files.
 
@@ -122,7 +122,7 @@ When it comes to orchestration, Azure Data Factory and SQL Server Integration Se
 | Pig and Hive | Yes | No |
 | Execute SSIS Package | Yes | Yes |
 
-## <a name="wheretogo"></a>Where to go from here
+## Where to go from here
 Read next:
 [Data Warehousing](../pipeline-patterns/data-warehousing.md)
 

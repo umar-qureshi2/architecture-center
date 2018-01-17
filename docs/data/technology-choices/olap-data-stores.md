@@ -7,9 +7,9 @@
 [Capability matrix](#matrix)   
 [Where to go from here](#wheretogo)  
 
-<a name="about"></a>
 
-## <a name="options"></a> What are your options when choosing an OLAP data store?
+
+## What are your options when choosing an OLAP data store?
 In Azure, all of the following data stores will meet the core requirements for OLAP:
 
 - [SQL Server with Columnstore indexes](https://docs.microsoft.com/sql/relational-databases/indexes/get-started-with-columnstore-for-real-time-operational-analytics)
@@ -20,10 +20,10 @@ SQL Server Analysis Services (SSAS) offers OLAP and data mining functionality fo
 
 Clustered Columnstore indexes are available in SQL Server 2014 and above, as well as Azure SQL Database, and are ideal for OLAP workloads. However, beginning with SQL Server 2016 (including Azure SQL Database), you can take advantage of hybrid transactional/analytics processing (HTAP) through the use of updateable nonclustered columnstore indexes. HTAP enables you to perform OLTP and OLAP processing on the same platform, which removes the need to store multiple copies of your data, and eliminates the need for distinct OLTP and OLAP systems. For more information, see [Get started with Columnstore for real-time operational analytics](https://docs.microsoft.com/sql/relational-databases/indexes/get-started-with-columnstore-for-real-time-operational-analytics).
 
-## <a name="howtochoose"></a> How do you choose?
+## How do you choose?
 Each data store brings with it a unique set of capabilities, giving you the option to select the one that most closely meets your requirements. 
 
-## <a name="criteria"></a> Key selection criteria
+## Key selection criteria
 
 The following tables summarize the key differences in capabilities between each. For OLAP scenarios, choose the appropriate system for your needs by answering these questions:
 
@@ -38,7 +38,7 @@ The following tables summarize the key differences in capabilities between each.
 - Do you need the ability to integrate data from several sources, beyond your OLTP data store?
     - If so, consider options that easily integrate multiple data sources.
 
-## <a name="matrix"></a> Capability matrix
+## Capability matrix
 
 ### General capabilities
 
@@ -64,7 +64,7 @@ The following tables summarize the key differences in capabilities between each.
 | Supports query scale out  | Yes | No | Yes | No |
 | Dynamic scalability (scale up)  | Yes | No | Yes | No |
 
-## <a name="wheretogo"></a>Where to go from here
+## Where to go from here
 Read next:
 [Data Warehousing pipeline pattern](../pipeline-patterns/data-warehousing.md)
 
