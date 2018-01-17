@@ -41,7 +41,7 @@ Relevant Azure service:
 Other tools:
 - [SQL Server Integration Services (SSIS)](https://docs.microsoft.com/sql/integration-services/sql-server-integration-services)
 
-### Data flow & control flow
+## Data flow & control flow
 
 In the context of data pipelines, the control flow ensures orderly processing of a set of tasks. To enforce the correct processing order of these tasks, precedence constraints are used. You can think of these constraints as connectors in a workflow diagram, as shown in the image below. Each task has an outcome, such as success, failure, or completion. Thanks in part to the precedence constraints, any subsequent task does not initiate processing until its predecessor has completed with one of these outcomes.
 

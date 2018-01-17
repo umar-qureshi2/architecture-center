@@ -32,7 +32,7 @@ Most advanced analytics architectures include some or all of the following compo
 
 * **Orchestration**: Although the initial data exploration and modeling is performed interactively by data scientists, many advanced analytics solutions periodically re-train models with new data&mdash;continually refining the accuracy of the models. This retraining can be automated using an orchestrated workflow.
 
-### Machine learning
+## Machine learning
 Machine learning is a mathematical modeling technique used to train a predictive model. The general principle is to apply a statistical algorithm to a large dataset of historical data to uncover relationships between the fields it contains.
 
 Machine learning modeling is usually performed by data scientists, who need to thoroughly explore and prepare the data before training a model. This exploration and preparation typically involves a great deal of interactive data analysis and visualization&mdash;usually using languages such as Python and R in interactive tools and environments that are specifically designed for this task.
@@ -52,7 +52,7 @@ Relevant Azure services:
 - [Azure Machine Learning](https://docs.microsoft.com/azure/machine-learning/)
 - [Machine Learning Server (R Server) on HDInsight](https://docs.microsoft.com/azure/hdinsight/r-server/r-server-overview)
 
-### Deep learning
+## Deep learning
 
 Machine learning models based on mathematical techniques like linear or logistic regression, and matrix factorization have been established for some time. More recently, the use of *deep learning* techniques based on neural networks has increased&mdash;driven largely by advances in research along with the availability of highly scalable processing systems that leverage CPU and GPU hardware to reduce the time taken to train these complex models and combined with the ability to train the learners against big data. <!--This is quite a sentence. Could it end after "models" or is that last bit really necessary? Maybe it would be better to eliminate the emdash and break into two? Also, I removed "in this area" because that seems like a given.-->
 
@@ -63,11 +63,11 @@ Relevant Azure services:
 - [Deep Learning Virtual Machine](https://docs.microsoft.com/azure/machine-learning/data-science-virtual-machine/deep-learning-dsvm-overview)
 - [Apache Spark on HDInsight](https://docs.microsoft.com/azure/hdinsight/spark/apache-spark-overview)
 
-### Artificial intelligence
+## Artificial intelligence
 
 Artificial intelligence (AI) refers to scenarios where a machine mimics the cognitive functions associated with human minds, such as learning and problem solving. Because AI leverages machine learning algorithms, it is viewed as an umbrella term. Most AI solutions rely on a combination of predictive services, often implemented as web services, and natural langauge interfaces, such as chatbots that interact via text or speech, that are presented by AI apps running on mobile devices or other clients. In some cases, the machine learning model is embedded with the AI app, such as an iOS app that leverages a local model using Core ML.  
 
-### Model deployment
+## Model deployment
 The predictive services that support AI applications may leverage custom machine learning models, or off-the-shelf cognitive services that provide access to pretrained models. The process of deploying custom models into production is known as operationalization, where the same AI models that are trained and tested within the processing environment are serialized and made available to external applications and services for batch or self-service predictions. To utilize the predictive capability of the model, it is deserialized and loaded using the same machine learning library that contains the algorithm that was used to train the model in the first place. This library provides predictive functions (often called score or predict) that take the model and features as input and return the prediction. This logic is then wrapped in a function that an application can call directly or can further be exposed as a web service that is then invoked by applications. 
 
 

@@ -53,7 +53,7 @@ Another term commonly used in data scenarios, is _datamart_. Typically, a datama
 Relevant Azure service:
 - [Azure Data Lake](https://azure.microsoft.com/solutions/data-lake/)
 
-### Lambda architecture
+## Lambda architecture
 
 The lambda architecture is a pipeline architecture originally devised with the goal to reduce complexity of a real-time analytics pipeline by constraining incremental computation activities to only a small portion of this architecture. This is accomplished by creating two paths for data flow into the pipeline:
 
@@ -69,7 +69,7 @@ Data flowing into the cold path, on the other hand, is not subject to the same l
 
 Eventually, the hot and cold paths converge at the analytics client application. If the client needs to display timely, yet potentially less accurate data in real time, it will acquire its result from the hot path. Otherwise, it will select results from the cold path to display less timely but more accurate data. In other words, the hot path has data for a relatively small window of time, after which the results can be updated with more accurate data from the cold path.
 
-### Kappa architecture
+## Kappa architecture
 
 The kappa architecture is another type of pipeline with the same basic goals as the lambda architecture, but with one important distinction: all data (called events in this architecture) flows through a single hot path, where all processing occurs in a near-real-time streaming mode. It was created due to the nature of lambda architectures containing two paths, leading to potentially duplicate computation logic and the complexity of managing the architecture for both paths. Because there is no cold path in this architecture, any recomputation of data is performed by streaming through the kappa pipeline once again.
 
@@ -77,7 +77,7 @@ The kappa architecture is another type of pipeline with the same basic goals as 
 
 There are some similarities to the lambda architecture's cold path, in that the event data is immutable and all of it is collected, instead of a subset. The data, or events, are ingested into a distributed and fault tolerant unified log, of which there is a single deployment. These events are ordered, and the current state of an event is changed only by a new event being appended. Similar to a lambda architecture's hot path, all processing of events is performed on the input streams and persisted as a real-time view. This data can be recomputed at any point, as it is persisted to scalable, fault-tolerant storage.
 
-### Internet of Things (IoT)
+## Internet of Things (IoT)
 
 From a practical viewpoint, Internet of Things (IoT) represents any device that is connected to the Internet. This includes your PC, mobile phone, smart watch, smart thermostat, smart refrigerator, connected automobile, heart monitoring implants, and anything else that connects to the Internet and sends or receives data. The number of connected devices grows every day, as does the amount of data collected from them. Oftentimes this data is being collected on the edge, in highly constrained, sometimes high latency environments. In other cases, data is sent from low latency environments by thousands or millions of devices, requiring the ability to rapidly ingest the barrage of data and process accordingly. Therefore, proper planning is required to handle these constraints and unique requirements.
 
