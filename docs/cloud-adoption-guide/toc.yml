@@ -8,7 +8,7 @@
   - name: Enterprise cloud adoption overview
     href: adoption-overview/overview.md
     items:
-    - name: Adopting the Cloud
+    - name: Cloud adoption decision domains
       href: adoption-overview/background.md
     - name: Explainer - Identity
       href: adoption-overview/identity-explainer.md
