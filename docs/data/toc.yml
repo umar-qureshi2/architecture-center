@@ -3,24 +3,6 @@
 - name: Data Architecture Guide
   href: index.md
   items:
-  - name: Implementation examples
-    items:
-    - name: On-demand big data analytics
-      href: implementation-examples/on-demand-big-data-analytics.md
-    - name: Advanced analytics and deep learning
-      href: implementation-examples/advanced-analytics-deep-learning.md
-    - name: Hybrid data architecture
-      href: implementation-examples/hybrid-data-architecture.md
-    - name: Clickstream analysis
-      href: implementation-examples/clickstream-analysis.md
-    - name: Business intelligence
-      href: implementation-examples/business-intelligence.md
-    - name: Intelligent applications
-      href: implementation-examples/intelligent-applications.md
-    - name: Data warehousing
-      href: implementation-examples/data-warehousing.md
-    - name: Extract, transform, load (ETL)
-      href: implementation-examples/etl.md
   - name: Common data architectures
     href: common-architectures/index.md
     items:
@@ -41,7 +23,6 @@
       href: common-architectures/advanced-analytics.md 
     - name: Interactive data exploration
       href: common-architectures/interactive-data-exploration.md 
-    
   - name: Pipeline patterns
     items:
     - name: Working with transactional data
@@ -68,7 +49,6 @@
       href: pipeline-patterns/machine-learning-at-scale.md 
     - name: Monitoring data solutions
       href: pipeline-patterns/monitoring-data-solutions.md 
-      
   - name: Technology choices
     items:
     - name: Transactional data stores
@@ -105,3 +85,21 @@
         href: technology-choices/natural-language-processing.md 
     - name: Analysis, visualizations, and reporting
       href: technology-choices/analysis-visualizations-reporting.md 
+  - name: Implementation examples
+    items:
+    - name: On-demand big data analytics
+      href: implementation-examples/on-demand-big-data-analytics.md
+    - name: Advanced analytics and deep learning
+      href: implementation-examples/advanced-analytics-deep-learning.md
+    - name: Hybrid data architecture
+      href: implementation-examples/hybrid-data-architecture.md
+    - name: Clickstream analysis
+      href: implementation-examples/clickstream-analysis.md
+    - name: Business intelligence
+      href: implementation-examples/business-intelligence.md
+    - name: Intelligent applications
+      href: implementation-examples/intelligent-applications.md
+    - name: Data warehousing
+      href: implementation-examples/data-warehousing.md
+    - name: Extract, transform, load (ETL)
+      href: implementation-examples/etl.md
