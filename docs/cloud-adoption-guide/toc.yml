@@ -5,10 +5,10 @@
   href: index.md
 
   items:
-  - name: Enterprise cloud adoption overview (what this guide covers)
+  - name: Enterprise cloud adoption overview
     href: adoption-overview/overview.md
     items:
-    - name: Adopting the Cloud - Background (the pillars/perspectives/whatever)
+    - name: Adopting the Cloud
       href: adoption-overview/background.md
     - name: Explainer - Identity
       href: adoption-overview/identity-explainer.md
