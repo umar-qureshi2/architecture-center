@@ -21,7 +21,7 @@ Azure offers a rich data and analytics platform so you can build scalable BI and
 ## In this guide
 
 * Common Data Architectures
-    * [Semantic modeling](../common-architectures/semantic-modeling.md)
+    * [Semantic modeling](../common-architectures/relational-data.md#semantic-modeling)
     * [Data pipeline](../common-architectures/data-pipeline.md)
 * Pipeline Patterns
     * [Data warehousing](../pipeline-patterns/data-warehousing.md)

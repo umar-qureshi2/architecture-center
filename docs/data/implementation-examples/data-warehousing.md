@@ -23,7 +23,7 @@ TODO: Change bottom line of diagram to display "Orchestration: PolyBase / ADF" i
 ## In this guide
 
 * Common Data Architectures
-    * [Semantic modeling](../common-architectures/semantic-modeling.md)
+    * [Semantic modeling](../common-architectures/relational-data.md#semantic-modeling)
     * [Relational data](../common-architectures/relational-data.md)
 * Pipeline Patterns
     * [Data warehousing](../pipeline-patterns/data-warehousing.md)

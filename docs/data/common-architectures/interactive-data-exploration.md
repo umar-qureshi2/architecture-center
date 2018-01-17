@@ -38,9 +38,9 @@ Read next: [Relational Data Common Architecture](./relational-data.md)
 See also:
 
 Related common architectures
-- [Transactional Data](./transactional-data.md)
+- [Transactional Data](./relational-data.md#transactional-data)
 - [Non-Relational & NoSQL Data](./non-relational-data.md)
-- [Semantic Modeling](./semantic-modeling.md)
+- [Semantic Modeling](./relational-data.md#semantic-modeling)
 
 Related pipeline patterns
 - [Online Analytical Processing](../pipeline-patterns/online-analytical-processing.md)

@@ -28,12 +28,4 @@ The common data architectures will guide you down a path of concepts that get mo
 
 If you are curious about a specific topic, you can also navigate this flowchart from right to left, starting with a topic you are familiar with to learn the related topics and how we group them into common architectures in this guide.
 
-## Where to go from here
 
-Read next: [Relational data common architecture](./relational-data.md)
-
-**See also:**
-
-Related common architectures
-- [Transactional data](./transactional-data.md)
-- [Semantic modeling](./semantic-modeling.md)

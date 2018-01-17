@@ -8,11 +8,6 @@
     items:
     - name: Relational data
       href: common-architectures/relational-data.md 
-      items: 
-      - name: Transactional data
-        href: common-architectures/transactional-data.md 
-      - name: Semantic modeling
-        href: common-architectures/semantic-modeling.md 
     - name: Non-relational data and NoSQL
       href: common-architectures/non-relational-data.md 
     - name: Big data
