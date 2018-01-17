@@ -4,6 +4,23 @@
   href: index.md
   items:
   - name: Implementation examples
+    items:
+    - name: On-demand big data analytics
+      href: implementation-examples/on-demand-big-data-analytics.md
+    - name: Advanced analytics and deep learning
+      href: implementation-examples/advanced-analytics-and-deep-learning.md
+    - name: Hybrid data architecture
+      href: implementation-examples/hybrid-data-architecture.md
+    - name: Clickstream analysis
+      href: implementation-examples/clickstream-analysis.md
+    - name: Business intelligence
+      href: implementation-examples/business-intelligence.md
+    - name: Intelligent applications
+      href: implementation-examples/intelligent-applications.md
+    - name: Data warehousing
+      href: implementation-examples/data-warehousing.md
+    - name: Extract, transform, load (ETL)
+      href: implementation-examples/etl.md
   - name: Common data architectures
     href: common-architectures/index.md
     items:
