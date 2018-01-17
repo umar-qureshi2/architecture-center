@@ -5,11 +5,11 @@
   href: index.md
 
   items:
-  - name: Enterprise cloud adoption overview
+  - name: Cloud adoption decision domains
     href: adoption-overview/overview.md
+  - name: Cloud adoption overview
+    href: 
     items:
-    - name: Cloud adoption decision domains
-      href: adoption-overview/background.md
     - name: Explainer - Identity
       href: adoption-overview/identity-explainer.md
     - name: Explainer - Governance - grouping resources for management in the cloud (subscriptions, resource groups)
