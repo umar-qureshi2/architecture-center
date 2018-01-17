@@ -1,4 +1,11 @@
- # Advanced Analytics
+---
+title: 
+description: 
+author: zoinerTejada
+ms:date: 01/17/2018
+---
+
+# Advanced Analytics
 
 Advanced analytics goes beyond the historical reporting and "slice and dice" <!--I made a comment in another doc about this being slang and that it should be replaced for ESL readers. Unfortunately, I'm not sure which doc that was, but it would be best if they matched.-->data aggregation of traditional business intelligence (BI), and uses mathematical, probabilistic, and statistical modeling techniques to enable predictive processing and automated decision making.
 

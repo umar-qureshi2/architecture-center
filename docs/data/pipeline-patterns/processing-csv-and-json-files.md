@@ -1,3 +1,10 @@
+---
+title: 
+description: 
+author: zoinerTejada
+ms:date: 01/17/2018
+---
+
 # Processing CSV and JSON files
 
 CSV (comma-separated values) <!--Normally the definition comes first with the acronym after, but since CSV is actually probably more common I left as is.-->files are commonly used to exchange tabular data between systems in plain text. They typically contain a header row that provides column names for the data, but are otherwise considered semi-structured. This is due to the fact that CSVs cannot naturally represent hierarchical or relational data. Data relationships are typically handled with multiple CSV files, where foreign keys are stored in columns of one or more files, but the relationships between those files are not expressed by the format itself. Despite having the name "CSV", the term can also be used to denote plain text files that use other delimiters such as tabs or spaces.

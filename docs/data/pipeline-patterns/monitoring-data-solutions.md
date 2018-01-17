@@ -1,3 +1,10 @@
+---
+title: 
+description: 
+author: zoinerTejada
+ms:date: 01/17/2018
+---
+
 # Monitoring Data Solutions
 
 Cloud applications are complex with many moving parts. Monitoring provides data to ensure that your applications and data pipelines stay up and running in a healthy state. It also helps you to stave off potential problems or troubleshoot past ones. In addition, you can use monitoring data to gain deep insights about your various solutions. This knowledge can help you to improve performance or maintainability, or automate actions that would otherwise require manual intervention.

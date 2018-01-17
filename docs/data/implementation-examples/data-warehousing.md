@@ -1,3 +1,10 @@
+---
+title: 
+description: 
+author: zoinerTejada
+ms:date: 01/17/2018
+---
+
 # Data warehousing
 
 Store data coming in from multiple sources into [Azure Data Lake Store](/azure/data-lake-store/data-lake-store-overview), in their native format. [SQL Data Warehouse](/azure/sql-data-warehouse/sql-data-warehouse-overview-what-is) can directly query against the data with a combination of external tables and schema on read capabilities through [PolyBase](/sql/relational-databases/polybase/get-started-with-polybase). Use [Azure Data Factory](/azure/data-factory/) to store the data you need within your warehouse, and quickly analyze and visualize the combined data with [Power BI](/power-bi/).

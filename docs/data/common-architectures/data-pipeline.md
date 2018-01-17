@@ -1,3 +1,10 @@
+---
+title: 
+description: 
+author: zoinerTejada
+ms:date: 01/17/2018
+---
+
 # Data Pipeline
 
 Gathering data from multiple sources, in multiple formats, and moving it to one or more data stores is a common problem organizations face on a daily basis. The destination may not be the same type of data store as the source, and often the format is different, or the data needs to be shaped or cleaned in some fashion prior to loading it into its final destination.

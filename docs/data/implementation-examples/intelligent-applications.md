@@ -1,3 +1,10 @@
+---
+title: 
+description: 
+author: zoinerTejada
+ms:date: 01/17/2018
+---
+
 # Intelligent applications
 
 Quickly add intelligence to your applications with [Cognitive Services](/azure/#pivot=products&panel=cognitive), and coordinate automated interactions using [Azure Bot Service](/bot-framework/bot-service-overview-introduction). This can save you months of creating and refining sophisticated algorithms to naturally interact with your users through speech, text, vision, knowledge, and search capabilities.

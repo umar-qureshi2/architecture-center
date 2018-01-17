@@ -1,3 +1,10 @@
+---
+title: 
+description: 
+author: zoinerTejada
+ms:date: 01/17/2018
+---
+
 # Online Analytical Processing (OLAP) data stores
 
 ## What are your options when choosing an OLAP data store?

@@ -1,3 +1,10 @@
+---
+title: 
+description: 
+author: zoinerTejada
+ms:date: 01/17/2018
+---
+
 # Business intelligence
 
 Azure offers a rich data and analytics platform so you can build scalable BI and reporting solutions. Create rich, interactive reports with [Power BI](/power-bi/) by having it connect to [Azure Analysis Services](/azure/analysis-services/analysis-services-overview/), which uses a highly optimized in-memory engine to provide responses to queries against user-friendly semantic models, within a fraction of a second. The underlying data is provided by [Azure SQL Data Warehouse](/azure/sql-data-warehouse/sql-data-warehouse-overview-what-is), which acts as a central repository of integrated data from one or more disparate sources.
