@@ -16,14 +16,14 @@ Create cloud-scale, enterprise-ready Hadoop clusters in a matter of minutes for 
 ## In this guide
 
 * Common Data Architectures
-    * [Big Data](./common-architectures/big-data.md)
-    * [Advanced Analytics](./common-architectures/advanced-analytics.md)
+    * [Big Data](../common-architectures/big-data.md)
+    * [Advanced Analytics](../common-architectures/advanced-analytics.md)
 * Pipeline Patterns
-    * [Processing CSV and JSON files](./pipeline-patterns/processing-csv-and-json-files.md)
-    * [Processing free-form text](./pipeline-patterns/processing-free-form-text.md)
+    * [Processing CSV and JSON files](../pipeline-patterns/processing-csv-and-json-files.md)
+    * [Processing free-form text](../pipeline-patterns/processing-free-form-text.md)
 * Technology Choices
-    * [Batch processing](./technology-choices/batch-processing.md)
-    * [Real-time processing](./technology-choices/real-time-processing.md)
-    * [Data serving storage](./technology-choices/data-serving-storage.md)
-    * [Data ingest](./technology-choices/data-ingest.md)
-    * [Analysis, visualizations, and reporting](./technology-choices/analysis-visualizations-reporting.md)
+    * [Batch processing](../technology-choices/batch-processing.md)
+    * [Real-time processing](../technology-choices/real-time-processing.md)
+    * [Data serving storage](../technology-choices/data-serving-storage.md)
+    * [Data ingest](../technology-choices/data-ingest.md)
+    * [Analysis, visualizations, and reporting](../technology-choices/analysis-visualizations-reporting.md)

@@ -18,10 +18,10 @@ See this [deep learning sample architecture](https://github.com/Azure/cortana-in
 ## In this guide
 
 * Common Data Architectures
-    * [Big Data](./common-architectures/big-data.md)
-    * [Advanced Analytics](./common-architectures/advanced-analytics.md)
+    * [Big Data](../common-architectures/big-data.md)
+    * [Advanced Analytics](../common-architectures/advanced-analytics.md)
 * Pipeline Patterns
-    * [Machine Learning at scale](./pipeline-patterns/machine-learning-at-scale.md)
+    * [Machine Learning at scale](../pipeline-patterns/machine-learning-at-scale.md)
 * Technology Choices
-    * [Options for processing CSV and JSON files](./technology-choices/csv-json-options.md)
-    * [Data science and machine learning](./technology-choices/data-science-and-machine-learning.md)
+    * [Options for processing CSV and JSON files](../technology-choices/csv-json-options.md)
+    * [Data science and machine learning](../technology-choices/data-science-and-machine-learning.md)

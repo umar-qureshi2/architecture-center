@@ -8,7 +8,7 @@
     - name: On-demand big data analytics
       href: implementation-examples/on-demand-big-data-analytics.md
     - name: Advanced analytics and deep learning
-      href: implementation-examples/advanced-analytics-and-deep-learning.md
+      href: implementation-examples/advanced-analytics-deep-learning.md
     - name: Hybrid data architecture
       href: implementation-examples/hybrid-data-architecture.md
     - name: Clickstream analysis

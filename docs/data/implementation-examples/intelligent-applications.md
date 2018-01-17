@@ -16,9 +16,9 @@ Quickly add intelligence to your applications with [Cognitive Services](https://
 #### In this guide
 
 * Common Data Architectures
-    * [Advanced Analytics](./common-architectures/advanced-analytics.md)
+    * [Advanced Analytics](../common-architectures/advanced-analytics.md)
 * Pipeline Patterns
-    * [Online Transaction Processing (OLTP)](./pipeline-patterns/online-transaction-processing.md)
+    * [Online Transaction Processing (OLTP)](../pipeline-patterns/online-transaction-processing.md)
 * Technology Choices
-    * [Online Transaction Processing (OLTP) data stores](./technology-choices/oltp-data-stores.md)
-    * [Cognitive Services](./technology-choices/cognitive-services.md)
+    * [Online Transaction Processing (OLTP) data stores](../technology-choices/oltp-data-stores.md)
+    * [Cognitive Services](../technology-choices/cognitive-services.md)

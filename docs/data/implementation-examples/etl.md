@@ -15,11 +15,11 @@ Capture web application logs and custom telemetry with [Application Insights](ht
 ## In this guide
 
 * Common Data Architectures
-    * [Data pipeline](./common-architectures/data-pipeline.md)
-    * [Relational data](./common-architectures/relational-data.md)
+    * [Data pipeline](../common-architectures/data-pipeline.md)
+    * [Relational data](../common-architectures/relational-data.md)
 * Pipeline Patterns
-    * [Online Transaction Processing (OLTP)](./pipeline-patterns/online-transaction-processing.md)
-    * [Monitoring data solutions](./pipeline-patterns/monitoring-data-solutions.md)
+    * [Online Transaction Processing (OLTP)](../pipeline-patterns/online-transaction-processing.md)
+    * [Monitoring data solutions](../pipeline-patterns/monitoring-data-solutions.md)
 * Technology Choices
-    * [Options for pipeline orchestration, control flow, and data movement](./technology-choices/pipeline-orchestration-data-movement.md)
-    * [Data ingest](./technology-choices/data-ingest.md)
+    * [Options for pipeline orchestration, control flow, and data movement](../technology-choices/pipeline-orchestration-data-movement.md)
+    * [Data ingest](../technology-choices/data-ingest.md)

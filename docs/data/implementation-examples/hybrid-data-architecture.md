@@ -14,11 +14,11 @@ When you need hybrid on-premises and cloud options, nothing comes close to Azure
 ## In this guide
 
 * Common Data Architectures
-    * [Relational data](./common-architectures/relational-data.md)
+    * [Relational data](../common-architectures/relational-data.md)
 * Pipeline Patterns
-    * [Hybrid on-premises and cloud solutions](./pipeline-patterns/hybrid-on-premises-and-cloud.md)
-    * [Online Transaction Processing (OLTP)](./pipeline-patterns/online-transaction-processing.md)
+    * [Hybrid on-premises and cloud solutions](../pipeline-patterns/hybrid-on-premises-and-cloud.md)
+    * [Online Transaction Processing (OLTP)](../pipeline-patterns/online-transaction-processing.md)
 * Technology Choices
-    * [Online Transaction Processing (OLTP) data stores](./technology-choices/oltp-data-stores.md)
-    * [Data transfer](./technology-choices/data-transfer.md)
-    * [Data ingest](./technology-choices/data-ingest.md)
+    * [Online Transaction Processing (OLTP) data stores](../technology-choices/oltp-data-stores.md)
+    * [Data transfer](../technology-choices/data-transfer.md)
+    * [Data ingest](../technology-choices/data-ingest.md)

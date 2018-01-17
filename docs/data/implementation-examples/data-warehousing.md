@@ -16,14 +16,14 @@ TODO: Change bottom line of diagram to display "Orchestration: PolyBase / ADF" i
 ## In this guide
 
 * Common Data Architectures
-    * [Semantic modeling](./common-architectures/semantic-modeling.md)
-    * [Relational data](./common-architectures/relational-data.md)
+    * [Semantic modeling](../common-architectures/semantic-modeling.md)
+    * [Relational data](../common-architectures/relational-data.md)
 * Pipeline Patterns
-    * [Data warehousing](./pipeline-patterns/data-warehousing.md)
-    * [Online Analytical Processing (OLAP)](./pipeline-patterns/online-analytical-processing.md)
+    * [Data warehousing](../pipeline-patterns/data-warehousing.md)
+    * [Online Analytical Processing (OLAP)](../pipeline-patterns/online-analytical-processing.md)
 * Technology Choices
-    * [Data warehouses](./technology-choices/data-warehouses.md)
-    * [Data ingest](./technology-choices/data-ingest.md)
-    * [Options for pipeline orchestration, control flow, and data movement](./technology-choices/pipeline-orchestration-data-movement.md)
-    * [Data transfer](./technology-choices/data-transfer.md)
-    * [Analysis, Visualizations, & Reporting](./technology-choices/analysis-visualizations-reporting.md)
+    * [Data warehouses](../technology-choices/data-warehouses.md)
+    * [Data ingest](../technology-choices/data-ingest.md)
+    * [Options for pipeline orchestration, control flow, and data movement](../technology-choices/pipeline-orchestration-data-movement.md)
+    * [Data transfer](../technology-choices/data-transfer.md)
+    * [Analysis, Visualizations, & Reporting](../technology-choices/analysis-visualizations-reporting.md)
