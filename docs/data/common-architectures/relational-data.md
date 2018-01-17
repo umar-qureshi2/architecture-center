@@ -1,12 +1,5 @@
 # Relational data 
 
-**In this article**
-
-[About]()  
-[Common architectures](#common)   
-[Where to go from here](#wheretogo)  
-
-
 Relational data is data modeled using the relational model, whereby all data is expressed as tuples, and sets of tuples with the same headings form relations. A data store that organizes data using the relational model is referred to as a relational database. Relational databases use a tabular structure to materialize the relational model - that is they expose all the data as rows (tuples) in tables (relations). The database schema defines the columns (headings) of each table. Each column is defined with a name and a data type for all values stored in that column across all rows in the table.
 
 ![Example showing data using a relational database](./images/example-relational.png)

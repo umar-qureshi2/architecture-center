@@ -1,11 +1,5 @@
 # Common data architectures
 
-**In this article**
-
-[What do we mean by common data architectures?](#meaning)   
-[How do you approach using them?](#use)  
-[Where to go from here](#wheretogo)  
-
 ## What do we mean by common data architectures?
 We provide common data architectures to represent the _big concepts_ that deal with data that you need to know. Knowing these common data architectures empowers you to make the right architectural selections for your scenario and, by extension, the right technology choices.
 

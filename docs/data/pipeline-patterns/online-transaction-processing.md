@@ -1,13 +1,5 @@
 # Online Transaction Processing (OLTP)
 
-[About]()  
-[When to use this data architecture](#whentouse)  
-[Benefits](#benefits)  
-[Challenges](#challenges)  
-[OLTP in Azure](#inazure)   
-[Where to go from here](#wheretogo)  
-
-
 The management of [transactional data](../common-architectures/transactional-data.md) using computer systems is referred to as Online Transaction Processing or OLTP. OLTP systems record the business interactions as they occur in the day-to-day operation of the organization, and support querying of this data to make inferences related to these business transactions.
 
 ## When to use this architecture

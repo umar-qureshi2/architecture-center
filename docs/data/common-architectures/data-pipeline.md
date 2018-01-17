@@ -1,15 +1,5 @@
 # Data Pipeline
 
-**In this article**
-
-[About]()  
-[Extract, transform, and load](#etl)  
-[Extract, load, and transform](#elt)  
-[Data flow & control flow](#dataflowcontrolflow)  
-[Where to go from here](#wheretogo)  
-
-
-
 Gathering data from multiple sources, in multiple formats, and moving it to one or more data stores is a common problem organizations face on a daily basis. The destination may not be the same type of data store as the source, and often the format is different, or the data needs to be shaped or cleaned in some fashion prior to loading it into its final destination.
 
 Various tools, services, and processes have been developed over the years to help address these challenges. No matter the process used, there is a common need to coordinate the work and apply some level of data transformation within the data pipeline. The following sections highlight the common methods used to perform these tasks.

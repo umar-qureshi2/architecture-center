@@ -1,13 +1,5 @@
 # Hybrid On-Premises and Cloud Solutions
 
-[About]()  
-[When to use this data architecture](#whentouse)  
-[Benefits](#benefits)  
-[Challenges](#challenges)  
-[Hybrid in Azure](#inazure)   
-[Where to go from here](#wheretogo)  
-
-
 There has been an upward trend for the past several years of businesses moving to the cloud. The reasons are numerous, given the benefits cloud architectures bring, such as eliminating the need to procure and maintain physical servers, taking advantage of the latest innovations unique to the cloud, and virtually endless scalability of your solutions. But on-premises datacenters also have an important role to play, both today and in the future. For many organizations, integrating these two to create a hybrid cloud is essential.
 
 Hybrid cloud uses compute or storage resources on your on-premises network and in the cloud. You can use hybrid cloud as a path to migrate your business and its IT needs to the cloud or integrate cloud platforms and services with your existing on-premises infrastructure as part of your overall IT strategy.

@@ -1,12 +1,5 @@
 # Machine learning at scale
 
-[About]()  
-[When to use this data architecture](#whentouse)  
-[Benefits](#benefits)  
-[Challenges](#challenges)  
-[Machine learning at scale in Azure](#inazure)   
-[Where to go from here](#wheretogo)  
-
 Machine learning is a technique used to train predictive models based on mathematical algorithms that leverage relationships between data fields to predict unknown values.
 
 The process of creating a deploying machine learning models is an iterative one, in which:

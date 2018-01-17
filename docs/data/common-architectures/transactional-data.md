@@ -1,13 +1,5 @@
 # Transactional data 
 
-**In this article**
-
-[About]()  
-[Typical Traits](#traits)  
-[Best practices](#bestpractices)  
-[Where to go from here](#wheretogo)  
-
-
 Transactional data is information an organization collects that tracks the interactions related to what the organization does. These interactions are typically business transactions such as payments received from customers or payments made to suppliers, products moving through inventory, orders taken or services delivered. Transactional events, which represent the transactions themselves, not reference tables, typically contain a time dimension, some numerical values, and references to other data.
 
 Transactional data stores that support strong consistency can leverage transactions using various locking strategies, such as pessimistic locking, to ensure all data are strongly consistent within the context of the enterprise, for all users and processes.

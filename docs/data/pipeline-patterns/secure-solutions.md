@@ -1,13 +1,5 @@
 # Secure solutions
 
-[About]()  
-[When to use this data architecture](#whentouse)  
-[Benefits](#benefits)  
-[Challenges](#challenges)  
-[Secure solutions in Azure](#inazure)   
-[Where to go from here](#wheretogo)  
-
-
 For many, making data accessible in the cloud, particularly when transitioning from working exclusively in on-premises data stores, can cause some concern around increased accessibility to that data and new ways in which to secure it.
 
 Security in the cloud is a partnership between you and your cloud provider. Your cloud provider provides you security controls and capabilities to help you protect your data and applications, while you own your data and identities and the responsibility for protecting them, the security of your on-premises resources, and the security of cloud components you control.

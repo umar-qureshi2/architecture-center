@@ -1,14 +1,5 @@
 # Monitoring Data Solutions
 
-[About]()  
-[When to use this data architecture](#whentouse)  
-[Benefits](#benefits)  
-[Challenges](#challenges)  
-[Monitoring data solutions in Azure](#inazure)   
-[Where to go from here](#wheretogo)  
-
-
-
 Cloud applications are complex with many moving parts. Monitoring provides data to ensure that your applications and data pipelines stay up and running in a healthy state. It also helps you to stave off potential problems or troubleshoot past ones. In addition, you can use monitoring data to gain deep insights about your various solutions. This knowledge can help you to improve performance or maintainability, or automate actions that would otherwise require manual intervention.
 
 When dealing with data, the range of things you need to monitor is both deep and wide. For instance, you might using memory-optimized database tables, putting pressure on your available memory. When you run out of memory, the system will no longer allow most write operations. If you're not using alerting features in Azure, you are at risk of discovering the issue when it's too late. Another example is monitoring data [pipeline orchestration](../technology-choices/pipeline-orchestration-data-movement.md) for moving and transforming data. Monitoring your orchestration pipeline will ensure that your [ETL/ELT or data flow & control flow](../common-architectures/data-pipeline.md) tasks are running as expected.

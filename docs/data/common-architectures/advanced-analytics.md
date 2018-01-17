@@ -1,16 +1,5 @@
  # Advanced Analytics
 
-**In this article**
-
-[About]()  
-[Machine learning](#machinelearning)  
-[Deep learning](#deeplearning)  
-[Artificial intelligence](#ai)  
-[Model deployment](#operationalization)   
-[Where to go from here](#wheretogo)  
-
-
-
 Advanced analytics goes beyond the historical reporting and "slice and dice" <!--I made a comment in another doc about this being slang and that it should be replaced for ESL readers. Unfortunately, I'm not sure which doc that was, but it would be best if they matched.-->data aggregation of traditional business intelligence (BI), and uses mathematical, probabilistic, and statistical modeling techniques to enable predictive processing and automated decision making.
 
 Advanced analytics solutions typically involve the following workloads:
