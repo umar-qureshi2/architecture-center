@@ -26,14 +26,20 @@ At the end of each article a read next link is provided that you can follow to t
 ## Implementation examples
 
 The following examples are technology implementations we have seen directly in our customer engagements. The examples can help lead you into the content to make the right technology choices for your business. [TODO link]
-
-
+- [On-demand big data analytics](./implementation-examples/on-demand-big-data-analytics.md)
+- [Advanced analytics and deep learning](./implementation-examples/advanced-analytics-deep-learning.md)
+- [Hybrid data architecture](./implementation-examples/hybrid-data-architecture.md)
+- [Clickstream analysis](./implementation-examples/clickstream-analysis.md)
+- [Business intelligence](./implementation-examples/business-intelligence.md)
+- [Intelligent applications](./implementation-examples/intelligent-applications.md)
+- [Data warehousing](./implementation-examples/data-warehousing.md)
+- [Extract, transform, load (ETL)](./implementation-examples/etl.md)
 
 ## Where to go from here
 Read next:
 [Common data architectures](./common-architectures/index.md)
 
-####See also
+#### See also
 
 All common architectures
 - [Relational data](./common-architectures/relational-data.md)
