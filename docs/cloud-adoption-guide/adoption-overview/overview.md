@@ -1,10 +1,10 @@
 ---
-title: Cloud Adoption Overview
-description: Describes overview concepts about integrating on-premises applications and services with the cloud or migrating on-premises applications and services to the cloud
+title: About the Azure cloud adoption guide
+description: Describes the Azure cloud adoption guide and introduces the six decision domains - identity, governance, security, architecture, operations and management, and people
 author: petertay
 ---
 
-# Overview: Enterprise cloud adoption
+# About the Azure cloud adoption guide
 
 This guide breaks enterprise cloud adoption into six decision domains:
 

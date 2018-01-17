@@ -5,9 +5,9 @@
   href: index.md
 
   items:
-  - name: Cloud adoption decision domains
+  - name: About the Azure cloud adoption guide
     href: adoption-overview/overview.md
-  - name: Cloud adoption overview
+  - name: Cloud adoption background
     href: 
     items:
     - name: Explainer - Identity
