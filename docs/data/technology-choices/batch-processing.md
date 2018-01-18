@@ -91,5 +91,5 @@ Related pipeline patterns
 - [Processing free-form text](../pipeline-patterns/processing-free-form-text.md)
 
 Related technology choices
-- [Data Ingest](./data-ingest.md)
-- [Real-time Processing](./real-time-processing.md)
+- [Data ingestion](./data-ingest.md)
+- [Real-time processing](./real-time-processing.md)

@@ -74,5 +74,5 @@ Other tools:
 
 - [Online Transaction Processing (OLTP) data stores](../technology-choices/oltp-data-stores.md)
 - [Online Analytical Processing (OLAP) data stores](../technology-choices/olap-data-stores.md)
-- [Data Warehouses](../technology-choices/data-warehouses.md)
-- [Pipeline Orchestration, Control Flow, and Data Movement](../technology-choices/pipeline-orchestration-data-movement.md)
+- [Data warehouses](../technology-choices/data-warehouses.md)
+- [Pipeline orchestration, control flow, and data movement](../technology-choices/pipeline-orchestration-data-movement.md)

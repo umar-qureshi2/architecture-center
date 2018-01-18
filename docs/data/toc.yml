@@ -58,7 +58,7 @@
       href: technology-choices/pipeline-orchestration-data-movement.md 
     - name: Data transfer
       href: technology-choices/data-transfer.md 
-    - name: Data ingest
+    - name: Data ion
       href: technology-choices/data-ingest.md 
     - name: Batch processing
       href: technology-choices/batch-processing.md 
@@ -68,7 +68,7 @@
       href: technology-choices/data-serving-storage.md 
     - name: Options for processing CSV and JSON files
       href: technology-choices/csv-json-options.md 
-    - name: Applied artificial intelligence & cognitive services
+    - name: Applied artificial intelligence and cognitive services
       items:
       - name: Data science and machine learning
         href: technology-choices/data-science-and-machine-learning.md 

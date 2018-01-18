@@ -68,7 +68,7 @@ The following table summarize the key differences in capabilities between each. 
 | Active Directory authentication (integrated authentication) | No | No | No | Yes | 
 
 ## Where to go from here
-Read next: [Natural Language Processing Technology Choices](../technology-choices/natural-language-processing.md)
+Read next: [Natural language processing](../technology-choices/natural-language-processing.md)
 
 See also:
 

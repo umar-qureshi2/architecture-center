@@ -28,5 +28,5 @@ Capture web application logs and custom telemetry with [Application Insights](/a
     * [Online Transaction Processing (OLTP)](../pipeline-patterns/online-transaction-processing.md)
     * [Monitoring data solutions](../pipeline-patterns/monitoring-data-solutions.md)
 * Technology Choices
-    * [Options for pipeline orchestration, control flow, and data movement](../technology-choices/pipeline-orchestration-data-movement.md)
-    * [Data ingest](../technology-choices/data-ingest.md)
+    * [Pipeline orchestration, control flow, and data movement](../technology-choices/pipeline-orchestration-data-movement.md)
+    * [Data ingestion](../technology-choices/data-ingest.md)

@@ -21,11 +21,19 @@ This guide covers the big picture concepts in [common data architectures](./comm
 
 ![Overview of the structure of the guide](./images/overview-flowchart.png)
 
-At the end of each article a read next link is provided that you can follow to take a linear path through the content. In addition, links to alternate and related content are provided to guide you to material that provides additional perspective on the options. 
+Here are the common architectures covered in this guide:
+
+- [Relational data](./common-architectures/relational-data.md)
+- [Non-relational data](./common-architectures/non-relational-data.md)
+- [Big data](./common-architectures/big-data.md)
+- [Data pipeline](./common-architectures/data-pipeline.md)
+- [Advanced analytics](./common-architectures/advanced-analytics.md)
+- [Interactive data exploration](./common-architectures/interactive-data-exploration.md)
 
 ## Implementation examples
 
-The following examples are technology implementations we have seen directly in our customer engagements. The examples can help lead you into the content to make the right technology choices for your business. [TODO link]
+The following examples are technology implementations we have seen directly in our customer engagements. The examples can help lead you into the content to make the right technology choices for your business. 
+
 - [On-demand big data analytics](./implementation-examples/on-demand-big-data-analytics.md)
 - [Advanced analytics and deep learning](./implementation-examples/advanced-analytics-deep-learning.md)
 - [Hybrid data architecture](./implementation-examples/hybrid-data-architecture.md)
@@ -35,18 +43,3 @@ The following examples are technology implementations we have seen directly in o
 - [Data warehousing](./implementation-examples/data-warehousing.md)
 - [Extract, transform, load (ETL)](./implementation-examples/etl.md)
 
-## Where to go from here
-Read next:
-[Common data architectures](./common-architectures/index.md)
-
-**See also**
-
-All common architectures
-- [Relational data](./common-architectures/relational-data.md)
-    - [Transactional data](./common-architectures/relational-data.md#transactional-data)
-    - [Semantic modeling](./common-architectures/relational-data.md#semantic-modeling)
-- [Non-relational data](./common-architectures/non-relational-data.md)
-- [Big data](./common-architectures/big-data.md)
-- [Data pipeline](./common-architectures/data-pipeline.md)
-- [Advanced analytics](./common-architectures/advanced-analytics.md)
-- [Interactive data exploration](./common-architectures/interactive-data-exploration.md)

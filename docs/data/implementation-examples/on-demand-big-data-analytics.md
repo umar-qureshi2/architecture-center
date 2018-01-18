@@ -32,5 +32,5 @@ Create cloud-scale, enterprise-ready Hadoop clusters in a matter of minutes for 
     * [Batch processing](../technology-choices/batch-processing.md)
     * [Real-time processing](../technology-choices/real-time-processing.md)
     * [Data serving storage](../technology-choices/data-serving-storage.md)
-    * [Data ingest](../technology-choices/data-ingest.md)
+    * [Data ingestion](../technology-choices/data-ingest.md)
     * [Analysis, visualizations, and reporting](../technology-choices/analysis-visualizations-reporting.md)

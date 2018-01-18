@@ -87,7 +87,7 @@ The following tables summarize the key differences in capabilities between each 
 
 
 ## Where to go from here
-Read next: [Data Science and Machine Learning](../technology-choices/data-science-and-machine-learning.md)
+Read next: [Data science and machine learning](../technology-choices/data-science-and-machine-learning.md)
 
 See also:
 

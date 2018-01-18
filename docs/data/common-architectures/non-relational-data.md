@@ -150,4 +150,4 @@ The following compares the requirements for each of the non-relational data stor
 
 ## Technology choices
 
-- [CSV and JSON file processing technology choices](../technology-choices/csv-json-options.md) 
+- [Options for processing CSV and JSON files](../technology-choices/csv-json-options.md) 

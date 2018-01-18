@@ -57,5 +57,5 @@ The actual processing that applies NLP techniques varies based on the desired ou
 
 ## Technology choices
 
-- [Search technology choices](../technology-choices/search-options.md)
-- [Natural Language Processing](../technology-choices/natural-language-processing.md)
+- [Search data stores](../technology-choices/search-options.md)
+- [Natural language processing](../technology-choices/natural-language-processing.md)

@@ -111,7 +111,7 @@ Related pipeline patterns
     - [Processing free form text](../pipeline-patterns/processing-free-form-text.md)
 
 Related technology choices
-- [Online Transaction Processing (OLTP) Data Stores Technology Choices](../technology-choices/oltp-data-stores.md)
-- [Online Analytical Processing (OLAP) Data Stores Technology Choices](../technology-choices/olap-data-stores.md)
-- [Data Warehouses Technology Choices](../technology-choices/data-warehouses.md)
-- [Data Serving Storage Technology Choices](../technology-choices/data-serving-storage.md)
+- [Online Transaction Processing (OLTP) data stores](../technology-choices/oltp-data-stores.md)
+- [Online Analytical Processing (OLAP) data stores](../technology-choices/olap-data-stores.md)
+- [Data warehouses](../technology-choices/data-warehouses.md)
+- [Data serving storage](../technology-choices/data-serving-storage.md)
