@@ -39,7 +39,7 @@ The following examples are technology implementations we have seen directly in o
 Read next:
 [Common data architectures](./common-architectures/index.md)
 
-#### See also
+**See also**
 
 All common architectures
 - [Relational data](./common-architectures/relational-data.md)
