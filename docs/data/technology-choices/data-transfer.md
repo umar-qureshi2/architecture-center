@@ -5,7 +5,7 @@ author: zoinerTejada
 ms:date: 01/17/2018
 ---
 
-# Data transfer
+# Options for data transfer in Azure
 
 ## What are your options when choosing a data transfer method?
 There are several options for transferring data to and from Azure, depending on your needs:
