@@ -23,6 +23,7 @@ To understand how to apply a common data architecture to your scenario, start wi
 Use the following flow chart to begin your exploration: <!-- Note that the image uses "Nonrelational" it should be hyphenated to match the text. Typically the prefix "non" doesn't take a hyphen, but this is one of those terms that does. Try the image with less pastel. Also, add "Data warehouse" under "Relational."-->
 
 ![Common Data Architectures Conceptual Flow Chart](./images/concept-flowchart.png)
+TODO: Replace "Multidimensional" with "Semantic Modeling". Add "ELT" under "ETL". Add "Model deployment" under "Artificial intelligence". Add the new category "Interative data exploration" and the sections "Self-service BI" and "Data science experimentation". Can we remove some pastel colors?
 
 The common data architectures will guide you down a path of concepts that get more granular from the concept down to the generic form of technologies used in the architecture, and ultimately to help you make a choice amongst the various Azure options that exist.
 
