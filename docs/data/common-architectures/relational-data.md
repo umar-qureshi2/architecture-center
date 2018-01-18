@@ -27,6 +27,8 @@ Relational databases support varying forms of constraints, including:
 
 Additionally, relational databases allow for the storage of executable code routines in the form of stored procedures and functions, which enable a mixture of declarative and procedural approaches.
 
+If data is non-relational or has requirements that are not suited to a relational database, consider [Non-relational and No-SQL common architectures](./non-relational-data.md).
+
 ## Transactional data 
 
 Transactional data is information an organization collects that tracks the interactions related to what the organization does. These interactions are typically business transactions such as payments received from customers or payments made to suppliers, products moving through inventory, orders taken or services delivered. Transactional events, which represent the transactions themselves, not reference tables, typically contain a time dimension, some numerical values, and references to other data.
@@ -103,28 +105,14 @@ Semantic modeling and analytical processing tends to have the following traits:
 | Query flexibility | Highly flexible |
 | Scale: | Large (10s-100s GBs) |
 
+## Related pipeline patterns 
 
-## Where to go from here
-Read next: [Transactional Data Common Architecture](./relational-data.md#transactional-data)
+- [Data Warehousing](../pipeline-patterns/data-warehousing.md)
+- [Online Analytical Processing (OLAP)](../pipeline-patterns/online-analytical-processing.md)
+- [Online Transaction Processing (OLTP)](../pipeline-patterns/online-transaction-processing.md)
 
-See also:
+## Technology choices
 
-Related common architectures
-- [Transactional Data](./relational-data.md#transactional-data)
-- [Semantic Modeling](./relational-data.md#semantic-modeling)
-
-Alternative common architectures
-- [Non-relational and No-SQL common architectures](./non-relational-data.md)
-
-Related pipeline patterns 
-
-- Working with transactional data
-    - [Online Transaction Processing (OLTP)](../pipeline-patterns/online-transaction-processing.md)
-    - [Online Analytical Processing (OLAP)](../pipeline-patterns/online-analytical-processing.md)
-    - [Data Warehousing](../pipeline-patterns/data-warehousing.md)
-
-Related technology choices
-- Transactional data stores
-    - [Online Transaction Processing (OLTP) data stores](../technology-choices/oltp-data-stores.md)
-    - [Online Analytical Processing (OLAP) data stores](../technology-choices/olap-data-stores.md)
-    - [Data Warehouses](../technology-choices/data-warehouses.md)
+- [Data Warehouses](../technology-choices/data-warehouses.md)
+- [Online Analytical Processing (OLAP) data stores](../technology-choices/olap-data-stores.md)
+- [Online Transaction Processing (OLTP) data stores](../technology-choices/oltp-data-stores.md)

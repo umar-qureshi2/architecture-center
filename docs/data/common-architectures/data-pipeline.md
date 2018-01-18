@@ -64,21 +64,15 @@ Relevant Azure service:
 Other tools:
 - [SQL Server Integration Services (SSIS)](/sql/integration-services/sql-server-integration-services)
 
-## Where to go from here
+## Related pipeline patterns
 
-Read next: [Data Warehousing Solution Pattern](../pipeline-patterns/data-warehousing.md)
+- [Online Transaction Processing (OLTP)](../pipeline-patterns/online-transaction-processing.md)
+- [Online Analytical Processing (OLAP)](../pipeline-patterns/online-analytical-processing.md)
+- [Data Warehousing](../pipeline-patterns/data-warehousing.md)
 
-See also:
+## Technology choices
 
-Related pipeline patterns
-- Working with transactional data
-    - [Online Transaction Processing (OLTP)](../pipeline-patterns/online-transaction-processing.md)
-    - [Online Analytical Processing (OLAP)](../pipeline-patterns/online-analytical-processing.md)
-    - [Data Warehousing](../pipeline-patterns/data-warehousing.md)
-
-Related technology choices
-- Transactional Data Stores
-    - [Online Transaction Processing (OLTP) data stores](../technology-choices/oltp-data-stores.md)
-    - [Online Analytical Processing (OLAP) data stores](../technology-choices/olap-data-stores.md)
-    - [Data Warehouses](../technology-choices/data-warehouses.md)
+- [Online Transaction Processing (OLTP) data stores](../technology-choices/oltp-data-stores.md)
+- [Online Analytical Processing (OLAP) data stores](../technology-choices/olap-data-stores.md)
+- [Data Warehouses](../technology-choices/data-warehouses.md)
 - [Pipeline Orchestration, Control Flow, and Data Movement](../technology-choices/pipeline-orchestration-data-movement.md)

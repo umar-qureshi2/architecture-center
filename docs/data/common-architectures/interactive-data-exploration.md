@@ -31,22 +31,14 @@ Relevant Azure service:
 - [Azure Machine Learning Experimentation Services](/azure/machine-learning/preview/experimentation-service-configuration)
 - [The Data Science Virtual Machine](/azure/machine-learning/data-science-virtual-machine/overview)
 
-## Where to go from here
 
-Read next: [Relational Data Common Architecture](./relational-data.md)
+## Related pipeline patterns
 
-See also:
-
-Related common architectures
-- [Transactional Data](./relational-data.md#transactional-data)
-- [Non-Relational & NoSQL Data](./non-relational-data.md)
-- [Semantic Modeling](./relational-data.md#semantic-modeling)
-
-Related pipeline patterns
 - [Online Analytical Processing](../pipeline-patterns/online-analytical-processing.md)
 - [Online Transaction Processing](../pipeline-patterns/online-transaction-processing.md)
 - [Data Warehousing](../pipeline-patterns/data-warehousing.md)
 
-Related technology choices
+## Technology choices
+
 - [Analysis, Visualizations and Reporting](../technology-choices/analysis-visualizations-reporting.md)
 - [Data Warehouses](../technology-choices/data-warehouses.md)

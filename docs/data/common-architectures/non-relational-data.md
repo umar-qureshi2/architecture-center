@@ -142,23 +142,12 @@ The following compares the requirements for each of the non-relational data stor
 | Overall Maximum Scale | Very Large (PBs) | Very Large (PBs) | Very Large (PBs) | Large (TBs) | Large (low TBs)  | Very Large (PBs) | Large (low TBs) | 
 
 
-## Where to go from here
-Read next: Handling Unstructured Data Solution Pattern<!--This doesn't appear to exist.Did you want to link to the two patterns below? If so, they probably don't need to be repeated here.-->
+## Related pipeline patterns 
 
-See also: <!--These needed links. Some seem to map and others don't so I wasn't sure how you wanted them organized. I took my best guess. Also, actual titles of docs can be in title caps, everything else should be in sentence caps. Again, I did a little guessing here.-->
-
-Related pipeline patterns 
-- Handling unstructured data
-    - [Processing CSV and JSON files](../pipeline-patterns/processing-csv-and-json-files.md)
-    - [Processing Free-form Text](../pipeline-patterns/processing-free-form-text.md)
+- [Processing CSV and JSON files](../pipeline-patterns/processing-csv-and-json-files.md)
+- [Processing Free-form Text](../pipeline-patterns/processing-free-form-text.md)
 - [Handling Time Series Data](../pipeline-patterns/time-series.md)
-    - Internet of Things
-    - Real-time analytics
 
-Related technology choices
-- Handling unstructured data
-    - [CSV and JSON file processing technology choices](../technology-choices/csv-json-options.md) 
-    - Free-form text files
-- Time series solutions
-    - Internet of Things
-    - Real-time analytics
+## Technology choices
+
+- [CSV and JSON file processing technology choices](../technology-choices/csv-json-options.md) 
