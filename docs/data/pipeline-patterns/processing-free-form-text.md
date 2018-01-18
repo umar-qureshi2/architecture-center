@@ -55,15 +55,7 @@ The actual processing that applies NLP techniques varies based on the desired ou
 
 ![Using NLP with free-form text in Azure](./images/nlp-pipeline.png) <!-- see previous comment about comment after analytics. This should match whatever you decided.-->
 
-## Where to go from here
-Read next:
-[Search technology choices](../technology-choices/search-options.md)
+## Technology choices
 
-See also:
-
-Related pipeline patterns
-- Handling Unstructured Data
-    - [Processing CSV and JSON files](./processing-csv-and-json-files.md)
-
-Related technology choices
+- [Search technology choices](../technology-choices/search-options.md)
 - [Natural Language Processing](../technology-choices/natural-language-processing.md)

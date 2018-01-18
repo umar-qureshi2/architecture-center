@@ -159,14 +159,9 @@ An ExpressRoute circuit connects to the Azure region where the circuit is provis
 
 Compare your options with a set of [Hybrid network reference architectures](/azure/architecture/reference-architectures/hybrid-networking/index).
 
-## Where to go from here
-Read next:
-[Pipeline Orchestration, Control Flow, and Data Movement technology choices](../technology-choices/pipeline-orchestration-data-movement.md)
+## Technology choices
 
-See also:
-
-Related technology choices
-- [Online Transaction Processing (OLTP) data stores](../technology-choices/oltp-data-stores.md)
+- [Pipeline Orchestration, Control Flow, and Data Movement technology choices](../technology-choices/pipeline-orchestration-data-movement.md)
 - [Data Serving Storage](../technology-choices/data-serving-storage.md)
 - [Data Transfer](../technology-choices/data-transfer.md)
 - [Data Ingest](../technology-choices/data-ingest.md)

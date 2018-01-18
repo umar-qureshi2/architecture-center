@@ -64,13 +64,9 @@ This service is schema adaptive, which means that you do not have to do any data
 ![Time Series Insights](./images/time-series-insights.png) <!--Should have a comma after analytics in the last box.-->
 
 
-## Where to go from here
-Read next:
-[Data ingest technology choices](../technology-choices/data-ingest.md)
+## Technology choices
 
-See also:
-
-Related technology choices
+- [Data ingest technology choices](../technology-choices/data-ingest.md)
 - [Analysis, Visualizations, & Reporting](../technology-choices/analysis-visualizations-reporting.md)
 - [Data Serving Storage](../technology-choices/data-serving-storage.md)
 - [Real-time Processing](../technology-choices/real-time-processing.md)

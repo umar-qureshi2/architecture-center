@@ -103,15 +103,3 @@ For security monitoring on your managed Azure SQL Database instances, you can ta
 For information on securing your own application code that runs in the cloud, refer to the [cloud design security patterns](/azure/architecture/patterns/category/security) article, and consider following the code security best practices found in the Microsoft [Security Development Lifecycle](https://www.microsoft.com/sdl) (SDL) to minimize
 vulnerabilities and their security impact.
 
-## Where to go from here
-Read Next:
-- [Monitoring Data Solutions](../pipeline-patterns/monitoring-data-solutions.md)
-
-See Also:
-
-Related Technology Choices
-- [Online Transaction Processing (OLTP) data stores](../technology-choices/oltp-data-stores.md)
-- [Pipeline Orchestration, Control Flow, and Data Movement](../technology-choices/pipeline-orchestration-data-movement.md)
-- [Data Serving Storage](../technology-choices/data-serving-storage.md)
-- [Data Transfer](../technology-choices/data-transfer.md)
-- [Data Ingest](../technology-choices/data-ingest.md)
