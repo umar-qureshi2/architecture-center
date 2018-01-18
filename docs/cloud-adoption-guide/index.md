@@ -12,6 +12,8 @@ The Azure cloud adoption guide outlines and enumerates the design decisions nece
 
 This guide provides guidance on enterprise adoption of the cloud. It includes sections covering background content about the challenges of adopting the cloud, strategies for planning adoption of the cloud, and enumerates the technology and architecture choices for adopting the cloud.
 
+<!--- TODO: add content to describe intended audience for this guide --->
+
 ## Next Steps
 
 Learn more about the [cloud adoption decision domains](/adoption-overview/overview.md) - identity, governance, security, architecture, operations and management, and people.

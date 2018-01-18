@@ -10,7 +10,9 @@
   - name: Cloud adoption background
     href: 
     items:
-    - name: Explainer - Identity
+    - name: Explainer - How does Azure work?
+      href: adoption-overview/azure-explainer.md
+    - name: Explainer - Enterprise identity in the cloud
       href: adoption-overview/identity-explainer.md
     - name: Explainer - Governance - grouping resources for management in the cloud (subscriptions, resource groups)
       href:

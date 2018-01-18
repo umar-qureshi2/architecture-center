@@ -8,6 +8,10 @@ author: petertay
 
 In Azure, a [resource group](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-overview#resource-groups) is a logical container in which resources are grouped. Each resource deployed in Azure must be deployed into a resource group. Each resource can only be deployed into a single resource group. 
 
+## Who
+
+
+
 ## Design considerations
 
 - All resources in a resource group should share the same lifecycle. That is, your practice should be to deploy, update, and delete resources with the same lifecycle as a group. For example, a web application's compute and application resources are typically deployed as a single unit. However, a database shared with other web applications would most likely be managed in a different lifecycle, and should be in its own resource group.
