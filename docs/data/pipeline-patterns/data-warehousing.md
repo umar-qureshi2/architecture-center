@@ -57,13 +57,7 @@ Related services:
 * [Interactive Query (Hive LLAP) on HDInsight](/azure/hdinsight/interactive-query/apache-interactive-query-get-started)
 
 
-## Where to go from here
-Read next:
-[Data warehouse technology choices](../technology-choices/data-warehouses.md)
+## Technology choices
 
-See also:
+- [Data warehouse technology choices](../technology-choices/data-warehouses.md)
 
-Related technology choices
-- Transactional data stores
-    - [Online Transaction Processing (OLTP) data stores](../technology-choices/oltp-data-stores.md)
-    - [Online Analytical Processing (OLAP) data stores](../technology-choices/olap-data-stores.md)

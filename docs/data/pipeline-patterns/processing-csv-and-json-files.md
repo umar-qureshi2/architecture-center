@@ -56,12 +56,7 @@ Real-time processing is defined as the processing of a typically infinite stream
 
 Processed data oftentimes land in an analytical data store, which is optimized for analytics and visualization. In other cases, the processed data can be ingested directly into the analytics and reporting layer for analysis, business intelligence, and real-time dashboard visualization.
 
-## Where to go from here
-Read next:
-[CSV and JSON file processing technology choices](../technology-choices/csv-json-options.md)
+## Technology choices
 
-See also:
+- [CSV and JSON file processing technology choices](../technology-choices/csv-json-options.md)
 
-Related pipeline patterns
-- Handling Unstructured Data
-    - [Processing Free-form Text](./processing-free-form-text.md)

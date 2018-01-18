@@ -42,14 +42,6 @@ Related services:
     - [Web/API Apps](/azure/app-service/)
     - [Mobile Apps](/azure/app-service-mobile/)
 
-## Where to go from here
-Read next:
-[Online Transaction Processing (OLTP) data store technology choices](../technology-choices/oltp-data-stores.md)
+## Technology choices
 
-See also:
-
-Related technology choices
-- Transactional data stores
-    - [Online Transaction Processing (OLTP) data stores](../technology-choices/oltp-data-stores.md)
-    - [Online Analytical Processing (OLAP) data stores](../technology-choices/olap-data-stores.md)
-    - [Data Warehouses](../technology-choices/data-warehouses.md)
+- [Online Transaction Processing (OLTP) data stores](../technology-choices/oltp-data-stores.md)

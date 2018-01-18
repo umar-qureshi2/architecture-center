@@ -34,17 +34,7 @@ For all the benefits OLAP systems provide, they do produce a few challenges:
 
 In Azure, data held in OLTP systems such as Azure SQL Database is copied into the OLAP system, such as [Azure Analysis Services](/azure/analysis-services/analysis-services-overview). Data exploration and visualization tools like [Power BI](https://powerbi.microsoft.com), Excel, and third-party options connect to Analysis Services servers and provide users with highly interactive and visually rich insights into the modeled data. The flow of data from OLTP data to OLAP is typically orchestrated using SQL Server Integration Services, such as can be executed using [Azure Data Factory](/azure/data-factory/concepts-integration-runtime).
 
-## Where to go from here
-Read next:
-[Online Analytical Processing (OLAP) data store technology choices](../technology-choices/olap-data-stores.md)
+## Technology choices
 
-See also:
+- [Online Analytical Processing (OLAP) data store technology choices](../technology-choices/olap-data-stores.md)
 
-Related common architecture
-- [Semantic Modeling Common Architecture](../common-architectures/relational-data.md#semantic-modeling)
-
-Related technology choices
-- Transactional data stores
-    - [Online Transaction Processing (OLTP) data stores](../technology-choices/oltp-data-stores.md)
-    - [Online Analytical Processing (OLAP) data stores](../technology-choices/olap-data-stores.md)
-    - [Data Warehouses](../technology-choices/data-warehouses.md)

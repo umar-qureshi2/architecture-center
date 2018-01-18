@@ -5,7 +5,7 @@ author: zoinerTejada
 ms:date: 01/17/2018
 ---
 
-# Analysis, Visualizations, & Reporting
+# Options for analysis, visualizations, and reporting in Azure
 
 ## What are your options when choosing analysis, visualization, and reporting methods?
 There are several options for analysis, visualizations, and reporting in Azure, depending on your needs:

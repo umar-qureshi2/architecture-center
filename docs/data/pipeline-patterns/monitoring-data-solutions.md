@@ -68,13 +68,9 @@ Another option for monitoring the health of your Azure SQL Database instances, i
 
 Another option for taking advantage of the intelligent analytics that Azure Machine Learning provides, is to use the [ANOMALYDETECTION operator](/azure/stream-analytics/stream-analytics-machine-learning-anomaly-detection) in Stream Analytics. Up to now, IoT customers, and others, who monitor streaming data relied on expensive custom machine learning models. Implementers needed to have intimate familiarity with the use case and the problem domain, and integrating these models with the stream processing mechanisms required complex data pipeline engineering. The high barrier to entry precluded adoption of anomaly detection in streaming pipelines despite the associated value for many industrial IoT sites. This new capability makes it quick and easy to do service monitoring by tracking key performance indicators (KPIs) over time, as well as usage monitoring through metrics such as number of searches/clicks, or performance monitoring through counters like memory, CPU, and file IO over time.
 
-## Where to go from here
-Read next:
-[Data ingest technology choices](../technology-choices/data-ingest.md)
+## Technology choices
 
-See also:
-
-Related technology choices
+- [Data ingest technology choices](../technology-choices/data-ingest.md)
 - [Analysis, Visualizations, & Reporting](../technology-choices/analysis-visualizations-reporting.md)
 - [Data Serving Storage](../technology-choices/data-serving-storage.md)
 - [Real-time Processing](../technology-choices/real-time-processing.md)
