@@ -30,7 +30,7 @@ TODO: Change bottom line of diagram to display "Orchestration: PolyBase / ADF" i
     * [Online Analytical Processing (OLAP)](../pipeline-patterns/online-analytical-processing.md)
 * Technology Choices
     * [Data warehouses](../technology-choices/data-warehouses.md)
-    * [Data ingest](../technology-choices/data-ingest.md)
-    * [Options for pipeline orchestration, control flow, and data movement](../technology-choices/pipeline-orchestration-data-movement.md)
+    * [Data ingestion](../technology-choices/data-ingest.md)
+    * [Pipeline orchestration, control flow, and data movement](../technology-choices/pipeline-orchestration-data-movement.md)
     * [Data transfer](../technology-choices/data-transfer.md)
-    * [Analysis, Visualizations, & Reporting](../technology-choices/analysis-visualizations-reporting.md)
+    * [Analysis, visualizations, and reporting](../technology-choices/analysis-visualizations-reporting.md)

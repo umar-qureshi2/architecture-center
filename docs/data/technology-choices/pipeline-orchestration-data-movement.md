@@ -80,4 +80,4 @@ Related pipeline patterns
 Related technology choices
 - Transactional data stores
     - [Online Analytical Processing (OLAP) data stores](../technology-choices/olap-data-stores.md)
-    - [Data Warehouses](../technology-choices/data-warehouses.md)
+    - [Data warehouses](../technology-choices/data-warehouses.md)

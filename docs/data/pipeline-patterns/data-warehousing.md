@@ -59,5 +59,5 @@ Related services:
 
 ## Technology choices
 
-- [Data warehouse technology choices](../technology-choices/data-warehouses.md)
+- [Data warehouses](../technology-choices/data-warehouses.md)
 

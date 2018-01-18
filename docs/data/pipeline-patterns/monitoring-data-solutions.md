@@ -70,7 +70,7 @@ Another option for taking advantage of the intelligent analytics that Azure Mach
 
 ## Technology choices
 
-- [Data ingest technology choices](../technology-choices/data-ingest.md)
-- [Analysis, Visualizations, & Reporting](../technology-choices/analysis-visualizations-reporting.md)
-- [Data Serving Storage](../technology-choices/data-serving-storage.md)
-- [Real-time Processing](../technology-choices/real-time-processing.md)
+- [Data ingestion](../technology-choices/data-ingest.md)
+- [Analysis, visualizations, and reporting](../technology-choices/analysis-visualizations-reporting.md)
+- [Data serving storage](../technology-choices/data-serving-storage.md)
+- [Real-time processing](../technology-choices/real-time-processing.md)

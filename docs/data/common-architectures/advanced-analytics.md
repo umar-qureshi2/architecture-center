@@ -91,6 +91,6 @@ Relevant Azure services:
 
 ## Technology choices
 
-- [Data Science and Machine Learning](../technology-choices/data-science-and-machine-learning.md)
-- [Cognitive Services](../technology-choices/cognitive-services.md)
+- [Data science and machine learning](../technology-choices/data-science-and-machine-learning.md)
+- [Cognitive services](../technology-choices/cognitive-services.md)
 

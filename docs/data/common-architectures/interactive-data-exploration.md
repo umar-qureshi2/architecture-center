@@ -40,5 +40,5 @@ Relevant Azure service:
 
 ## Technology choices
 
-- [Analysis, Visualizations and Reporting](../technology-choices/analysis-visualizations-reporting.md)
-- [Data Warehouses](../technology-choices/data-warehouses.md)
+- [Analysis, visualizations, and reporting](../technology-choices/analysis-visualizations-reporting.md)
+- [Data warehouses](../technology-choices/data-warehouses.md)

@@ -161,7 +161,7 @@ Compare your options with a set of [Hybrid network reference architectures](/azu
 
 ## Technology choices
 
-- [Pipeline Orchestration, Control Flow, and Data Movement technology choices](../technology-choices/pipeline-orchestration-data-movement.md)
-- [Data Serving Storage](../technology-choices/data-serving-storage.md)
-- [Data Transfer](../technology-choices/data-transfer.md)
-- [Data Ingest](../technology-choices/data-ingest.md)
+- [Pipeline orchestration, control flow, and data movement](../technology-choices/pipeline-orchestration-data-movement.md)
+- [Data serving storage](../technology-choices/data-serving-storage.md)
+- [Data transfer](../technology-choices/data-transfer.md)
+- [Data ingestion](../technology-choices/data-ingest.md)

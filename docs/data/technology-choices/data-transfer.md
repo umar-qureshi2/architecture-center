@@ -233,5 +233,5 @@ Related pipeline patterns
 
 
 Related technology choices
-- [Data Ingest Technology Choices](../technology-choices/data-ingest.md)
-- [Pipeline Orchestration and Data Movement Technology Choices](../technology-choices/pipeline-orchestration-data-movement.md)
+- [Data ingestion](../technology-choices/data-ingest.md)
+- [Pipeline orchestration, control flow, and data movement](../technology-choices/pipeline-orchestration-data-movement.md)

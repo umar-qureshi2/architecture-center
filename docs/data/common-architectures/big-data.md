@@ -134,5 +134,5 @@ Learn more about IoT on Azure by reading the [Azure IoT reference architecture](
 
 - [Data serving storage](../technology-choices/data-serving-storage.md)
 - [Options for processing CSV and JSON files](../technology-choices/csv-json-options.md)
-- [Search Technology Choices](../technology-choices/search-options.md)
-- [Natural language processing technology choices](../technology-choices/natural-language-processing.md)
+- [Search data stores](../technology-choices/search-options.md)
+- [Natural language processing](../technology-choices/natural-language-processing.md)

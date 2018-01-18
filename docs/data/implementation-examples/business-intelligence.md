@@ -27,6 +27,6 @@ Azure offers a rich data and analytics platform so you can build scalable BI and
     * [Data warehousing](../pipeline-patterns/data-warehousing.md)
     * [Online Analytical Processing (OLAP)](../pipeline-patterns/online-analytical-processing.md)
 * Technology Choices
-    * [Analysis, Visualizations, & Reporting](../technology-choices/analysis-visualizations-reporting.md)
+    * [Analysis, visualizations, and reporting](../technology-choices/analysis-visualizations-reporting.md)
     * [Data warehouses](../technology-choices/data-warehouses.md)
-    * [Options for pipeline orchestration, control flow, and data movement](../technology-choices/pipeline-orchestration-data-movement.md)
+    * [Pipeline orchestration, control flow, and data movement](../technology-choices/pipeline-orchestration-data-movement.md)

@@ -28,4 +28,4 @@ When you need hybrid on-premises and cloud options, nothing comes close to Azure
 * Technology Choices
     * [Online Transaction Processing (OLTP) data stores](../technology-choices/oltp-data-stores.md)
     * [Data transfer](../technology-choices/data-transfer.md)
-    * [Data ingest](../technology-choices/data-ingest.md)
+    * [Data ingestion](../technology-choices/data-ingest.md)

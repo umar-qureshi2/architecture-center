@@ -53,5 +53,5 @@ Once you have decided that a custom model is warranted, then you can begin to de
 
 ## Technology choices
 
-- [Data Science and Machine Learning](../technology-choices/data-science-and-machine-learning.md)
+- [Data science and machine learning](../technology-choices/data-science-and-machine-learning.md)
 

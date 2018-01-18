@@ -214,5 +214,5 @@ Related pipeline patterns
     - [Processing free form text](../pipeline-patterns/processing-free-form-text.md)
 
 Related technology choices
-- [Data Transfer Technology Choices](../technology-choices/data-transfer.md)
-- [Pipeline Orchestration and Data Movement Technology Choices](../technology-choices/pipeline-orchestration-data-movement.md)
+- [Data transfer](../technology-choices/data-transfer.md)
+- [Pipeline orchestration, control flow, and data movement](../technology-choices/pipeline-orchestration-data-movement.md)

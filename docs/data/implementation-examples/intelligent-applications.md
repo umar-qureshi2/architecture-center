@@ -28,4 +28,4 @@ Quickly add intelligence to your applications with [Cognitive Services](/azure/#
     * [Online Transaction Processing (OLTP)](../pipeline-patterns/online-transaction-processing.md)
 * Technology Choices
     * [Online Transaction Processing (OLTP) data stores](../technology-choices/oltp-data-stores.md)
-    * [Cognitive Services](../technology-choices/cognitive-services.md)
+    * [Cognitive services](../technology-choices/cognitive-services.md)

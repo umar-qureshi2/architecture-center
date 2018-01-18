@@ -58,5 +58,5 @@ Processed data oftentimes land in an analytical data store, which is optimized f
 
 ## Technology choices
 
-- [CSV and JSON file processing technology choices](../technology-choices/csv-json-options.md)
+- [Options for processing CSV and JSON files](../technology-choices/csv-json-options.md)
 

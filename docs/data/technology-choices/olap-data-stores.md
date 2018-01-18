@@ -50,7 +50,7 @@ The following tables summarize the key differences in capabilities between each.
 | Requires process to copy data from source(s) | Yes | Yes | No | No |
 | Azure Active Directory (AAD) integration | Yes | No | No \** | Yes |
 
-\* While SQL Server or Azure SQL Database cannot be used to query from and integrate multiple external data sources, you can still build a pipeline that does this for you using [SSIS](/sql/integration-services/sql-server-integration-services) or [Azure Data Factory](/azure/data-factory/). SQL Server hosted in an Azure VM has additional options, such as linked servers (other SQL Servers, Oracle, etc.) and [PolyBase](/sql/relational-databases/polybase/polybase-guide). See [Options for Pipeline Orchestration, Control Flow, and Data Movement](../technology-choices/pipeline-orchestration-data-movement.md) for more information.
+\* While SQL Server or Azure SQL Database cannot be used to query from and integrate multiple external data sources, you can still build a pipeline that does this for you using [SSIS](/sql/integration-services/sql-server-integration-services) or [Azure Data Factory](/azure/data-factory/). SQL Server hosted in an Azure VM has additional options, such as linked servers (other SQL Servers, Oracle, etc.) and [PolyBase](/sql/relational-databases/polybase/polybase-guide). See [Pipeline orchestration, control flow, and data movement](../technology-choices/pipeline-orchestration-data-movement.md) for more information.
 
 \** Connecting to SQL Server running on an Azure Virtual Machine is not supported using an Azure Active Directory account. Use a domain Active Directory account instead.
 
@@ -77,6 +77,6 @@ Related pipeline patterns
 Related technology choices
 - Transactional data stores
     - [Online Transaction Processing (OLTP) data stores](../technology-choices/oltp-data-stores.md)
-    - [Data Warehouses](../technology-choices/data-warehouses.md)
+    - [Data warehouses](../technology-choices/data-warehouses.md)
     - [Data serving storage](../technology-choices/data-serving-storage.md)
-    - [Options for Pipeline Orchestration, Control Flow, and Data Movement](../technology-choices/pipeline-orchestration-data-movement.md)
+    - [Pipeline orchestration, control flow, and data movement](../technology-choices/pipeline-orchestration-data-movement.md)

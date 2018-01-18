@@ -36,5 +36,5 @@ In Azure, data held in OLTP systems such as Azure SQL Database is copied into th
 
 ## Technology choices
 
-- [Online Analytical Processing (OLAP) data store technology choices](../technology-choices/olap-data-stores.md)
+- [Online Analytical Processing (OLAP) data stores](../technology-choices/olap-data-stores.md)
 
