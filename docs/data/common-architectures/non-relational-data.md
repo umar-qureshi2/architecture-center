@@ -1,3 +1,10 @@
+---
+title: 
+description: 
+author: zoinerTejada
+ms:date: 01/17/2018
+---
+
 # Non-relational data and NoSQL 
 
 Non-relational data is not represented in the tabular schema of rows and columns used by many traditional databases, but is instead represented in a storage model that better suits the specific requirements of the application in which the data is used. For example, the data may stored as simple key/value pairs, as JSON documents, or as a graph consisting of edges and vertices. These data stores break from the tradition of representing the data in a relational model and tend to more specific in the type of data they support, and in the ways in which the data can be queried. For example, time series data stores are optimized for supporting queries over time based sequences of data, and graph data stores are optimized for exploring weighted relationships between entities. Neither format would generalize well to the task of managing transactional data. 
@@ -36,7 +43,7 @@ Unlike a key/value store or a document database, most column-family databases ph
 Read and write operations for a row are usually atomic within a single column family, although some implementations provide atomicity across the entire row, spanning multiple column families.
 
 Relevant Azure service:  
-- [HBase in HDInsight](https://docs.microsoft.com/azure/hdinsight/hdinsight-hbase-overview)
+- [HBase in HDInsight](/azure/hdinsight/hdinsight-hbase-overview)
 
 ## Key/value data stores
 A key/value store is essentially a large hash table. You associate each data value with a unique key, and the key/value store uses this key to store the data by using an appropriate hashing function. The hashing function is selected to provide an even distribution of hashed keys across the data storage.
@@ -79,7 +86,7 @@ Updates are rare, and deletes are often done as bulk operations. Although the re
 
 Relevant Azure service:  
 - [Azure Time Series Insights](https://azure.microsoft.com/services/time-series-insights/)  
-- [OpenTSDB with HBase on HDInsight](https://docs.microsoft.com/azure/hdinsight/hdinsight-hbase-overview)
+- [OpenTSDB with HBase on HDInsight](/azure/hdinsight/hdinsight-hbase-overview)
 
 ## Object data stores
 Object data stores are optimized for storing and retrieving large binary objects or blobs such as images, text files, video and audio streams, large application data objects and documents, and virtual machine disk images. Objects are composed of the stored data, some metadata, and a unique ID for accessing the object. Object stores are designed to support files that are individually very large, as well provide large amounts of total storage to manage all files.  
@@ -135,23 +142,12 @@ The following compares the requirements for each of the non-relational data stor
 | Overall Maximum Scale | Very Large (PBs) | Very Large (PBs) | Very Large (PBs) | Large (TBs) | Large (low TBs)  | Very Large (PBs) | Large (low TBs) | 
 
 
-## Where to go from here
-Read next: Handling Unstructured Data Solution Pattern<!--This doesn't appear to exist.Did you want to link to the two patterns below? If so, they probably don't need to be repeated here.-->
+## Related pipeline patterns 
 
-See also: <!--These needed links. Some seem to map and others don't so I wasn't sure how you wanted them organized. I took my best guess. Also, actual titles of docs can be in title caps, everything else should be in sentence caps. Again, I did a little guessing here.-->
-
-Related pipeline patterns 
-- Handling unstructured data
-    - [Processing CSV and JSON files](../pipeline-patterns/processing-csv-and-json-files.md)
-    - [Processing Free-form Text](../pipeline-patterns/processing-free-form-text.md)
+- [Processing CSV and JSON files](../pipeline-patterns/processing-csv-and-json-files.md)
+- [Processing Free-form Text](../pipeline-patterns/processing-free-form-text.md)
 - [Handling Time Series Data](../pipeline-patterns/time-series.md)
-    - Internet of Things
-    - Real-time analytics
 
-Related technology choices
-- Handling unstructured data
-    - [CSV and JSON file processing technology choices](../technology-choices/csv-json-options.md) 
-    - Free-form text files
-- Time series solutions
-    - Internet of Things
-    - Real-time analytics
+## Technology choices
+
+- [CSV and JSON file processing technology choices](../technology-choices/csv-json-options.md) 

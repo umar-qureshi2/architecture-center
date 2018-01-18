@@ -1,6 +1,13 @@
+---
+title: 
+description: 
+author: zoinerTejada
+ms:date: 01/17/2018
+---
+
 # Online Transaction Processing (OLTP)
 
-The management of [transactional data](../common-architectures/transactional-data.md) using computer systems is referred to as Online Transaction Processing or OLTP. OLTP systems record the business interactions as they occur in the day-to-day operation of the organization, and support querying of this data to make inferences related to these business transactions.
+The management of [transactional data](../common-architectures/relational-data.md#transactional-data) using computer systems is referred to as Online Transaction Processing or OLTP. OLTP systems record the business interactions as they occur in the day-to-day operation of the organization, and support querying of this data to make inferences related to these business transactions.
 
 ## When to use this architecture
 Choose OLTP when you have a data pipeline from source to data storage that needs to efficiently process and store business interactions and immediately make them available to client applications in a consistent way. Use this architecture when any tangible delay in processing would have a negative impact on the day-to-day operations of the business.
@@ -27,13 +34,13 @@ In practice, most workloads are not purely OLTP - there tends to be an [analytic
 Related services:
 
 - Data storage
-    - [Azure SQL Database](https://docs.microsoft.com/azure/sql-database/)
-    - [SQL Server in an Azure VM](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-server-iaas-overview?toc=%2Fazure%2Fvirtual-machines%2Fwindows%2Ftoc.json)
-    - [Azure Database for MySQL](https://docs.microsoft.com/azure/mysql/)
-    - [Azure Database for PostgreSQL](https://docs.microsoft.com/azure/postgresql/)
+    - [Azure SQL Database](/azure/sql-database/)
+    - [SQL Server in an Azure VM](/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-server-iaas-overview?toc=%2Fazure%2Fvirtual-machines%2Fwindows%2Ftoc.json)
+    - [Azure Database for MySQL](/azure/mysql/)
+    - [Azure Database for PostgreSQL](/azure/postgresql/)
 - Data sources
-    - [Web/API Apps](https://docs.microsoft.com/azure/app-service/)
-    - [Mobile Apps](https://docs.microsoft.com/azure/app-service-mobile/)
+    - [Web/API Apps](/azure/app-service/)
+    - [Mobile Apps](/azure/app-service-mobile/)
 
 ## Where to go from here
 Read next:

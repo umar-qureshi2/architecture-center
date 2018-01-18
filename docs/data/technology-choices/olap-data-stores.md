@@ -1,15 +1,22 @@
+---
+title: 
+description: 
+author: zoinerTejada
+ms:date: 01/17/2018
+---
+
 # Online Analytical Processing (OLAP) data stores
 
 ## What are your options when choosing an OLAP data store?
 In Azure, all of the following data stores will meet the core requirements for OLAP:
 
-- [SQL Server with Columnstore indexes](https://docs.microsoft.com/sql/relational-databases/indexes/get-started-with-columnstore-for-real-time-operational-analytics)
-- [Azure Analysis Services](https://docs.microsoft.com/azure/analysis-services/analysis-services-overview)
-- [SQL Server Analysis Services (SSAS)](https://docs.microsoft.com/sql/analysis-services/analysis-services)
+- [SQL Server with Columnstore indexes](/sql/relational-databases/indexes/get-started-with-columnstore-for-real-time-operational-analytics)
+- [Azure Analysis Services](/azure/analysis-services/analysis-services-overview)
+- [SQL Server Analysis Services (SSAS)](/sql/analysis-services/analysis-services)
 
-SQL Server Analysis Services (SSAS) offers OLAP and data mining functionality for business intelligence applications. You can either install SSAS on local servers, or host within a virtual machine in Azure. Azure Analysis Services is a fully managed platform as a service (PaaS) offering that provides the same major features as SSAS, but in the cloud. Because Azure Analysis Services lives in the cloud, its servers support connecting to [various data sources](https://docs.microsoft.com/azure/analysis-services/analysis-services-datasource) in the cloud and on-premises in your organization.
+SQL Server Analysis Services (SSAS) offers OLAP and data mining functionality for business intelligence applications. You can either install SSAS on local servers, or host within a virtual machine in Azure. Azure Analysis Services is a fully managed platform as a service (PaaS) offering that provides the same major features as SSAS, but in the cloud. Because Azure Analysis Services lives in the cloud, its servers support connecting to [various data sources](/azure/analysis-services/analysis-services-datasource) in the cloud and on-premises in your organization.
 
-Clustered Columnstore indexes are available in SQL Server 2014 and above, as well as Azure SQL Database, and are ideal for OLAP workloads. However, beginning with SQL Server 2016 (including Azure SQL Database), you can take advantage of hybrid transactional/analytics processing (HTAP) through the use of updateable nonclustered columnstore indexes. HTAP enables you to perform OLTP and OLAP processing on the same platform, which removes the need to store multiple copies of your data, and eliminates the need for distinct OLTP and OLAP systems. For more information, see [Get started with Columnstore for real-time operational analytics](https://docs.microsoft.com/sql/relational-databases/indexes/get-started-with-columnstore-for-real-time-operational-analytics).
+Clustered Columnstore indexes are available in SQL Server 2014 and above, as well as Azure SQL Database, and are ideal for OLAP workloads. However, beginning with SQL Server 2016 (including Azure SQL Database), you can take advantage of hybrid transactional/analytics processing (HTAP) through the use of updateable nonclustered columnstore indexes. HTAP enables you to perform OLTP and OLAP processing on the same platform, which removes the need to store multiple copies of your data, and eliminates the need for distinct OLTP and OLAP systems. For more information, see [Get started with Columnstore for real-time operational analytics](/sql/relational-databases/indexes/get-started-with-columnstore-for-real-time-operational-analytics).
 
 ## How do you choose?
 Each data store brings with it a unique set of capabilities, giving you the option to select the one that most closely meets your requirements. 
@@ -43,7 +50,7 @@ The following tables summarize the key differences in capabilities between each.
 | Requires process to copy data from source(s) | Yes | Yes | No | No |
 | Azure Active Directory (AAD) integration | Yes | No | No \** | Yes |
 
-\* While SQL Server or Azure SQL Database cannot be used to query from and integrate multiple external data sources, you can still build a pipeline that does this for you using [SSIS](https://docs.microsoft.com/sql/integration-services/sql-server-integration-services) or [Azure Data Factory](https://docs.microsoft.com/azure/data-factory/). SQL Server hosted in an Azure VM has additional options, such as linked servers (other SQL Servers, Oracle, etc.) and [PolyBase](https://docs.microsoft.com/sql/relational-databases/polybase/polybase-guide). See [Options for Pipeline Orchestration, Control Flow, and Data Movement](../technology-choices/pipeline-orchestration-data-movement.md) for more information.
+\* While SQL Server or Azure SQL Database cannot be used to query from and integrate multiple external data sources, you can still build a pipeline that does this for you using [SSIS](/sql/integration-services/sql-server-integration-services) or [Azure Data Factory](/azure/data-factory/). SQL Server hosted in an Azure VM has additional options, such as linked servers (other SQL Servers, Oracle, etc.) and [PolyBase](/sql/relational-databases/polybase/polybase-guide). See [Options for Pipeline Orchestration, Control Flow, and Data Movement](../technology-choices/pipeline-orchestration-data-movement.md) for more information.
 
 \** Connecting to SQL Server running on an Azure Virtual Machine is not supported using an Azure Active Directory account. Use a domain Active Directory account instead.
 
@@ -51,7 +58,7 @@ The following tables summarize the key differences in capabilities between each.
 
 | | Azure Analysis Services | SQL Server Analysis Services | SQL Server in Azure Virtual Machine + Columnstore Indexes | Azure SQL Database + Columnstore Indexes |
 | --- | --- | --- | --- | --- |
-| Redundant regional servers for high availability  | [Yes](https://docs.microsoft.com/azure/analysis-services/analysis-services-bcdr) | No | Yes | Yes |
+| Redundant regional servers for high availability  | [Yes](/azure/analysis-services/analysis-services-bcdr) | No | Yes | Yes |
 | Supports query scale out  | Yes | No | Yes | No |
 | Dynamic scalability (scale up)  | Yes | No | Yes | No |
 

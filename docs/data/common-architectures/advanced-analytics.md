@@ -1,4 +1,11 @@
- # Advanced Analytics
+---
+title: 
+description: 
+author: zoinerTejada
+ms:date: 01/17/2018
+---
+
+# Advanced Analytics
 
 Advanced analytics goes beyond the historical reporting and "slice and dice" <!--I made a comment in another doc about this being slang and that it should be replaced for ESL readers. Unfortunately, I'm not sure which doc that was, but it would be best if they matched.-->data aggregation of traditional business intelligence (BI), and uses mathematical, probabilistic, and statistical modeling techniques to enable predictive processing and automated decision making.
 
@@ -37,7 +44,7 @@ Machine learning is a mathematical modeling technique used to train a predictive
 
 Machine learning modeling is usually performed by data scientists, who need to thoroughly explore and prepare the data before training a model. This exploration and preparation typically involves a great deal of interactive data analysis and visualization&mdash;usually using languages such as Python and R in interactive tools and environments that are specifically designed for this task.
 
-In some cases, you may be able to use [pretrained models](https://docs.microsoft.com/machine-learning-server/install/microsoftml-install-pretrained-models) that come with training data obtained and developed by Microsoft. The advantage of pretrained models is that you can score and classify new content right away, even if you don't have the necessary training data, the resources to manage large datasets or to train complex models.
+In some cases, you may be able to use [pretrained models](/machine-learning-server/install/microsoftml-install-pretrained-models) that come with training data obtained and developed by Microsoft. The advantage of pretrained models is that you can score and classify new content right away, even if you don't have the necessary training data, the resources to manage large datasets or to train complex models.
 
 There are two broad categories of machine learning:
 
@@ -49,8 +56,8 @@ When the model has been trained, it can be deployed into production, used with n
 
 Relevant Azure services:
 
-- [Azure Machine Learning](https://docs.microsoft.com/azure/machine-learning/)
-- [Machine Learning Server (R Server) on HDInsight](https://docs.microsoft.com/azure/hdinsight/r-server/r-server-overview)
+- [Azure Machine Learning](/azure/machine-learning/)
+- [Machine Learning Server (R Server) on HDInsight](/azure/hdinsight/r-server/r-server-overview)
 
 ## Deep learning
 
@@ -60,8 +67,8 @@ Consequently, when designing a cloud architecture for advanced analytics, you sh
 
 Relevant Azure services:
 
-- [Deep Learning Virtual Machine](https://docs.microsoft.com/azure/machine-learning/data-science-virtual-machine/deep-learning-dsvm-overview)
-- [Apache Spark on HDInsight](https://docs.microsoft.com/azure/hdinsight/spark/apache-spark-overview)
+- [Deep Learning Virtual Machine](/azure/machine-learning/data-science-virtual-machine/deep-learning-dsvm-overview)
+- [Apache Spark on HDInsight](/azure/hdinsight/spark/apache-spark-overview)
 
 ## Artificial intelligence
 
@@ -73,23 +80,17 @@ The predictive services that support AI applications may leverage custom machine
 
 Relevant Azure services:
 
-- [Azure Machine Learning](https://docs.microsoft.com/azure/machine-learning/)
-- [Machine Learning Server (R Server) on HDInsight](https://docs.microsoft.com/azure/hdinsight/r-server/r-server-overview)
+- [Azure Machine Learning](/azure/machine-learning/)
+- [Machine Learning Server (R Server) on HDInsight](/azure/hdinsight/r-server/r-server-overview)
 
-## Where to go from here
 
-Read next: [Machine Learning pipeline pattern](../pipeline-patterns/machine-learning-at-scale.md)
+## Related pipeline patterns
 
-See also:
-
-Related common architecture
-- [Interactive Data Exploration](../common-architectures/interactive-data-exploration.md)
-
-Related pipeline patterns
 - [Machine Learning](../pipeline-patterns/machine-learning-at-scale.md)
 - [Processing CSV and JSON files](../pipeline-patterns/processing-csv-and-json-files.md)
 
-Related technology choices
+## Technology choices
+
 - [Data Science and Machine Learning](../technology-choices/data-science-and-machine-learning.md)
 - [Cognitive Services](../technology-choices/cognitive-services.md)
 

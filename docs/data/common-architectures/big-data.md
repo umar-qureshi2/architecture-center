@@ -1,3 +1,10 @@
+---
+title: 
+description: 
+author: zoinerTejada
+ms:date: 01/17/2018
+---
+
 # Big Data
 
 A big data architecture is designed to handle the ingestion, processing, and analysis of data that is too large or complex for traditional database systems. The threshold at which organizations enter into the big data realm differs, depending on the capabilities of the users and their tools. For some, it can mean hundreds of gigabytes of data, while for others it means hundreds of terabytes. As tools to help you work with big data sets advance, so does the meaning of big data. More and more, this term relates to the value you can extract from your data sets through advanced analytics, like predictive or user behavior analytics, than strictly the size of your data set, though in these cases they tend to be quite large.
@@ -116,20 +123,16 @@ Relevant Azure service:
 
 Learn more about IoT on Azure by reading the [Azure IoT reference architecture](https://azure.microsoft.com/updates/microsoft-azure-iot-reference-architecture-available/).
 
-## Where to go from here
 
-Read next: [Processing CSV and JSON Files pipeline pattern](../pipeline-patterns/processing-csv-and-json-files.md)
+## Related pipeline patterns
 
-See also:
-
-Related pipeline patterns
-- Handling unstructured data
-    - [Processing free-form text files](../pipeline-patterns/processing-free-form-text.md)
+- [Processing CSV and JSON Files pipeline pattern](../pipeline-patterns/processing-csv-and-json-files.md)
+- [Processing free-form text files](../pipeline-patterns/processing-free-form-text.md)
 - [Time-series solutions](../pipeline-patterns/time-series.md)
 
-Related technology choices
+## Technology choices
+
 - [Data serving storage](../technology-choices/data-serving-storage.md)
-- Handling unstructured data
-    - [Options for processing CSV and JSON files](../technology-choices/csv-json-options.md)
-    - [Enabling full text search on free-form text files](../technology-choices/search-options.md)
-    - [Processing free-form text files with natural language processing](../technology-choices/natural-language-processing.md)
+- [Options for processing CSV and JSON files](../technology-choices/csv-json-options.md)
+- [Search Technology Choices](../technology-choices/search-options.md)
+- [Natural language processing technology choices](../technology-choices/natural-language-processing.md)

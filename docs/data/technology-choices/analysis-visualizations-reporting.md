@@ -1,32 +1,39 @@
+---
+title: 
+description: 
+author: zoinerTejada
+ms:date: 01/17/2018
+---
+
 # Analysis, Visualizations, & Reporting
 
 ## What are your options when choosing analysis, visualization, and reporting methods?
 There are several options for analysis, visualizations, and reporting in Azure, depending on your needs:
 
-- [Power BI](https://docs.microsoft.com/power-bi/)
+- [Power BI](/power-bi/)
 - [Jupyter Notebooks](https://jupyter.readthedocs.io/en/latest/index.html)
 - [Zeppelin Notebooks](https://zeppelin.apache.org/)
 - [Microsoft Azure Notebooks](https://notebooks.azure.com/)
 
 ### Power BI
 
-[Power BI](https://docs.microsoft.com/power-bi/) is a suite of business analytics tools that deliver insights throughout your organization. Connect to hundreds of data sources, simplify data prep, and drive ad hoc analysis. Use [Power BI Embedded](https://azure.microsoft.com/services/power-bi-embedded/) to integrate Power BI data experiences within your own applications without requiring any additional licensing.
+[Power BI](/power-bi/) is a suite of business analytics tools that deliver insights throughout your organization. Connect to hundreds of data sources, simplify data prep, and drive ad hoc analysis. Use [Power BI Embedded](https://azure.microsoft.com/services/power-bi-embedded/) to integrate Power BI data experiences within your own applications without requiring any additional licensing.
 
-Produce reports and publish them for your organization to consume on the web and across mobile devices. Everyone can create personalized dashboards with a unique, 360-degree view of their business. And scale across the enterprise, with governance and [security built in](https://docs.microsoft.com/power-bi/service-admin-power-bi-security). Power BI uses [Azure Active Directory](https://docs.microsoft.com/azure/active-directory/) (Azure AD) <!--This is the approved acronym.--> to authenticate users who log in to the Power BI service, and in turn, uses the Power BI login credentials whenever a user attempts to access resources that require authentication.
+Produce reports and publish them for your organization to consume on the web and across mobile devices. Everyone can create personalized dashboards with a unique, 360-degree view of their business. And scale across the enterprise, with governance and [security built in](/power-bi/service-admin-power-bi-security). Power BI uses [Azure Active Directory](/azure/active-directory/) (Azure AD) <!--This is the approved acronym.--> to authenticate users who log in to the Power BI service, and in turn, uses the Power BI login credentials whenever a user attempts to access resources that require authentication.
 
-You can connect to hundreds of data sources from Power BI. See [this list](https://docs.microsoft.com/power-bi/desktop-data-sources) of the currently available data sources.
+You can connect to hundreds of data sources from Power BI. See [this list](/power-bi/desktop-data-sources) of the currently available data sources.
 
 ### Jupyter Notebooks 
 <!--Looks like Notebook in this and Zeppelin are proper names so leaving capped.-->
 [Jupyter Notebooks](https://jupyter.readthedocs.io/en/latest/index.html) provide a browser-based shell that enables data scientists to create *notebook* files that contain Python, Scala, or R code and markdown text, making it an effective way to collaborate by sharing and documenting code and results in a single document.
 
-Most varieties of HDInsight clusters, such as Spark or Hadoop, come [preconfigured with Jupyter notebooks](https://docs.microsoft.com/azure/hdinsight/spark/apache-spark-jupyter-notebook-kernels) for interacting with data and submitting jobs for processing. Depending on the type of HDInsight cluster you are using, one or more kernels will be provided for interpreting and running your code. For example, Spark clusters on HDInsight provide Spark-related kernels that you can select from to execute Python or Scala code using the Spark engine.
+Most varieties of HDInsight clusters, such as Spark or Hadoop, come [preconfigured with Jupyter notebooks](/azure/hdinsight/spark/apache-spark-jupyter-notebook-kernels) for interacting with data and submitting jobs for processing. Depending on the type of HDInsight cluster you are using, one or more kernels will be provided for interpreting and running your code. For example, Spark clusters on HDInsight provide Spark-related kernels that you can select from to execute Python or Scala code using the Spark engine.
 
 Jupyter notebooks provide a great environment for analyzing, visualizing, and processing your data prior to building more advanced visualizations with a BI/Reporting tool like Power BI.
 
 ### Zeppelin Notebooks
 
-[Zeppelin Notebooks](https://zeppelin.apache.org/) are another option for a browser-based shell, similar to Jupyter in functionality. Some HDInsight clusters come [preconfigured with Zeppelin notebooks](https://docs.microsoft.com/azure/hdinsight/spark/apache-spark-zeppelin-notebook). However, if you are using an [HDInsight Interactive Query](https://docs.microsoft.com/azure/hdinsight/interactive-query/apache-interactive-query-get-started) (Hive LLAP) cluster, [Zeppelin](https://docs.microsoft.com/azure/hdinsight/hdinsight-connect-hive-zeppelin) is currently your only choice of notebook that you can use to run interactive Hive queries. Additionally, if you are using a [domain-joined HDInsight cluster](https://docs.microsoft.com/azure/hdinsight/domain-joined/apache-domain-joined-introduction), Zeppelin notebooks are the only type enable you to assign different user logins to control access to notebooks and the underlying Hive tables.
+[Zeppelin Notebooks](https://zeppelin.apache.org/) are another option for a browser-based shell, similar to Jupyter in functionality. Some HDInsight clusters come [preconfigured with Zeppelin notebooks](/azure/hdinsight/spark/apache-spark-zeppelin-notebook). However, if you are using an [HDInsight Interactive Query](/azure/hdinsight/interactive-query/apache-interactive-query-get-started) (Hive LLAP) cluster, [Zeppelin](/azure/hdinsight/hdinsight-connect-hive-zeppelin) is currently your only choice of notebook that you can use to run interactive Hive queries. Additionally, if you are using a [domain-joined HDInsight cluster](/azure/hdinsight/domain-joined/apache-domain-joined-introduction), Zeppelin notebooks are the only type enable you to assign different user logins to control access to notebooks and the underlying Hive tables.
 
 ### Microsoft Azure Notebooks
 
@@ -77,13 +84,13 @@ The following tables summarize the key differences in capabilities between each.
 | Access to numerous open source packages | No | Yes + | Yes + | Yes ++ |
 | Data transformation/cleansing options | [Power Query](https://powerbi.microsoft.com/blog/getting-started-with-power-query-part-i/), R | 40 languages, including Python, R, Julia, and Scala | 20+ interpreters, including Python, JDBC, and R | Python, F#, R |
 | Pricing | Free for Power BI Desktop (authoring), see [pricing](https://powerbi.microsoft.com/pricing/) for hosting options | Free | Free | Free |
-| Multiuser collaboration | [Yes](https://docs.microsoft.com/power-bi/service-how-to-collaborate-distribute-dashboards-reports) | Yes (through sharing or with a multiuser server like [JupyterHub](https://github.com/jupyterhub/jupyterhub)) | Yes | Yes (through sharing) |
+| Multiuser collaboration | [Yes](/power-bi/service-how-to-collaborate-distribute-dashboards-reports) | Yes (through sharing or with a multiuser server like [JupyterHub](https://github.com/jupyterhub/jupyterhub)) | Yes | Yes (through sharing) |
 
 \* When used as part of a managed HDInsight cluster.
 
 \** With the use of Power BI Desktop.
 
-\*** There are [several ways](https://docs.microsoft.com/power-bi/refresh-data) that data is automatically refreshed in Power BI.
+\*** There are [several ways](/power-bi/refresh-data) that data is automatically refreshed in Power BI.
 
 \+ You can search the [Maven repository](http://search.maven.org/) for community-contributed packages.
 

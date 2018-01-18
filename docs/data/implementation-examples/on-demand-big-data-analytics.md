@@ -1,3 +1,10 @@
+---
+title: 
+description: 
+author: zoinerTejada
+ms:date: 01/17/2018
+---
+
 # On-demand big data analytics
 
 Create cloud-scale, enterprise-ready Hadoop clusters in a matter of minutes for batch and real-time data processing. With Azure, you can build your entire big data processing and analytics pipeline from massive data ingest to world-class business intelligence and reporting, using the technology that's right for you.
@@ -6,12 +13,12 @@ Create cloud-scale, enterprise-ready Hadoop clusters in a matter of minutes for 
 
 ## Highlighted services
 
-* [Azure Storage blobs](https://docs.microsoft.com/azure/storage/blobs/storage-blobs-introduction)
-* [Interactive Query (Hive LLAP) on HDInsight](https://docs.microsoft.com/azure/hdinsight/interactive-query/apache-interactive-query-get-started)
-* [Power BI](https://docs.microsoft.com/power-bi/)
-* [Azure Event Hubs](https://docs.microsoft.com/azure/event-hubs/)
-* [Azure Stream Analytics](https://docs.microsoft.com/azure/stream-analytics/)
-* [Azure SQL Database](https://docs.microsoft.com/azure/sql-database/)
+* [Azure Storage blobs](/azure/storage/blobs/storage-blobs-introduction)
+* [Interactive Query (Hive LLAP) on HDInsight](/azure/hdinsight/interactive-query/apache-interactive-query-get-started)
+* [Power BI](/power-bi/)
+* [Azure Event Hubs](/azure/event-hubs/)
+* [Azure Stream Analytics](/azure/stream-analytics/)
+* [Azure SQL Database](/azure/sql-database/)
 
 ## In this guide
 

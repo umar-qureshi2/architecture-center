@@ -1,3 +1,10 @@
+---
+title: 
+description: 
+author: zoinerTejada
+ms:date: 01/17/2018
+---
+
 
 # Cognitive services technology choices
 
@@ -22,11 +29,11 @@ Considerations:
 
 ## What are your options when choosing amongst the cognitive services?
 In Azure, there are dozens of Cognitive Services available. The current listing of these is available in a directory categorized by the functional area they support:
-- [Vision](https://azure.microsoft.com/en-us/services/cognitive-services/directory/vision/)
-- [Speech](https://azure.microsoft.com/en-us/services/cognitive-services/directory/speech/)
-- [Knowledge](https://azure.microsoft.com/en-us/services/cognitive-services/directory/know/)
-- [Search](https://azure.microsoft.com/en-us/services/cognitive-services/directory/search/)
-- [Language](https://azure.microsoft.com/en-us/services/cognitive-services/directory/lang/)
+- [Vision](https://azure.microsoft.com/services/cognitive-services/directory/vision/)
+- [Speech](https://azure.microsoft.com/services/cognitive-services/directory/speech/)
+- [Knowledge](https://azure.microsoft.com/services/cognitive-services/directory/know/)
+- [Search](https://azure.microsoft.com/services/cognitive-services/directory/search/)
+- [Language](https://azure.microsoft.com/services/cognitive-services/directory/lang/)
 
 ## How do you choose?
 Each cognitive service is purpose built to meet a particular application requirement and as such brings with it a unique set of capabilities.  

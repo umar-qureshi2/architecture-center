@@ -1,3 +1,10 @@
+---
+title: 
+description: 
+author: zoinerTejada
+ms:date: 01/17/2018
+---
+
 # Data Warehouses
 
 ## What are your options when choosing a data warehouse?
@@ -5,23 +12,23 @@ There are several options for implementing a data warehouse in Azure, depending 
 
 SMP (small/medium data):
 
-- [Azure SQL Database](https://docs.microsoft.com/azure/sql-database/)
-- [SQL Server in a virtual machine](https://docs.microsoft.com/sql/sql-server/sql-server-technical-documentation)
+- [Azure SQL Database](/azure/sql-database/)
+- [SQL Server in a virtual machine](/sql/sql-server/sql-server-technical-documentation)
 - Azure SQL Database managed instance
 
 MPP (big data):
 
-- [Azure Data Warehouse](https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-overview-what-is)
-- [Apache Hive on HDInsight](https://docs.microsoft.com/azure/hdinsight/hadoop/hdinsight-use-hive)
-- [Interactive Query (Hive LLAP) on HDInsight](https://docs.microsoft.com/azure/hdinsight/interactive-query/apache-interactive-query-get-started)
+- [Azure Data Warehouse](/azure/sql-data-warehouse/sql-data-warehouse-overview-what-is)
+- [Apache Hive on HDInsight](/azure/hdinsight/hadoop/hdinsight-use-hive)
+- [Interactive Query (Hive LLAP) on HDInsight](/azure/hdinsight/interactive-query/apache-interactive-query-get-started)
 
 The list above is broken into two categories: [SMP](https://en.wikipedia.org/wiki/Symmetric_multiprocessing) (symmetric multiprocessing) and [MPP](https://en.wikipedia.org/wiki/Massively_parallel) (massively parallel). As a general rule, SMP-based warehouses are best suited for small to medium data sets (up to 4-100 TB), while MPP is oftentimes used for big data. The delineation between small/medium and big data has, in part, to do with your organization's definition and supporting infrastructure, as well as the [limitation of the data sizes imposed by the technology choices within](oltp-data-stores.md#scalability-capabilities) your infrastructure. Beyond data sizes, the type of workload pattern you plan to support are likely a greater determining factor. For instance, complex queries may be too slow for an SMP solution, and require an MPP solution instead. MPP-based systems are likely to impose a performance penalty with small data sizes, due to how jobs are distributed and consolidated across nodes. All things considered, the general guidance is if your data sizes are already exceeding 1 TB and are expected to continually grow, you may want to consider selecting an MPP solution. However, if your data sizes are less than this, but your workloads are exceeding the available resources of your SMP solution, then MPP may be your best option as well.
 
-As mentioned in the [data warehousing pipeline pattern](../pipeline-patterns/data-warehousing.md#data-warehousing-in-azure) article, the data accessed or stored by your data warehouse could come from a number of data sources, including a data lake, such as [Azure Data Lake Store](https://docs.microsoft.com/azure/data-lake-store/). For a video session that compares the different strengths of MPP services that can use Azure Data Lake, see [Azure Data Lake and Azure Data Warehouse: Applying Modern Practices to Your App](https://azure.microsoft.com/resources/videos/build-2016-azure-data-lake-and-azure-data-warehouse-applying-modern-practices-to-your-app/).
+As mentioned in the [data warehousing pipeline pattern](../pipeline-patterns/data-warehousing.md#data-warehousing-in-azure) article, the data accessed or stored by your data warehouse could come from a number of data sources, including a data lake, such as [Azure Data Lake Store](/azure/data-lake-store/). For a video session that compares the different strengths of MPP services that can use Azure Data Lake, see [Azure Data Lake and Azure Data Warehouse: Applying Modern Practices to Your App](https://azure.microsoft.com/resources/videos/build-2016-azure-data-lake-and-azure-data-warehouse-applying-modern-practices-to-your-app/).
 
 SMP systems are characterized by a single instance of a relational database management system (DBMS) sharing all resources (CPU/Memory/Disk&mdash;that is, shared everything). MPP solutions, on the other hand, require a different skillset, due to variances in querying, modeling, partitioning of data, and other factors unique to parallel processing. One quick way to remember the difference is that you can scale-up an SMP system by adding processors with more CPU cores or faster CPU cores, add more memory, and use a faster I/O subsystem. For an MPP system you can scale-out by adding more compute nodes (which have their own CPU, memory and I/O subsystems). There are physical limitations to scaling up a server, at which point scaling out is more desirable depending on the workload.
 
-When deciding which SMP solution to use, refer to [A closer look at Azure SQL Database (PaaS) and SQL Server on Azure virtual machines (IaaS)](https://docs.microsoft.com/azure/sql-database/sql-database-paas-vs-sql-server-iaas#a-closer-look-at-azure-sql-database-and-sql-server-on-azure-vms). In addition, Azure SQL Data Warehouse can also be used for small and medium datasets, where the workload is compute and memory intensive.
+When deciding which SMP solution to use, refer to [A closer look at Azure SQL Database (PaaS) and SQL Server on Azure virtual machines (IaaS)](/azure/sql-database/sql-database-paas-vs-sql-server-iaas#a-closer-look-at-azure-sql-database-and-sql-server-on-azure-vms). In addition, Azure SQL Data Warehouse can also be used for small and medium datasets, where the workload is compute and memory intensive.
 
 Read more about SQL Data Warehouse patterns and common scenarios:
 
@@ -50,7 +57,7 @@ For data warehouse scenarios, choose the appropriate system for your needs by an
 - Do you have real-time reporting requirements?
     - If you require rapid query response times on high volumes of singleton inserts, narrow your options to those that can support real-time reporting.
 - Do you need to support a large number of concurrent users and connections?
-    - The ability to support a number of concurrent users/connections depends on several factors. When using Azure SQL, refer to the [documented resource limits](https://docs.microsoft.com/azure/sql-database/sql-database-resource-limits) based on your service tier. SQL Server hosted on a virtual machine will rely on the size of the virtual machine and supporting services (type of storage, and so on.) to determine the limit, but [generally supports](https://docs.microsoft.com/sql/database-engine/configure-windows/configure-the-user-connections-server-configuration-option) up to a maximum of 32,767 user connections. SQL Data Warehouse, however, supports a [maximum of 32 concurrent queries](https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-develop-concurrency) across 1,024 concurrent connections, though the number of concurrent queries it supports will increase in the future. Consider using complementary services, such as [Azure Analysis Services](https://docs.microsoft.com/azure/analysis-services/analysis-services-overview), to overcome such limitations if you do select SQL Data Warehouse.
+    - The ability to support a number of concurrent users/connections depends on several factors. When using Azure SQL, refer to the [documented resource limits](/azure/sql-database/sql-database-resource-limits) based on your service tier. SQL Server hosted on a virtual machine will rely on the size of the virtual machine and supporting services (type of storage, and so on.) to determine the limit, but [generally supports](/sql/database-engine/configure-windows/configure-the-user-connections-server-configuration-option) up to a maximum of 32,767 user connections. SQL Data Warehouse, however, supports a [maximum of 32 concurrent queries](/azure/sql-data-warehouse/sql-data-warehouse-develop-concurrency) across 1,024 concurrent connections, though the number of concurrent queries it supports will increase in the future. Consider using complementary services, such as [Azure Analysis Services](/azure/analysis-services/analysis-services-overview), to overcome such limitations if you do select SQL Data Warehouse.
 - What sort of workload do you have?
     - In general, MPP-based warehouse solutions are best suited for analytical, batch-oriented workloads. If your workloads are transactional by nature, with many small read/write operations or multiple row-by-row operations, consider using one of the SMP options. One exception to this guideline is when using stream processing on an HDInsight cluster, such as Spark Streaming, and storing the data within a Hive table.
 
@@ -73,7 +80,7 @@ Based on your responses to the questions above, the following tables will help y
 
 \* With SQL Data Warehouse, you can restore a database to any available restore point within the last seven days. Snapshots start every four to eight hours and are available for seven days. When a snapshot is older than seven days, it expires and its restore point is no longer available.
 
-\** Recommend using an [external Hive metastore](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-provision-linux-clusters#use-hiveoozie-metastore) that can be backed up and restored as needed. Standard backup and restore options that apply to Blob Storage or Data Lake Store can be used for the data, or third party HDInsight backup and restore solutions, such as [Imanis Data](https://azure.microsoft.com/blog/imanis-data-cloud-migration-backup-for-your-big-data-applications-on-azure-hdinsight/) can be used for greater flexibility and ease of use.
+\** Recommend using an [external Hive metastore](/azure/hdinsight/hdinsight-hadoop-provision-linux-clusters#use-hiveoozie-metastore) that can be backed up and restored as needed. Standard backup and restore options that apply to Blob Storage or Data Lake Store can be used for the data, or third party HDInsight backup and restore solutions, such as [Imanis Data](https://azure.microsoft.com/blog/imanis-data-cloud-migration-backup-for-your-big-data-applications-on-azure-hdinsight/) can be used for greater flexibility and ease of use.
 
 \*** HDInsight clusters can be deleted when not needed, then re-created when they are. If you want to do this as a way to reduce cost, you will want to attach an external data store to your cluster so your data is retained when you delete your cluster. You can use Azure Data Factory to automate your cluster's lifecycle by creating an on-demand HDInsight cluster to process your workload, then delete it once the processing is complete.
 
@@ -86,7 +93,7 @@ Based on your responses to the questions above, the following tables will help y
 | Dynamic scalability (scale up)  | Yes | No | Yes | Yes * | No | No |
 | Supports in-memory caching of data | Yes | Yes | Yes | No | Yes |
 
-\* SQL Data Warehouse allows you to scale up or down compute by [adjusting the number of data warehouse units (DWUs)](https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-manage-compute-overview).
+\* SQL Data Warehouse allows you to scale up or down compute by [adjusting the number of data warehouse units (DWUs)](/azure/sql-data-warehouse/sql-data-warehouse-manage-compute-overview).
 
 ### Security capabilities
 
@@ -100,18 +107,18 @@ Based on your responses to the questions above, the following tables will help y
 | Supports firewalls | Yes | Yes | Yes | Yes | Yes \*** | Yes \*** |
 | Dynamic data masking | Yes | Yes | Yes | No | Yes * | Yes * |
 
-\* Requires using a [domain-joined HDInsight cluster](https://docs.microsoft.com/azure/hdinsight/domain-joined/apache-domain-joined-introduction).
+\* Requires using a [domain-joined HDInsight cluster](/azure/hdinsight/domain-joined/apache-domain-joined-introduction).
 
 \** Requires using Transparent Data Encryption (TDE) to encrypt and decrypt your data at rest.
 
-\*** Supported when [used within an Azure Virtual Network](https://docs.microsoft.com/azure/hdinsight/hdinsight-extend-hadoop-virtual-network).
+\*** Supported when [used within an Azure Virtual Network](/azure/hdinsight/hdinsight-extend-hadoop-virtual-network).
 
 Read more about securing your data warehouse:
 
-* [Securing your SQL Database](https://docs.microsoft.com/azure/sql-database/sql-database-security-overview#connection-security)
-* [Secure a database in SQL Data Warehouse](https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-overview-manage-security)
-* [Extend Azure HDInsight using an Azure Virtual Network](https://docs.microsoft.com/azure/hdinsight/hdinsight-extend-hadoop-virtual-network)
-* [Enterprise-level Hadoop security with domain-joined HDInsight clusters](https://docs.microsoft.com/azure/hdinsight/domain-joined/apache-domain-joined-introduction)
+* [Securing your SQL Database](/azure/sql-database/sql-database-security-overview#connection-security)
+* [Secure a database in SQL Data Warehouse](/azure/sql-data-warehouse/sql-data-warehouse-overview-manage-security)
+* [Extend Azure HDInsight using an Azure Virtual Network](/azure/hdinsight/hdinsight-extend-hadoop-virtual-network)
+* [Enterprise-level Hadoop security with domain-joined HDInsight clusters](/azure/hdinsight/domain-joined/apache-domain-joined-introduction)
 
 ## Where to go from here
 Read next:

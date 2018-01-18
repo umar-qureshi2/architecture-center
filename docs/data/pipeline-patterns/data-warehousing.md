@@ -1,3 +1,10 @@
+---
+title: 
+description: 
+author: zoinerTejada
+ms:date: 01/17/2018
+---
+
 # Data warehousing 
 
 A data warehouse is a central, organizational, relational repository of integrated data from one or more disparate sources, across many or all subject areas. Data warehouses store current and historical data and are used for reporting and analysis of the data in different ways.
@@ -43,11 +50,11 @@ In Azure, you may have one or more sources of data, whether from customer transa
 
 Related services:
 
-* [Azure SQL Database](https://docs.microsoft.com/azure/sql-database/)
-* [SQL Server in a VM](https://docs.microsoft.com/sql/sql-server/sql-server-technical-documentation)
-* [Azure Data Warehouse](https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-overview-what-is)
-* [Apache Hive on HDInsight](https://docs.microsoft.com/azure/hdinsight/hadoop/hdinsight-use-hive)
-* [Interactive Query (Hive LLAP) on HDInsight](https://docs.microsoft.com/azure/hdinsight/interactive-query/apache-interactive-query-get-started)
+* [Azure SQL Database](/azure/sql-database/)
+* [SQL Server in a VM](/sql/sql-server/sql-server-technical-documentation)
+* [Azure Data Warehouse](/azure/sql-data-warehouse/sql-data-warehouse-overview-what-is)
+* [Apache Hive on HDInsight](/azure/hdinsight/hadoop/hdinsight-use-hive)
+* [Interactive Query (Hive LLAP) on HDInsight](/azure/hdinsight/interactive-query/apache-interactive-query-get-started)
 
 
 ## Where to go from here

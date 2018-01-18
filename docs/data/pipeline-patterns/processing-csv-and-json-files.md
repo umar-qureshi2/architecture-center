@@ -1,3 +1,10 @@
+---
+title: 
+description: 
+author: zoinerTejada
+ms:date: 01/17/2018
+---
+
 # Processing CSV and JSON files
 
 CSV (comma-separated values) <!--Normally the definition comes first with the acronym after, but since CSV is actually probably more common I left as is.-->files are commonly used to exchange tabular data between systems in plain text. They typically contain a header row that provides column names for the data, but are otherwise considered semi-structured. This is due to the fact that CSVs cannot naturally represent hierarchical or relational data. Data relationships are typically handled with multiple CSV files, where foreign keys are stored in columns of one or more files, but the relationships between those files are not expressed by the format itself. Despite having the name "CSV", the term can also be used to denote plain text files that use other delimiters such as tabs or spaces.
@@ -31,7 +38,7 @@ There are some challenges to consider when working with these formats:
 ## Processing CSV and JSON files in Azure
 Azure provides several solutions for working with CSV and JSON files, depending on your needs.
 
-The primary landing place for these files is either Azure Storage or Azure Data Lake Store. Most Azure services that work with these and other text-based files integrate with either object storage service. In some situations, however, you may opt to directly import the data into Azure SQL or some other data store. When speaking about SQL Server specifically, its native support for storing and working with JSON documents makes it easy to [import and process those types of files](https://docs.microsoft.com/sql/relational-databases/json/import-json-documents-into-sql-server). You can use a utility like SQL Bulk Import to easily [import CSV files](https://docs.microsoft.com/sql/relational-databases/json/import-json-documents-into-sql-server).
+The primary landing place for these files is either Azure Storage or Azure Data Lake Store. Most Azure services that work with these and other text-based files integrate with either object storage service. In some situations, however, you may opt to directly import the data into Azure SQL or some other data store. When speaking about SQL Server specifically, its native support for storing and working with JSON documents makes it easy to [import and process those types of files](/sql/relational-databases/json/import-json-documents-into-sql-server). You can use a utility like SQL Bulk Import to easily [import CSV files](/sql/relational-databases/json/import-json-documents-into-sql-server).
 
 Once stored, you can process the documents in batch<!--It feels like "batches" would read better, be more grammatically correct, but this might be more technically correct?--> or real time. Both pipelines are shown below, along with the related services you may opt to use.
 

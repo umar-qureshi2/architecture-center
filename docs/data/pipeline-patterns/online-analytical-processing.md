@@ -1,3 +1,10 @@
+---
+title: 
+description: 
+author: zoinerTejada
+ms:date: 01/17/2018
+---
+
 # Online Analytical Processing
 
 The databases that a business uses to store all its transactions and records are called [online transaction processing (OLTP)](online-transaction-processing.md) databases. These databases usually have records that are entered one at a time and that contain a wealth of information that can be used by strategists to make informed decisions about their business. The databases that are used to store the data, however, were not designed for analysis. Therefore, retrieving answers from these databases is costly in terms of time and effort. Online analytical processing (OLAP) systems were designed to help extract this business intelligence information from the data in a highly performant way. This is because OLAP databases are optimized for heavy read, low write workloads.
@@ -14,7 +21,7 @@ OLAP systems are optimized for read heavy scenarios, such as analytics and busin
 
 OLAP allows business users to slice and dice <!--I've flagged this elsewhere as slang. It should be replaced with something that will work for ESL readers. Note it is not commonly used on MSDN.--> data as needed, regardless of whether the source data is partitioned across several data sources. This helps users to find trends, spot patterns, drill down, and "wander" <!--This also feels like slang, or at least may not be as clear to an ESL reader.--> around the data without having to know the detailed ins and outs of traditional data analysis.
 
-[Semantic models](../common-architectures/semantic-modeling.md) can help business users abstract relationship complexities and make it easier to analyze the data much faster than they'd be able to otherwise, if at all.
+[Semantic models](../common-architectures/relational-data.md#semantic-modeling) can help business users abstract relationship complexities and make it easier to analyze the data much faster than they'd be able to otherwise, if at all.
 
 ## Challenges
 
@@ -25,7 +32,7 @@ For all the benefits OLAP systems provide, they do produce a few challenges:
 
 ## OLAP in Azure
 
-In Azure, data held in OLTP systems such as Azure SQL Database is copied into the OLAP system, such as [Azure Analysis Services](https://docs.microsoft.com/azure/analysis-services/analysis-services-overview). Data exploration and visualization tools like [Power BI](https://powerbi.microsoft.com), Excel, and third-party options connect to Analysis Services servers and provide users with highly interactive and visually rich insights into the modeled data. The flow of data from OLTP data to OLAP is typically orchestrated using SQL Server Integration Services, such as can be executed using [Azure Data Factory](https://docs.microsoft.com/azure/data-factory/concepts-integration-runtime).
+In Azure, data held in OLTP systems such as Azure SQL Database is copied into the OLAP system, such as [Azure Analysis Services](/azure/analysis-services/analysis-services-overview). Data exploration and visualization tools like [Power BI](https://powerbi.microsoft.com), Excel, and third-party options connect to Analysis Services servers and provide users with highly interactive and visually rich insights into the modeled data. The flow of data from OLTP data to OLAP is typically orchestrated using SQL Server Integration Services, such as can be executed using [Azure Data Factory](/azure/data-factory/concepts-integration-runtime).
 
 ## Where to go from here
 Read next:
@@ -34,7 +41,7 @@ Read next:
 See also:
 
 Related common architecture
-- [Semantic Modeling Common Architecture](../common-architectures/semantic-modeling.md)
+- [Semantic Modeling Common Architecture](../common-architectures/relational-data.md#semantic-modeling)
 
 Related technology choices
 - Transactional data stores

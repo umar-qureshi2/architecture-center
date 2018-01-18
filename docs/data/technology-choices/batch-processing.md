@@ -1,3 +1,10 @@
+---
+title: 
+description: 
+author: zoinerTejada
+ms:date: 01/17/2018
+---
+
 # Batch processing
 
 Because the data sets are so large, often a big data solution must process data files using long-running batch jobs to filter, aggregate, and otherwise prepare the data for analysis. Usually these jobs involve reading source files from scalable storage (like HDFS, Azure Data Lake Store, and Azure Storage), processing them, and writing the output to new files in scalable storage. 
@@ -7,11 +14,11 @@ The key requirement of such batch processing engines is that they are capable of
 ## What are your options when choosing a technology for batch processing?
 In Azure, all of the following data stores will meet the core requirements supporting batch processing:
 
-- [Azure Data Lake Analytics](https://docs.microsoft.com/azure/data-lake-analytics/)
-- [Azure SQL Data Warehouse](https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-overview-what-is)
-- [HDInsight with Spark](https://docs.microsoft.com/azure/hdinsight/spark/apache-spark-overview)
-- [HDInsight with Hive](https://docs.microsoft.com/azure/hdinsight/hadoop/hdinsight-use-hive)
-- [HDInsight with Hive LLAP](https://docs.microsoft.com/azure/hdinsight/interactive-query/apache-interactive-query-get-started)
+- [Azure Data Lake Analytics](/azure/data-lake-analytics/)
+- [Azure SQL Data Warehouse](/azure/sql-data-warehouse/sql-data-warehouse-overview-what-is)
+- [HDInsight with Spark](/azure/hdinsight/spark/apache-spark-overview)
+- [HDInsight with Hive](/azure/hdinsight/hadoop/hdinsight-use-hive)
+- [HDInsight with Hive LLAP](/azure/hdinsight/interactive-query/apache-interactive-query-get-started)
 
 ## How do you choose?
 
@@ -70,11 +77,11 @@ Based on your responses to the questions above, the following tables will help y
 | Supports firewalls | Yes | Yes | Yes | Yes \*** | Yes \*** |
 | Dynamic data masking | No | No | No | Yes * | Yes * |
 
-\* Requires using a [domain-joined HDInsight cluster](https://docs.microsoft.com/azure/hdinsight/domain-joined/apache-domain-joined-introduction).
+\* Requires using a [domain-joined HDInsight cluster](/azure/hdinsight/domain-joined/apache-domain-joined-introduction).
 
 \** Requires using Transparent Data Encryption (TDE) to encrypt and decrypt your data at rest.
 
-\*** Supported when [used within an Azure Virtual Network](https://docs.microsoft.com/azure/hdinsight/hdinsight-extend-hadoop-virtual-network).
+\*** Supported when [used within an Azure Virtual Network](/azure/hdinsight/hdinsight-extend-hadoop-virtual-network).
 
 ## Where to go from here
 See also: 

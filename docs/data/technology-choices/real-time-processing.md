@@ -1,14 +1,21 @@
+---
+title: 
+description: 
+author: zoinerTejada
+ms:date: 01/17/2018
+---
+
 # Real-Time Processing Technology Choices
 
 Real-time processing components consume events or messages from either queue or file based storage, with the goal of inspecting, querying, filtering, and aggregating events. Then forwarding the outcome to another message queue, file store, or database. In some cases, they may invoke REST methods that trigger an application function like sending out an alert or updating a real-time visualization. The key requirement of such processing engines is that they are capable of applying their computation to endless streams of data and produce results with minimal latency, in a near real-time fashion.
 
 ## What are your options when choosing a technology for real-time processing?
 In Azure, all of the following data stores will meet the core requirements supporting real-time processing:
-- [Azure Stream Analytics](https://docs.microsoft.com/azure/stream-analytics/)
-- [HDInsight with Spark Streaming](https://docs.microsoft.com/en-us/azure/hdinsight/spark/apache-spark-streaming-overview)
-- [HDInsight with Storm](https://docs.microsoft.com/en-us/azure/hdinsight/storm/apache-storm-overview)
-- [Azure Functions](https://docs.microsoft.com/en-us/azure/azure-functions/functions-overview)
-- [Azure App Service WebJobs](https://docs.microsoft.com/en-us/azure/app-service/web-sites-create-web-jobs)
+- [Azure Stream Analytics](/azure/stream-analytics/)
+- [HDInsight with Spark Streaming](/azure/hdinsight/spark/apache-spark-streaming-overview)
+- [HDInsight with Storm](/azure/hdinsight/storm/apache-storm-overview)
+- [Azure Functions](/azure/azure-functions/functions-overview)
+- [Azure App Service WebJobs](/azure/app-service/web-sites-create-web-jobs)
 
 ## How do you choose?
 Each service brings with it a unique set of capabilities, giving you the option to select the one that most closely meets your requirements. 

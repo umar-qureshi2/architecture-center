@@ -1,3 +1,10 @@
+---
+title: 
+description: 
+author: zoinerTejada
+ms:date: 01/17/2018
+---
+
 # Natural language processing technology choices
 
 Free-form text processing is performed against documents containing paragraphs of text, typically for the purpose of supporting search, but is also used to perform other natural language processing (NLP) tasks such as sentiment analysis, topic detection, language detection, key phrase extraction, and document categorization. This article focuses on the technology choices that act in support of the NLP tasks.
@@ -6,8 +13,8 @@ Free-form text processing is performed against documents containing paragraphs o
 
 In Azure, the following services provide natural language processing (NLP) capabilities:
 
-- [Azure HDInsight with Spark and Spark MLlib](https://docs.microsoft.com/en-us/azure/hdinsight/spark/apache-spark-overview)
-- [Microsoft Cognitive Services](https://docs.microsoft.com/en-us/azure/#pivot=products&panel=cognitive)
+- [Azure HDInsight with Spark and Spark MLlib](/azure/hdinsight/spark/apache-spark-overview)
+- [Microsoft Cognitive Services](/azure/#pivot=products&panel=cognitive)
 
 ## How do you choose?
 

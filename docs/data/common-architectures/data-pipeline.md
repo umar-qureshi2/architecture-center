@@ -1,3 +1,10 @@
+---
+title: 
+description: 
+author: zoinerTejada
+ms:date: 01/17/2018
+---
+
 # Data Pipeline
 
 Gathering data from multiple sources, in multiple formats, and moving it to one or more data stores is a common problem organizations face on a daily basis. The destination may not be the same type of data store as the source, and often the format is different, or the data needs to be shaped or cleaned in some fashion prior to loading it into its final destination.
@@ -18,7 +25,7 @@ Relevant Azure service:
 - [Azure Data Factory v2](https://azure.microsoft.com/services/data-factory/)
 
 Other tools:
-- [SQL Server Integration Services (SSIS)](https://docs.microsoft.com/sql/integration-services/sql-server-integration-services)
+- [SQL Server Integration Services (SSIS)](/sql/integration-services/sql-server-integration-services)
 
 ## Extract, load, and transform
 
@@ -33,13 +40,13 @@ In practice the data store is a data warehouse using either a Hadoop cluster (us
 The final phase of the ELT pipeline is typically to transform the source data into a final format that is more performant with respect to the types of queries that will need to be supported. Examples of this include partitioning the data and using optimized storage formats like Parquet that store row-oriented data in a columnar fashion and provides indexing that optimizes reading from only those files that contain the data requested by the query. 
 
 Relevant Azure service:
-- [Azure SQL Data Warehouse](https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-overview-what-is)
-- [HDInsight with Hive](https://docs.microsoft.com/azure/hdinsight/hadoop/hdinsight-use-hive)
+- [Azure SQL Data Warehouse](/azure/sql-data-warehouse/sql-data-warehouse-overview-what-is)
+- [HDInsight with Hive](/azure/hdinsight/hadoop/hdinsight-use-hive)
 - [Azure Data Factory v2](https://azure.microsoft.com/services/data-factory/)
-- [Oozie on HDInsight](https://docs.microsoft.com/azure/hdinsight/hdinsight-use-oozie-linux-mac)
+- [Oozie on HDInsight](/azure/hdinsight/hdinsight-use-oozie-linux-mac)
 
 Other tools:
-- [SQL Server Integration Services (SSIS)](https://docs.microsoft.com/sql/integration-services/sql-server-integration-services)
+- [SQL Server Integration Services (SSIS)](/sql/integration-services/sql-server-integration-services)
 
 ## Data flow & control flow
 
@@ -55,23 +62,17 @@ Relevant Azure service:
 - [Azure Data Factory v2](https://azure.microsoft.com/services/data-factory/)
 
 Other tools:
-- [SQL Server Integration Services (SSIS)](https://docs.microsoft.com/sql/integration-services/sql-server-integration-services)
+- [SQL Server Integration Services (SSIS)](/sql/integration-services/sql-server-integration-services)
 
-## Where to go from here
+## Related pipeline patterns
 
-Read next: [Data Warehousing Solution Pattern](../pipeline-patterns/data-warehousing.md)
+- [Online Transaction Processing (OLTP)](../pipeline-patterns/online-transaction-processing.md)
+- [Online Analytical Processing (OLAP)](../pipeline-patterns/online-analytical-processing.md)
+- [Data Warehousing](../pipeline-patterns/data-warehousing.md)
 
-See also:
+## Technology choices
 
-Related pipeline patterns
-- Working with transactional data
-    - [Online Transaction Processing (OLTP)](../pipeline-patterns/online-transaction-processing.md)
-    - [Online Analytical Processing (OLAP)](../pipeline-patterns/online-analytical-processing.md)
-    - [Data Warehousing](../pipeline-patterns/data-warehousing.md)
-
-Related technology choices
-- Transactional Data Stores
-    - [Online Transaction Processing (OLTP) data stores](../technology-choices/oltp-data-stores.md)
-    - [Online Analytical Processing (OLAP) data stores](../technology-choices/olap-data-stores.md)
-    - [Data Warehouses](../technology-choices/data-warehouses.md)
+- [Online Transaction Processing (OLTP) data stores](../technology-choices/oltp-data-stores.md)
+- [Online Analytical Processing (OLAP) data stores](../technology-choices/olap-data-stores.md)
+- [Data Warehouses](../technology-choices/data-warehouses.md)
 - [Pipeline Orchestration, Control Flow, and Data Movement](../technology-choices/pipeline-orchestration-data-movement.md)
