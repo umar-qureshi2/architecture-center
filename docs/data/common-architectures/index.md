@@ -27,6 +27,6 @@ TODO: Replace "Multidimensional" with "Semantic Modeling". Add "ELT" under "ETL"
 
 The common data architectures will guide you down a path of concepts that get more granular from the concept down to the generic form of technologies used in the architecture, and ultimately to help you make a choice amongst the various Azure options that exist.
 
-If you are curious about a specific topic, you can also navigate this flowchart from right to left, starting with a topic you are familiar with to learn the related topics and how we group them into common architectures in this guide. For example architectures, see [Implementation examples](../implementation-examples).
+If you are curious about a specific topic, you can also navigate this flowchart from right to left, starting with a topic you are familiar with to learn the related topics and how we group them into common architectures in this guide. For example architectures, see [Implementation examples](../implementation-examples/on-demand-big-data-analytics.md ).
 
 
