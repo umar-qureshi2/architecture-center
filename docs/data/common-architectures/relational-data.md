@@ -101,7 +101,7 @@ Semantic modeling and analytical processing tend to have the following traits:
 | Model | Multidimensional |
 | Data shape:| Cube or star/snowflake schema |
 | Query flexibility | Highly flexible |
-| Scale: | Large (10s-100s GBs) |
+| Scale | Large (10s-100s GBs) |
 
 ## Related pipeline patterns 
 
