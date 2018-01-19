@@ -111,5 +111,5 @@ Semantic modeling and analytical processing tends to have the following traits:
 ## Technology choices
 
 - [Data warehouses](../technology-choices/data-warehouses.md)
-- [Online Analytical Processing (OLAP) data stores](../technology-choices/olap-data-stores.md)
-- [Online Transaction Processing (OLTP) data stores](../technology-choices/oltp-data-stores.md)
+- [Online analytical processing (OLAP) data stores](../technology-choices/olap-data-stores.md)
+- [Online transaction processing (OLTP) data stores](../technology-choices/oltp-data-stores.md)
