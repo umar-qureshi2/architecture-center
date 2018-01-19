@@ -104,9 +104,9 @@ Semantic modeling and analytical processing tends to have the following traits:
 
 ## Related pipeline patterns 
 
-- [Data Warehousing](../pipeline-patterns/data-warehousing.md)
-- [Online Analytical Processing (OLAP)](../pipeline-patterns/online-analytical-processing.md)
-- [Online Transaction Processing (OLTP)](../pipeline-patterns/online-transaction-processing.md)
+- [Data warehousing](../pipeline-patterns/data-warehousing.md)
+- [Online analytical processing (OLAP)](../pipeline-patterns/online-analytical-processing.md)
+- [Online transaction processing (OLTP)](../pipeline-patterns/online-transaction-processing.md)
 
 ## Technology choices
 
