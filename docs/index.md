@@ -33,9 +33,8 @@ layout: LandingPage
                     <div class="card">
                         <img src="_images/reference-architectures.svg" alt="Azure Reference Architectures" />
                         <div class="cardText">
-                            <h3>Reference Architectures</h3>
-                            <p>A set of recommended architectures for Azure. Each architecture includes best practices, prescriptive
-                                steps, and a deployable solution.</p>
+                            <h3>Cloud Adoption Guide</h3>
+                            <p>Won't you adopt a cloud today? Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                         </div>
                     </div>
                 </div>
@@ -50,9 +49,8 @@ layout: LandingPage
                     <div class="card">
                         <img src="_images/cloud-design-patterns.svg" alt="Cloud Design Patterns" />
                         <div class="cardText">
-                            <h3>Cloud Design Patterns</h3>
-                            <p>Design patterns for developers and solution architects. Each pattern describes a problem, a pattern
-                                that addresses the problem, and an example based on Azure.</p>
+                            <h3>Data Architecture Guide</h3>
+                            <p>A structured approach for designing data-centric solutions on Microsoft Azure..</p>
                         </div>
                     </div>
                 </div>
@@ -61,9 +59,30 @@ layout: LandingPage
     </li>
 </ul>
 
+## Cloud application development
+
 <!-- Second panel -->
-<ul class="panelContent cardsI">
-    <!-- Best practices -->
+<ul class="panelContent cardsF">
+    <li>
+        <a href="/azure/architecture/best-practices/">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="_images/cloud-design-patterns.svg" alt="Best Practices" height="100%" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Cloud design patterns</h3>
+                            <p>Design patterns for developers and solution architects. Each pattern describes a problem, a pattern
+                                that addresses the problem, and an example based on Azure..</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
     <li>
         <a href="/azure/architecture/best-practices/">
             <div class="cardSize">
@@ -75,7 +94,7 @@ layout: LandingPage
                             </div>
                         </div>
                         <div class="cardText">
-                            <h3>Best Practices for Cloud Applications</h3>
+                            <h3>Best Practices for cloud applications</h3>
                             <p>Best practices for cloud applications, covering aspects such as auto-scaling, caching, data partitioning,
                                 API design, and others.</p>
                         </div>
@@ -84,6 +103,31 @@ layout: LandingPage
             </div>
         </a>
     </li>
+    <!-- Performance anti-practices -->
+    <li>
+        <a href="/azure/architecture/antipatterns">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="_images/performance.svg" alt="Performance antipatterns" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Performance antipatterns</h3>
+                            <p>How to detect and fix some common causes of performance and scalability problems in cloud applications.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+</ul>
+
+## Build on Azure
+
+<ul class="panelContent cardsF">
     <!-- Microservices -->
     <li>
         <a href="/azure/architecture/microservices">
@@ -104,6 +148,173 @@ layout: LandingPage
             </div>
         </a>
     </li>
+    <li>
+        <a href="/azure/architecture/microservices">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="_images/placeholder.svg" alt="Designing, building, and operating microservices on Azure" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Building IoT solutions on Azure</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+    <!-- Building blocks -->
+    <li>
+        <a href="https://github.com/mspnp/template-building-blocks/wiki">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="_images/azbb.svg" alt="Azure Building Blocks" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Azure Building Blocks</h3>
+                            <p>Simplify deployment of Azure resources. With a single settings file, deploy complex architectures in Azure.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+</ul>
+
+## Reference architectures
+
+<ul class="panelContent cardsF">
+    <li>
+        <a href="/azure/architecture/checklist/">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="_images/creference-architectures.svg" alt="Design Review Checklists" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Reference Architectures</h3>
+                            <p>A set of recommended architectures for Azure. Each architecture includes best practices, prescriptive
+                                steps, and a deployable solution.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+    <li>
+        <a href="./virtual-machines-windows/index.md">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="./reference-architectures/virtual-machines-windows/images/n-tier.svg" height="140px" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Windows VM workloads</h3>
+                            <p>This series starts with best practices for running a single Windows VM, then multiple load-balanced VMs, and finally a multi-region N-tier application.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+    <!-- Linux VM -->
+    <li>
+        <a href="./virtual-machines-linux/index.md">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="./reference-architectures/virtual-machines-linux/images/n-tier.svg" height="140px" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Linux VM workloads</h3>
+                            <p>This series starts with best practices for running a single Linux VM, then multiple load-balanced VMs, and finally a multi-region N-tier application.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+    <!-- Hybrid network -->
+    <li>
+        <a href="./hybrid-networking/index.md">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="./reference-architectures/hybrid-networking/images/vpn.svg" height="140px" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Hybrid network</h3>
+                            <p>This series shows options for creating a network connection between an on-premises network and Azure.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+    <!-- Managed web app -->
+    <li>
+        <a href="./app-service-web-app/index.md">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="./reference-architectures/app-service-web-app/images/scalable-web-app.svg" height="140px" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>App Service web application</h3>
+                            <p>This series shows best practices for web applications that use Azure App Service.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+    <li>
+        <a href="./app-service-web-app/index.md">
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="_images/placeholder.svg" height="140px" />
+                            </div>
+                        </div>
+                        <div class="cardText">
+                            <h3>Run a Jenkins server</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </li>
+</ul>
+
+## Cloud readiness
+
+<ul class="panelContent cardsF">
     <!-- Checklists -->
     <li>
         <a href="/azure/architecture/checklist/">
@@ -144,7 +355,7 @@ layout: LandingPage
             </div>
         </a>
     </li>
-        <!-- Azure for AWS Professionals -->
+        <!-- Azure for AWS Professionals 
     <li>
         <a href="/azure/architecture/aws-professional">
             <div class="cardSize">
@@ -163,7 +374,7 @@ layout: LandingPage
                 </div>
             </div>
         </a>
-    </li>
+    </li> -->
     <!-- Resiliency -->
     <li>
         <a href="/azure/architecture/resiliency">
@@ -178,146 +389,6 @@ layout: LandingPage
                         <div class="cardText">
                             <h3>Designing for Resiliency</h3>
                             <p>Learn how to design resilient applications for Azure.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </a>
-    </li>
-    <!-- Building blocks -->
-    <li>
-        <a href="https://github.com/mspnp/template-building-blocks/wiki">
-            <div class="cardSize">
-                <div class="cardPadding">
-                    <div class="card">
-                        <div class="cardImageOuter">
-                            <div class="cardImage">
-                                <img src="_images/azbb.svg" alt="Azure Building Blocks" />
-                            </div>
-                        </div>
-                        <div class="cardText">
-                            <h3>Azure Building Blocks</h3>
-                            <p>Simplify deployment of Azure resources. With a single settings file, deploy complex architectures in Azure.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </a>
-    </li>
-    <!-- Performance anti-practices -->
-    <li>
-        <a href="/azure/architecture/antipatterns">
-            <div class="cardSize">
-                <div class="cardPadding">
-                    <div class="card">
-                        <div class="cardImageOuter">
-                            <div class="cardImage">
-                                <img src="_images/performance.svg" alt="Performance antipatterns" />
-                            </div>
-                        </div>
-                        <div class="cardText">
-                            <h3>Performance antipatterns</h3>
-                            <p>How to detect and fix some common causes of performance and scalability problems in cloud applications.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </a>
-    </li>
-    <!-- Sharepoint -->
-    <li>
-        <a href="/azure/architecture/reference-architectures/sharepoint">
-            <div class="cardSize">
-                <div class="cardPadding">
-                    <div class="card">
-                        <div class="cardImageOuter">
-                            <div class="cardImage">
-                                <img src="/azure/architecture/reference-architectures/sharepoint/images/sharepoint.svg" alt="Run SharePoint 2016 on Azure" />
-                            </div>
-                        </div>
-                        <div class="cardText">
-                            <h3>Run SharePoint Server 2016 on Azure</h3>
-                            <p>Deploy and run a high availability SharePoint Server 2016 farm on Azure.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </a>
-    </li>
-    <!-- SAP -->
-    <li>
-        <a href="/azure/architecture/reference-architectures/sap">
-            <div class="cardSize">
-                <div class="cardPadding">
-                    <div class="card">
-                        <div class="cardImageOuter">
-                            <div class="cardImage">
-                                <img src="/azure/architecture/reference-architectures/sap/images/sap.svg" width="100%" alt="Run Elasticsearch on Azure" />
-                            </div>
-                        </div>
-                        <div class="cardText">
-                            <h3>Run SAP HANA on Azure</h3>
-                            <p>Deploy and run SAP NetWeaver and SAP HANA in a high availability environment on Azure.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </a>
-    </li>
-    <!-- Multitenant identity -->
-    <li>
-        <a href="/azure/architecture/multitenant-identity">
-            <div class="cardSize">
-                <div class="cardPadding">
-                    <div class="card">
-                        <div class="cardImageOuter">
-                            <div class="cardImage">
-                                <img src="_images/multitenant-identity.svg" alt="Identity Management for Multitenant Applications" />
-                            </div>
-                        </div>
-                        <div class="cardText">
-                            <h3>Identity Management for Multitenant Applications</h3>
-                            <p>Understand the best practices for multitenancy, when using Azure AD for identity management.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </a>
-    </li>
-    <!-- AzureCAT blog -->
-    <li>
-        <a href="https://blogs.msdn.microsoft.com/azurecat/">
-            <div class="cardSize">
-                <div class="cardPadding">
-                    <div class="card">
-                        <div class="cardImageOuter">
-                            <div class="cardImage">
-                                <img src="_images/azurecat.svg" alt="Azure Customer Advisory Team" />
-                            </div>
-                        </div>
-                        <div class="cardText">
-                            <h3>Azure Customer Advisory Team</h3>
-                            <p>The AzureCAT team's blog</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </a>
-    </li>
-    <!-- SQL CAT blog -->
-    <li>
-        <a href="https://blogs.msdn.microsoft.com/sqlcat/">
-            <div class="cardSize">
-                <div class="cardPadding">
-                    <div class="card">
-                        <div class="cardImageOuter">
-                            <div class="cardImage">
-                                <img src="_images/sqlcat.svg" alt="SQL Server Customer Advisory Team" />
-                            </div>
-                        </div>
-                        <div class="cardText">
-                            <h3>SQL Server Customer Advisory Team</h3>
-                            <p>The SQLCAT team's blog</p>
                         </div>
                     </div>
                 </div>
