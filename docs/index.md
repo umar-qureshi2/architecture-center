@@ -31,7 +31,7 @@ layout: LandingPage
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
-                        <img src="_images/reference-architectures.svg" alt="Azure Reference Architectures" />
+                        <img src="_images/placeholder.svg" alt="Azure Reference Architectures" />
                         <div class="cardText">
                             <h3>Cloud Adoption Guide</h3>
                             <p>Won't you adopt a cloud today? Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -47,7 +47,7 @@ layout: LandingPage
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
-                        <img src="_images/cloud-design-patterns.svg" alt="Cloud Design Patterns" />
+                        <img src="_images/placeholder.svg" alt="Cloud Design Patterns" />
                         <div class="cardText">
                             <h3>Data Architecture Guide</h3>
                             <p>A structured approach for designing data-centric solutions on Microsoft Azure..</p>
@@ -70,7 +70,7 @@ layout: LandingPage
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="_images/cloud-design-patterns.svg" alt="Best Practices" height="100%" />
+                                <img src="_images/cloud-design-patterns.svg" alt="Best Practices" height="64px" />
                             </div>
                         </div>
                         <div class="cardText">
@@ -136,7 +136,7 @@ layout: LandingPage
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="_images/new-content.svg" alt="Designing, building, and operating microservices on Azure" />
+                                <img src="_images/microservices.svg" alt="Designing, building, and operating microservices on Azure" />
                             </div>
                         </div>
                         <div class="cardText">
@@ -199,7 +199,7 @@ layout: LandingPage
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="_images/creference-architectures.svg" alt="Design Review Checklists" />
+                                <img src="_images/reference-architectures.svg" alt="Design Review Checklists" />
                             </div>
                         </div>
                         <div class="cardText">
@@ -311,6 +311,8 @@ layout: LandingPage
         </a>
     </li>
 </ul>
+
+See all the [Reference Architectures](./reference-architectures/index.md)
 
 ## Cloud readiness
 
