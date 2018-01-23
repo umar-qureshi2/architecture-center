@@ -32,10 +32,13 @@
     items:
       - name: Lift and Shift
         href:
-  - name: Optimizing migrated applications
+  - name: Optimizing migrated applications for the cloud
     href:
-  - name: Native cloud development
+  - name: Innovating in the cloud
     href:
+    items:
+      - name: Native cloud development
+        href:
   - name: Enterprise operational readiness
     href:
     items:

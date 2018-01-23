@@ -8,23 +8,17 @@ The cloud presents a fundamental shift in the way that enterprises procure and u
 
 While the cloud offers nearly unlimited flexibility in terms of design choices, enterprises seek proven and consistent methodology for the adoption of cloud technologies. And, each enterprise has different goals and timelines for cloud adoption, making a a one-size-fits-all approach to adoption nearly impossible.
 
-This guide approaches enterprise cloud adoption from the perspective of in order to adopt the cloud and achieve the organization's goals in the cloud, a 
+This guide approaches enterprise cloud adoption from the perspective of organizational readiness. The guide includes education, guidance, and engineering artifacts for an enterprise to achieve the following operational stages:
 
-Stages of cloud adoption: 
-1) Adopt
-    - org maturity: Foundational learning about the cloud/Azure (minimum amount of knowledge to deploy ad-hoc to Azure)
-2) Modernize
-    - org maturity: enumerate, stack rank, and select on-premises workloads for migration (lift and shit etc.)
-3) Optimize
-    - org maturity: understand cloud features that lead to efficient use of resources (autoscaling, instance reservation, etc.)
-4) Innovate
-    - org maturity: native cloud development; set up devops; have multiple environments (sandbox, dev, pre-prod, prod)
-5) Operate
-6) Secure
-7) Govern
+1. Adopting Azure: foundational learning about the cloud/Azure (minimum amount of knowledge to deploy ad-hoc to Azure)
+2. Modernizing legacy on-premises applications: enumerate, stack rank, and select on-premises workloads for migration (lift and shift etc.)
+3. Optimizing migrated applications for the cloud: understand cloud features that lead to efficient use of resources (autoscaling, instance reservation, etc.)
+4. Innovating in the cloud: native cloud development; set up devops; have multiple environments (sandbox, dev, pre-prod, prod)
+5. Enterprise operations in the cloud
+
 <!--- TODO: add content to describe intended audience for this guide --->
 
-This guide breaks enterprise cloud adoption into six decision domains:
+<!-- Each of the stages includes 
 
 1. identity: services that Azure trusts to authenticate user identity when providing access to resources (Microsoft accounts & Azure AD accounts)
     - federation/synchronization of existing on-prem domain
@@ -39,8 +33,8 @@ This guide breaks enterprise cloud adoption into six decision domains:
 5. operations and management: using logged metrics and alerts to determine resource health
 have to decide whether to have on-prem/cloud monitoring side-by-side, integrate on-prem monitoring with cloud monitoring (custom portals), etc, includes billing and chargeback: 
     - naming standards and tags
-6. people: these are the stakeholders in adopting the cloud; 
+6. people: these are the stakeholders in adopting the cloud; -->
 
 ## Next Steps
 
-Learn more about the [cloud adoption decision domains](/adoption-overview/overview.md) - identity, governance, security, architecture, operations and management, and people.
+If you are new to Azure, begin with the [Adopting Azure](/adoption-stage) section to learn what your organization needs to know to successfully onboard and deploy your first resources to Azure.
