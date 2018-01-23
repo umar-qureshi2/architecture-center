@@ -312,7 +312,7 @@ layout: LandingPage
     </li>
 </ul>
 
-See all the [Reference Architectures](./reference-architectures/index.md)
+See all the [Azure Reference Architectures](./reference-architectures/index.md)
 
 ## Cloud readiness
 
