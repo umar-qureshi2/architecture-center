@@ -191,7 +191,7 @@ layout: LandingPage
 
 ## Reference architectures
 
-<ul class="panelContent cardsF">
+<ul class="panelContent cardsG">
     <li>
         <a href="/azure/architecture/checklist/">
             <div class="cardSize">
