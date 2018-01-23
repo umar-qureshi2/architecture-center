@@ -6,7 +6,7 @@
 
   items:
   - name: Adopting Azure
-    href: 
+    href: adoption-stage/overview.md
     items:
     - name: Explainer - How does Azure work?
       href: adoption-stage/azure-explainer.md
