@@ -20,6 +20,8 @@ Ideally, the best approach to managing digital identity uses the same digital id
 
 Azure's cloud identity service is named Azure Active Directory (AAD). AAD is Azure's multi-tenant cloud based directory and identity management service. AAD is Identity as a Service (IDaaS) and user accounts from on-premises Active Directory Domain Services (AD DS) can be synchronized or federated for use with Azure Resource Manager.
 
+The management layer in Azure is called Azure Resource Manager. Azure Resource Manager trusts Azure Active Directory to provide authentication and authorization for all actions on Azure resources.
+
 ## Next steps
 
 Read the [digital identity design guide]() to learn more about about the design decisions to consider when adopting Azure AD. 

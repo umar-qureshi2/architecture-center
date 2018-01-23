@@ -5,92 +5,42 @@
   href: index.md
 
   items:
-  - name: About the Azure cloud adoption guide
-    href: adoption-overview/overview.md
-  - name: Cloud adoption background
-    href: 
+  - name: Adopting Azure
+    href: adoption-stage/overview.md
     items:
     - name: Explainer - How does Azure work?
-      href: adoption-overview/azure-explainer.md
+      href: adoption-stage/azure-explainer.md
     - name: Explainer - Enterprise identity in the cloud
-      href: adoption-overview/identity-explainer.md
-    - name: Explainer - Governance - grouping resources for management in the cloud (subscriptions, resource groups)
+      href: adoption-stage/identity-explainer.md
+    - name: Explainer - Azure enterprise agreements
       href:
-    - name: Explainer - Governance - managing access to resources in the cloud (rbac, policy)
-    - name: Explainer - Security (covers distinguishing between securing Azure resources, and, preventing unauthorized penetration of vnet/vm/etc.)
-      href:
-    - name: Explainer - Architecture (what are the functional and architectural differences between SaaS, PaaS, and IaaS in terms of what design decisions must be made)
-      href:
-    - name: Explainer - Operations and Management 
+    - name: Explainer - Azure AD
       href: 
+    - name: Understanding Azure resource manager, RBAC, and resource policy
+      href:
+    - name: Understanding Azure Subscriptions
+      href:
+    - name: Understanding Azure resource groups
+      href:
+    - name: Resource naming standards and tagging 
+      href: 
+    - name: Deploying a basic architecture to Azure
+      href:
   
-  - name: Adoption design guides
+  - name: Modernizing legacy on-premises applications
     href: 
     items:
-    - name: Identity design guide
-      href: design-guide/identity/tenant.md
-    - name: Governance design guide
-      href:
-      items:
-      - name: Subscription design
-        href: design-guide/governance/subscription.md
-      - name: Resource group design
-        href: design-guide/governance/resource-group.md
-      - name: Role based access control
+      - name: Lift and Shift
         href:
-      - name: Azure resource manager policy
-        href:
-    - name: Security 
-      href:
-      items:
-      - name: Compliance
-        href:
-      - name: Encryption
-        href:
-    - name: Architecture
-      href:
-      items:
-      - name: Network edge connectivity and security
-        href:
-      - name: Virtual network topology
-        href:
-      - name: DevOps and CI/CD pipelines
-        href:
-      - name: Application and infrastructure monitoring
-        href:
-    - name: Operations and Management
-      href:
-      items:
-      - name: Naming conventions
-        href:
-      - name: Resource tagging conventions
-        href:
-  
-  - name: Workload migration strategy guide
+  - name: Optimizing migrated applications for the cloud
+    href:
+  - name: Innovating in the cloud
     href:
     items:
-    - name: Workload classification
-      href:
-    - name: Workload migration prioritization
-      href:
-    - name: Azure migrate
-      href:
-    - name: Application architectures
-      href:
-  
-  - name: Implementation guide
+      - name: Native cloud development
+        href:
+  - name: Enterprise operational readiness
     href:
     items:
-    - name: Shared security infrastructure
-      href:
-    - name: IaaS-based workloads
-      href:
-      items:
-      - name: Sharepoint reference architecture
+      - name: Ready your people, process, and management
         href:
-      - name: SAP reference architecture
-        href:
-    - name: PaaS-based workloads
-      href:
-    - name: Automation
-      href: 

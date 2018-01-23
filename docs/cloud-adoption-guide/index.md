@@ -8,12 +8,33 @@ The cloud presents a fundamental shift in the way that enterprises procure and u
 
 While the cloud offers nearly unlimited flexibility in terms of design choices, enterprises seek proven and consistent methodology for the adoption of cloud technologies. And, each enterprise has different goals and timelines for cloud adoption, making a a one-size-fits-all approach to adoption nearly impossible.
 
-The Azure cloud adoption guide outlines and enumerates the design decisions necessary to incorporate Azure into an enterprise's existing infrastructure, operations, and governance. The guide then provides implementation guidance and recommendations for each decision.
+This guide approaches enterprise cloud adoption from the perspective of organizational readiness. The guide includes education, guidance, and engineering artifacts for an enterprise to achieve the following operational stages:
 
-This guide provides guidance on enterprise adoption of the cloud. It includes sections covering background content about the challenges of adopting the cloud, strategies for planning adoption of the cloud, and enumerates the technology and architecture choices for adopting the cloud.
+1. Adopting Azure: foundational learning about the cloud/Azure (minimum amount of knowledge to deploy ad-hoc to Azure)
+2. Modernizing legacy on-premises applications: enumerate, stack rank, and select on-premises workloads for migration (lift and shift etc.)
+3. Optimizing migrated applications for the cloud: understand cloud features that lead to efficient use of resources (autoscaling, instance reservation, etc.)
+4. Innovating in the cloud: native cloud development; set up devops; have multiple environments (sandbox, dev, pre-prod, prod)
+5. Enterprise operations in the cloud
 
 <!--- TODO: add content to describe intended audience for this guide --->
 
+<!-- Each of the stages includes 
+
+1. identity: services that Azure trusts to authenticate user identity when providing access to resources (Microsoft accounts & Azure AD accounts)
+    - federation/synchronization of existing on-prem domain
+2. governance: features, tools, and process to control access to Azure resources, ensuring enterprise IP and costs are protected in the cloud just as they are on-prem, includes:
+    - subscriptions:
+    - resource groups: 
+    - policy: tools to describe the function of resources ("No VM can have a NIC with a public IP address")
+    - role based access control: tools to manage authorized access to resources ("The foo role allows VMs to be created but not deleted")
+3. security: tools, features, and practices to protect resources, data, network from unauthorized access
+    - compliance: tools and processes to verify that policy is applied correctly
+4. architecture: there will be consistent network edge between on-prem and cloud (ER, site to site VPN, etc) but there are many different ways to implement cloud architecture depending on all the above factors
+5. operations and management: using logged metrics and alerts to determine resource health
+have to decide whether to have on-prem/cloud monitoring side-by-side, integrate on-prem monitoring with cloud monitoring (custom portals), etc, includes billing and chargeback: 
+    - naming standards and tags
+6. people: these are the stakeholders in adopting the cloud; -->
+
 ## Next Steps
 
-Learn more about the [cloud adoption decision domains](/adoption-overview/overview.md) - identity, governance, security, architecture, operations and management, and people.
+If you are new to Azure, begin with the [Adopting Azure](/adoption-stage) section to learn what your organization needs to know to successfully onboard and deploy your first resources to Azure.

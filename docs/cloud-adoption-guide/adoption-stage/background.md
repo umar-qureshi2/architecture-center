@@ -1,10 +1,10 @@
 ---
-title: Background - cloud adoption decision domains
+title: Background - stages of enterprise cloud adoption
 description: describes the decision domains for enterprise cloud adoption
 author: petertay
 ---
 
-# Background: Cloud adoption decision domains
+# Background: Stages of cloud adoption
 
 
 
