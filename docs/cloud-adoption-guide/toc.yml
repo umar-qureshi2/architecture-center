@@ -5,27 +5,37 @@
   href: index.md
 
   items:
-  - name: Adopting Azure
-    href: adoption-stage/overview.md
+  - name: New Azure adoption
+    href: new-adoption-stage/overview.md
     items:
     - name: Explainer - How does Azure work?
-      href: adoption-stage/azure-explainer.md
-    - name: Explainer - Enterprise identity in the cloud
-      href: adoption-stage/identity-explainer.md
-    - name: Explainer - Azure enterprise agreements
+      href: new-adoption-stage/azure-explainer.md
+    - name: Explainer - Digital Identity - What is an Azure Active Directory Tenant?
+      href: new-adoption-stage/identity-explainer.md
+    - name: Explainer - What are Azure privileged accounts?
       href:
-    - name: Explainer - Azure AD
+    - name: How to - Azure enterprise onboarding guide
+      href: https://azure.microsoft.com/mediahandler/files/resourcefiles/d8e7430c-8f62-4bbb-9ca2-f2bc877b48bd/Azure%20Onboarding%20Guide%20for%20IT%20Organizations.pdf
+    - name: Guidance - Azure AD tenant design guide
+      href: new-adoption-guide/tenant.md
+    - name: Explainer - What is an Azure subscription?
+      href:
+    - name: Guidance - Azure subscription design guide
+      href:
+    - name: Explainer - What is Azure resource manager?
+      href: new-adoption-stage/resource-manager-explainer.md
+    - name: Guidance - Azure resource group design guide
       href: 
-    - name: Understanding Azure resource manager, RBAC, and resource policy
+    - name: Explainer - how do I manage resource costs in Azure?
       href:
-    - name: Understanding Azure Subscriptions
-      href:
-    - name: Understanding Azure resource groups
-      href:
-    - name: Resource naming standards and tagging 
-      href: 
-    - name: Deploying a basic architecture to Azure
-      href:
+    - name: Guidance - Azure resource and tag naming conventions
+      href: https://docs.microsoft.com/azure/architecture/best-practices/naming-conventions
+    - name: How to - deploy a basic web application to Azure
+      href: https://docs.microsoft.com/azure/architecture/reference-architectures/app-service-web-app/basic-web-app
+    - name: How to - deploy a single Windows VM IaaS workload to Azure
+      href: https://docs.microsoft.com/azure/architecture/reference-architectures/virtual-machines-windows/single-vm
+    - name: How to - deploy a single Linux VM IasS workload to Azure
+      href: https://docs.microsoft.com/azure/architecture/reference-architectures/virtual-machines-linux/single-vm
   
   - name: Modernizing legacy on-premises applications
     href: 

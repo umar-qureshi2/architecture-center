@@ -4,15 +4,16 @@ description: Describes the baseline level of knowledge that an enterprise requir
 author: petertay
 ---
 
-# Organizational Maturity: Adopt
+# Organizational Maturity: New Azure adoption
 
 Adopting Azure is the first level of organizational maturity for an enterprise. This section includes all the learning content and artifacts necessary to achieve:
 
 1. Understanding the internal functioning of Azure:
     - **Explainer:** [how does Azure work?](azure-explainer.md)
-2. Understanding enterprise digital identity in the cloud:
-    - **Explainer**: [Enterprise identity in the cloud](identity-explainer.md)
+2. Understanding enterprise digital identity in Azure:
+    - **Explainer**: [What is an Azure Active Directory Tenant?](aad-tenant-explainer.md)
 3. Understanding Enterprise Agreements:
+    - **Explainer**: [What are Azure privileged accounts?]()
     - What is an enterprise administrator?
     - What is a department administrator?
     - What is an account owner?
@@ -20,14 +21,14 @@ Adopting Azure is the first level of organizational maturity for an enterprise. 
     - What is a privileged account?
     - What is Azure AD?
     - How to: [Azure enterprise onboarding guide](https://azure.microsoft.com/mediahandler/files/resourcefiles/d8e7430c-8f62-4bbb-9ca2-f2bc877b48bd/Azure%20Onboarding%20Guide%20for%20IT%20Organizations.pdf)
-    - How to: [Azure AD tenant design guide](tenant.md)
+    - Guidance: [Azure AD tenant design guide](tenant.md)
+4. Understanding subscriptions:
+    - **Explainer**: [What is a subscription?]()
+    - How to: [Azure subscription design guide](subscription.md)
 4. Understanding Azure Resource Manager, RBAC, and resource policy: 
-    - Explainer: [What is ARM and how does it work?](resource-manager-explainer.md)
+    - **Explainer**: [What is ARM and how does it work?](resource-manager-explainer.md)
     - How to: assign an Azure role to a user
     - How to: create a resource policy   
-5. Understanding subscriptions:
-    - Explainer: [What is a subscription?]()
-    - How to: [Azure subscription design guide](subscription.md)
 6. Understanding resource groups:
     - Explainer: [What is a resource group?]()
     - How to: [resource group design guide](resource-group.md)
