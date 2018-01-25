@@ -16,15 +16,15 @@ For example, development teams may be tasked with modernizing an on-premises app
 
 This guide approaches enterprise cloud adoption from the perspective of organizational readiness. The guide includes education, guidance, and engineering artifacts for an enterprise to achieve the following operational stages:
 
-1. Adopting Azure: foundational learning about the cloud/Azure (minimum amount of knowledge to deploy ad-hoc to Azure)
-2. Modernizing legacy on-premises applications: enumerate, stack rank, and select on-premises workloads for migration (lift and shift etc.)
-3. Optimizing migrated applications for the cloud: understand cloud features that lead to efficient use of resources (autoscaling, instance reservation, etc.)
-4. Innovating in the cloud: native cloud development; set up devops; have multiple environments (sandbox, dev, pre-prod, prod)
-5. Enterprise operations in the cloud
+1. New Azure adopters: foundational learning about the cloud/Azure (minimum amount of knowledge to deploy ad-hoc to Azure)
+2. Intermediate Azure adopters: learning about hybrid networking, single region n-tier applications, data security
+3. Advanced Azure adopters: learning about hub and spoke, multi-region
+4. Modernizing legacy on-premises applications: enumerate, stack rank, and select on-premises workloads for migration (lift and shift etc.)
+5. Optimizing migrated applications for the cloud: understand cloud features that lead to efficient use of resources (autoscaling, instance reservation, etc.)
+6. Innovating in the cloud: native cloud development; set up devops; have multiple environments (sandbox, dev, pre-prod, prod)
+7. Enterprise operations in the cloud
 
 <!--- TODO: add content to describe intended audience for this guide --->
-
-<!-- Each of the stages includes 
 
 1. identity: services that Azure trusts to authenticate user identity when providing access to resources (Microsoft accounts & Azure AD accounts)
     - federation/synchronization of existing on-prem domain
