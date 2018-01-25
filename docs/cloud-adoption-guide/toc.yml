@@ -11,7 +11,7 @@
     - name: Explainer - How does Azure work?
       href: new-adoption-stage/azure-explainer.md
     - name: Explainer - Digital Identity - What is an Azure Active Directory Tenant?
-      href: new-adoption-stage/identity-explainer.md
+      href: new-adoption-stage/aad-tenant-explainer.md
     - name: Explainer - What are Azure privileged accounts?
       href:
     - name: How to - Azure enterprise onboarding guide
@@ -36,7 +36,12 @@
       href: https://docs.microsoft.com/azure/architecture/reference-architectures/virtual-machines-windows/single-vm
     - name: How to - deploy a single Linux VM IasS workload to Azure
       href: https://docs.microsoft.com/azure/architecture/reference-architectures/virtual-machines-linux/single-vm
-  
+  - name: Intermediate Azure adoption
+    href:
+    items:
+  - name: Advanced Azure Adoption
+    href: 
+    items:
   - name: Modernizing legacy on-premises applications
     href: 
     items:
