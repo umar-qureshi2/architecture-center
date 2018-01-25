@@ -8,13 +8,13 @@ prerequisites: understand how Azure internals work, should understand how resour
 goal: provide enough background to assist reader in understanding RBAC and policy
 <-->
 
-# Explainer: Access control management for resources in Azure
+# Explainer: What is an Azure Active Directory tenant?
 
 In the [how does Azure work? explainer](azure-explainer.md), you learned that Azure is a collection of servers and networking hardware running virtualized hardware and software on behalf of  users. You also learned that some of these servers run a distributed orchestration application to manage the creation, modification, and deletion of Azure resources.
 
 Azure doesn't allow just anyone to request a resource be created, modified, or deleted - it requires that users authenticate their digital identity and then determines if it is allowed to perform the request on the authenticated user's behalf. 
 
-Azure includes a service that authenticates digital identity named **Azure Active Directory** (Azure AD). Azure AD offers identity as a service (IDaaS) with users ssgmented into **tenants**. A tenant is simply a secure, dedicated instance of Azure AD. 
+Azure includes a service that authenticates digital identity named **Azure Active Directory** (Azure AD). Azure AD offers identity as a service (IDaaS) with users segmented into **tenants**. A tenant is simply a secure, dedicated instance of Azure AD. 
 
 In order to create a tenant, Azure requires a **privileged account**. This privieged account is associated with either an Azure account or an enterprise agreement. Both of these are billing constructs and are not stored in Azure AD. That is, one or more pivileged accounts own the Azure AD tenant.
 
