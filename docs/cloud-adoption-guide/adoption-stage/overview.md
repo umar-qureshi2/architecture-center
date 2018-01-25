@@ -9,9 +9,9 @@ author: petertay
 Adopting Azure is the first level of organizational maturity for an enterprise. This section includes all the learning content and artifacts necessary to achieve:
 
 1. Understanding the internal functioning of Azure:
-    - Explainer: [how does Azure work?](azure-explainer.md)
+    - **Explainer:** [how does Azure work?](azure-explainer.md)
 2. Understanding enterprise digital identity in the cloud:
-    - Explainer: [Enterprise identity in the cloud](identity-explainer.md)
+    - **Explainer**: [Enterprise identity in the cloud](identity-explainer.md)
 3. Understanding Enterprise Agreements:
     - What is an enterprise administrator?
     - What is a department administrator?

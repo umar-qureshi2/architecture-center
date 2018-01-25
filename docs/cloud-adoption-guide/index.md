@@ -8,6 +8,12 @@ The cloud presents a fundamental shift in the way that enterprises procure and u
 
 While the cloud offers nearly unlimited flexibility in terms of design choices, enterprises seek proven and consistent methodology for the adoption of cloud technologies. And, each enterprise has different goals and timelines for cloud adoption, making a a one-size-fits-all approach to adoption nearly impossible.
 
+## Cloud adoption is an iterative process
+
+The process of adopting cloud technologies is not a linear process. Different teams within the organization will require different approaches to adopting the cloud based on their goals, and those goals may change over time. Therefore, the process of cloud adoption is in an iterative process in which the experience and learning gained by the teams taking part in the adoption process are used as feedback to improve the adoption process for other teams in the organization as they begin their adoption process.
+
+For example, development teams may be tasked with modernizing an on-premises application by migration parts to the cloud in one project, and tasked with developing a cloud native application in the next project.
+
 This guide approaches enterprise cloud adoption from the perspective of organizational readiness. The guide includes education, guidance, and engineering artifacts for an enterprise to achieve the following operational stages:
 
 1. Adopting Azure: foundational learning about the cloud/Azure (minimum amount of knowledge to deploy ad-hoc to Azure)
