@@ -1,16 +1,16 @@
 ---
-title: Azure subscription design guide
+title: Azure subscriptions
 description: Guidance for Azure subscription design as part of a cloud adoption strategy
 author: alexbuckgit
 ---
 
-# Azure subscription design guide
+# Azure subscriptions
 
 ## Overview
 
 An Azure subscription is an agreement with Microsoft that provides access to Microsoft's Platform-as-a-Service (PaaS) and Infrastructure-as-a-Service (IaaS) offerings. Subscriptions grant users access to available Azure services and to the Azure management portal. Subscriptions are the first thing a user establishes when starting to use Azure. 
 
-Subscriptions provide a logical boundary of scale, administration, and billing for users who are consuming Azure services. Subscriptions help you organize access to cloud service resources, and also help you control how resource usage is reported, billed, and paid for. A subscription is a top-level billing unit, and each subscription can have a different billing and payment setup, so you can have different subscriptions and different plans by department, project, regional office, and so on. Every Azure resource belongs to an Azure subscription.
+Subscriptions provide a logical boundary of scale, administration, and billing for users who are consuming Azure services. Subscriptions help you organize access to cloud service resources, and also help you control how resource usage is reported, billed, and paid for. A subscription is a top-level billing unit, and each subscription can have a different billing and payment setup, so you can have different subscription offers as needed by department, project, regional office, and so on. Every Azure resource belongs to an Azure subscription.
 
 ## Administration and access control
 
@@ -20,6 +20,7 @@ In 2014, Azure introduced the Azure Resource Management (ARM) model. ARM provide
 
 > NOTE: Because of its more robust security and billing capabilities, the ARM model should be used for all new Azure deployments. This guidance focuses solely on deploying and managing Azure resources via the ARM model.
 
+TODO: Distribute these links.
 For more information, see the following:
 - [Introduction to Azure security](/azure/security/azure-security)
 - [Manage administrator roles](/azure/billing/billing-add-change-azure-subscription-administrator)
