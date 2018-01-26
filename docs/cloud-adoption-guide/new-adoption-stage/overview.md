@@ -36,8 +36,15 @@ Adopting Azure is the first level of organizational maturity for an enterprise. 
     - Explainer: tracking resources and resource costs in Azure
     - How to: [naming conventions](https://docs.microsoft.com/azure/architecture/best-practices/naming-conventions)
 8. Basic Azure architecture:
-    - PaaS: Create an Azure website:
+    - Introduction to Platform as a Service (PaaS):
+        - **Explainer**: How does platform as a service work?
         - How to: deploy a [basic web application](https://docs.microsoft.com/azure/architecture/reference-architectures/app-service-web-app/basic-web-app) to Azure
+    - IaaS: Introduction to Virtual Networking
+        - **Explainer**: Software Defined Networking
+        - **How to**: Deploy a Virtual Network to Azure
+    - IaaS: Introduction to Storage in Azure:
+        - **Explainer**: How does storage work in Azure?
+        - **How to**:  
     - IasS: Deploy a single VM workload (Windows and Linux):
         - How to: [Run a Windows VM on Azure](https://docs.microsoft.com/azure/architecture/reference-architectures/virtual-machines-windows/single-vm)
         - How to: [Run a Linux VM on Azure](https://docs.microsoft.com/azure/architecture/reference-architectures/virtual-machines-linux/single-vm)
