@@ -49,6 +49,9 @@ For detailed guidance to onboard your organization to Azure via an enterprise en
 
 ## TBD: Related topics
 
+TODO: Organize these links
+- **ADD: Detailed EA guidance**
+
 - [Azure licensing](https://www.microsoft.com/en-us/Licensing/product-licensing/azure.aspx)
 - [Microsoft Enterprise Agreements](https://www.microsoft.com/en-us/licensing/licensing-programs/enterprise.aspx)
 - [VIDEO: Enterprise Agreement - Server and Cloud Enrollment](https://www.microsoft.com/en-us/videoplayer/embed/eed0fe74-a5a5-4617-8c2c-6bb78e966a52)
@@ -56,6 +59,9 @@ For detailed guidance to onboard your organization to Azure via an enterprise en
 - [Azure Onboarding Guide for IT Organizations](https://azure.microsoft.com/mediahandler/files/resourcefiles/d8e7430c-8f62-4bbb-9ca2-f2bc877b48bd/Azure%20Onboarding%20Guide%20for%20IT%20Organizations.pdf) 
 - Azure Stack
 - [Azure Government Onboarding Guides](https://blogs.msdn.microsoft.com/azuregov/2016/05/18/new-azure-government-onboarding-guides/)
+- [Governance in Azure](/azure/security/governance-in-azure#subscription-controls)
+- [Azure Enterprise Enrollment - prescriptive subscription governance](/azure/azure-resource-manager/resource-manager-subscription-governance)
+- [Onboarding Guide to the Microsoft Azure Enterprise Portal](https://eaportalonboardingvideos.blob.core.windows.net/onboardingvideos/AzureDirectEACustomerOnboardingGuide_En.pdf)
 
 
 ## TBD: Relocate this

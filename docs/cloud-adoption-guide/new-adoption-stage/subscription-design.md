@@ -16,6 +16,8 @@ Note that the different kinds of subscriptions discussed are conceptual and don'
 
 The sandbox subscription is likely the first subscription you will create, when you need to learn and experiment with Azure in an isolated environment that you can easily tear down and rebuild.
 
+![Sandbox pattern](../images/subscription-pattern-sandbox.png)
+
 A sandbox subscription has the following characteristics: 
 
 - Provides an environment for learning and experimentation for non-production workloads.
@@ -27,6 +29,8 @@ A sandbox subscription has the following characteristics:
 ### Sandbox-and-production pattern
 
 The sandbox-and-production pattern will enable you to deploy production workloads in Azureby creating a separate subscription where your production workloads will reside.
+
+![Sandbox-and-production pattern](../images/subscription-pattern-sandbox-production.png)
 
 The sandbox-and-production pattern has the following characteristics:
 
@@ -40,6 +44,9 @@ The sandbox-and-production pattern has the following characteristics:
 TODO: Find a better name
 
 TODO: Rewrite.
+
+![Sandbox-and-production pattern](../images/subscription-pattern-sandbox-production-pb.png)
+
 The Sandbox, Production, and Purpose Built scenario is designed for:
 	• This pattern include a separate production environment (purpose-built) that is separate from the main production environment
 	• Each environment contains different types of applications (sandbox/non-prod, production, and purpose-built)
@@ -50,6 +57,8 @@ The Sandbox, Production, and Purpose Built scenario is designed for:
 
 ### Continuous development pattern
 TODO: Continuous deployment instead?
+
+![Continuous deployment pattern](../images/subscription-pattern-continuous-deployment.png)
 
 TODO: Rewrite
 This pattern maintains the sandbox subscription isolation, and production workloads, but also allows for a subscription to be used for the purpose of code promotion approaches
