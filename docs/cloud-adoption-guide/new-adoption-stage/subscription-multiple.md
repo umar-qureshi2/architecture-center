@@ -25,11 +25,4 @@ When adding a new workload to your Azure environment, review the following consi
 - Rigid financial or geopolitical controls may require separate financial arrangements for different subscriptions. For example, a large organization might have multiple subsidiaries or need to handle the accounting and billing of subscriptions in multiple countries differently.
 
 <!-- links -->
-[onboarding-guide]: https://eaportalonboardingvideos.blob.core.windows.net/onboardingvideos/AzureDirectEACustomerOnboardingGuide_En.pdf
-[enable-dev-test]: https://channel9.msdn.com/blogs/EA.Azure.com/Enabling-and-Creating-EA-DevTest-Subscriptions-through-the-EA-Portal
-[azure-change-subscription-offer]: /azure/billing/billing-how-to-switch-azure-offer
-[azure-licensing]: https://azure.microsoft.com/en-us/pricing/enterprise-agreement/[docs-rbac]: /azure/active-directory/role-based-access-control-what-is
-[docs-manage-access]: /azure/active-directory/manage-access-to-azure-resources
 [docs-subscription-limits]: /azure/azure-subscription-service-limits
-[docs-subscriptions-licenses-accounts-tenants]: https://docs.microsoft.com/en-us/office365/enterprise/subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings
-[docs-understanding-resource-access]: https://docs.microsoft.com/en-us/azure/active-directory/active-directory-understanding-resource-access
