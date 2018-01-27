@@ -16,7 +16,9 @@ The first consideration for creating additional Azure subscriptions will depend 
 
 While it's possible that your organization may only need the minimum number of subscriptions needed to support your chosen pattern, there are a number of other factors to consider when deciding whether to add a workload to an existing subscription or to create a new subscription. Although there is no direct cost associated with adding another subscription, it can increase the complexity of managing your Azure environment. Therefore, it's a good idea to minimize the number of subscriptions you have while taking into account the factors discussed here.
 
-When adding a new workload to your Azure environment, review the following considerations. Create a new subscription if any of these factors apply to your situation.
+## Decision guidance
+
+Create a new subscription if any of these factors apply when adding a new workload to Azure.
 
 - Your additional workload is likely to cause the subscription to approach or exceed any of the maximum [service limits][docs-subscription-limits] for an Azure subscription.
 - You require large-scale consumption or administrative isolation for a set of applications.
