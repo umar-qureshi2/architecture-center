@@ -17,11 +17,11 @@
     - name: How to - Azure enterprise onboarding guide
       href: https://azure.microsoft.com/mediahandler/files/resourcefiles/d8e7430c-8f62-4bbb-9ca2-f2bc877b48bd/Azure%20Onboarding%20Guide%20for%20IT%20Organizations.pdf
     - name: Guidance - Azure AD tenant design guide
-      href: new-adoption-guide/tenant.md
+      href: new-adoption-stage/tenant.md
     - name: Explainer - What is an Azure subscription?
-      href: new-adoption-guide/subscription-explainer.md
+      href: new-adoption-stage/subscription-explainer.md
     - name: Guidance - Azure subscription design guide
-      href: new-adoption-guide/subscription.md
+      href: new-adoption-stage/subscription.md
     - name: Explainer - What is Azure resource manager?
       href: new-adoption-stage/resource-manager-explainer.md
     - name: Guidance - Azure resource group design guide
