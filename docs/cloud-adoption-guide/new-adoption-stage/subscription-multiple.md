@@ -16,19 +16,20 @@ The first consideration for creating additional Azure subscriptions will depend 
 
 While it's possible that your organization may only need the minimum number of subscriptions needed to support your chosen pattern, there are a number of other factors to consider when deciding whether to add a workload to an existing subscription or to create a new subscription. Although there is no direct cost associated with adding another subscription, it can increase the complexity of managing your Azure environment. Therefore, it's a good idea to minimize the number of subscriptions you have while taking into account the factors discussed here.
 
-When adding a new workload to your Azure environment, review the following considerations to determine whether you should create a new subscription.
+When adding a new workload to your Azure environment, review the following considerations. Create a new subscription if any of these factors apply to your situation.
 
-TODO: "Listify"
-
-Consider the following when planning your subscription model:
-- Segregation of users for security or compliance reasons.
-- Large-scale consumption or administrative isolation for a specific application.
-- Different configurations of offers and plans for various user groups or organizations.
-- Separate billing and usage monitoring for user groups or organizations.
-- Co-administrators from business units, departments, or other organizations.
-
-You should consider creating an additional subscription in the following cases:
-- You anticipate that the resources in a subscription will reach the defined [Azure subscription limits](/azure/azure-subscription-service-limits).
-- You may wish to deploy production environments in a different subscription than your dev/test environments, to lessen the possibilities that your production environments will reach the defined subscription limits.
-- There are trust or authority issues with the owners of your organization's existing subscriptions.
+- Your additional workload is likely to cause the subscription to approach or exceed any of the maximum [service limits][docs-subscription-limits] for an Azure subscription.
+- You require large-scale consumption or administrative isolation for a set of applications.
+- You need to completely segregate different users for security or compliance reasons. For example, many governmental organizations disallow provisioning accounts or allowing access to foreign nationals for specific systems.
+- Trust issues between different subscription owners require separate access and billing for subscriptions.
 - Rigid financial or geopolitical controls may require separate financial arrangements for different subscriptions. For example, a large organization might have multiple subsidiaries or need to handle the accounting and billing of subscriptions in multiple countries differently.
+
+<!-- links -->
+[onboarding-guide]: https://eaportalonboardingvideos.blob.core.windows.net/onboardingvideos/AzureDirectEACustomerOnboardingGuide_En.pdf
+[enable-dev-test]: https://channel9.msdn.com/blogs/EA.Azure.com/Enabling-and-Creating-EA-DevTest-Subscriptions-through-the-EA-Portal
+[azure-change-subscription-offer]: /azure/billing/billing-how-to-switch-azure-offer
+[azure-licensing]: https://azure.microsoft.com/en-us/pricing/enterprise-agreement/[docs-rbac]: /azure/active-directory/role-based-access-control-what-is
+[docs-manage-access]: /azure/active-directory/manage-access-to-azure-resources
+[docs-subscription-limits]: /azure/azure-subscription-service-limits
+[docs-subscriptions-licenses-accounts-tenants]: https://docs.microsoft.com/en-us/office365/enterprise/subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings
+[docs-understanding-resource-access]: https://docs.microsoft.com/en-us/azure/active-directory/active-directory-understanding-resource-access

@@ -10,8 +10,8 @@ author: alexbuckgit
 
 There are a number of common design patterns used when planning your Azure subscriptions. These patterns are described below. 
 
-Note that the different kinds of subscriptions discussed are conceptual and don't represent specific Azure subscription types. For example, "sandbox subscriptions" are discussed below as a concept, but this subscription could be any suitable Azure subscription type: Pay-As-You-Go, Eterprise Dev/Test, and so on.
-   
+Note that the different kinds of subscriptions discussed are conceptual and don't represent specific Azure subscription types. For example, "sandbox subscriptions" are discussed below as a concept, but this subscription can be any suitable Azure subscription type: Pay-As-You-Go, Enterprise Dev/Test, and so on.
+
 ### Sandbox design pattern
 
 The sandbox subscription is likely the first subscription you will create, when you need to learn and experiment with Azure in an isolated environment that you can easily tear down and rebuild.
@@ -28,44 +28,39 @@ A sandbox subscription has the following characteristics:
 
 ### Sandbox-and-production pattern
 
-The sandbox-and-production pattern will enable you to deploy production workloads in Azureby creating a separate subscription where your production workloads will reside.
+The sandbox-and-production pattern will enable you to deploy production workloads in Azure by creating a separate subscription where your production workloads will reside.
 
 ![Sandbox-and-production pattern](../images/subscription-pattern-sandbox-production.png)
 
 The sandbox-and-production pattern has the following characteristics:
 
-- Each environment contains different types of applications (sandbox/non-production vs. production)
-- The networks in each subscription are isolated from one another
-- Virtual networks wrap the different workloads for traffic separation
-- The subscriptions have different offers, and therefore different pricing models. The sandbox can often take advantage of lower cost offers such as Dev/Test subscriptions.
-- Both subscriptions trust a single Azure AD tenant.
+- Isolates the networks in each subscription from one another.
+- Segregates traffic for different workloads via virtual networks.
+- Reduces costs by using a lower-cost offer type (such as Dev/Test) for the sandbox environment.
+- Establishes a trust relationship for both subscriptions with a single Azure AD tenant.
 
-### Sandbox-and-production-with-purpose-built pattern
+### Sandbox-and-production-with-purpose-built subscription pattern
 TODO: Find a better name
 
-TODO: Rewrite.
+This pattern provides an additional subscription intended for production-ready workloads that have different governance and control requirements than either the sandbox or production environments. For example, a research project may be managed by a separate entity. This pattern can also support workloads that have different regulation requirements or different access controls.
 
 ![Sandbox-and-production pattern](../images/subscription-pattern-sandbox-production-pb.png)
 
-The Sandbox, Production, and Purpose Built scenario is designed for:
-	• This pattern include a separate production environment (purpose-built) that is separate from the main production environment
-	• Each environment contains different types of applications (sandbox/non-prod, production, and purpose-built)
-	• Environments will be isolated from each other
-	• Virtual Networks will wrap the different applications for traffic separation
-	• Each subscriptions trust 1 single Azure AD tenant.
-	• Each subscription contains a separate Azure AD account owner (see Service Administrators section)
+This pattern has the following characteristics:
 
-### Continuous development pattern
-TODO: Continuous deployment instead?
+- Allows each environment to contain workloads with different requirements (sandbox/non-production, production, and purpose-built).
+- Isolates the networks in each subscription from one another.
+- Segregates traffic for different workloads via virtual networks.
+- Establishes a trust relationship for each subscription with a single Azure AD tenant.
+- Allows different account owners for each subscription.
+
+### Continuous deployment pattern
+
+Building on the previous patterns, the continuous deployment enables the use of subscriptions to support a continuous deployment strategy by promoting code through each environment.
 
 ![Continuous deployment pattern](../images/subscription-pattern-continuous-deployment.png)
 
-TODO: Rewrite
-This pattern maintains the sandbox subscription isolation, and production workloads, but also allows for a subscription to be used for the purpose of code promotion approaches
-	• Each environment contains the different types of applications. 
-	• Virtual Networks will wrap the different applications for traffic separation. 
-	• Subnets will be created within each environment to establish required security isolation zones among application tiers. 
-	• Each subscriptions trust 1 single Azure AD tenant.
-	• Each subscription contains a separate Azure AD account owner (see Service Administrators section)
-	• Dev subscription contains separate subnets and resource groups that isolate (Test, Dev and QA environments)
+The continuous deployment pattern has the following additional characteristics:
+- Subnets created in each environment establish required security isolation zones among application tiers. 
+- Dev subscription contains separate subnets and resource groups that isolate Dev, Test, and pre-production environments.
 
