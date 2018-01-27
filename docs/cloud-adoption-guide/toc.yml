@@ -19,9 +19,9 @@
     - name: Guidance - Azure AD tenant design guide
       href: new-adoption-guide/tenant.md
     - name: Explainer - What is an Azure subscription?
-      href:
+      href: new-adoption-guide/subscription-explainer.md
     - name: Guidance - Azure subscription design guide
-      href:
+      href: new-adoption-guide/subscription.md
     - name: Explainer - What is Azure resource manager?
       href: new-adoption-stage/resource-manager-explainer.md
     - name: Guidance - Azure resource group design guide
