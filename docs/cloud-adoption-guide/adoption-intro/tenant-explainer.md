@@ -8,13 +8,13 @@ author: petertay
 
 In the [how does Azure work?](azure-explainer.md) explainer article, you learned that Azure is a collection of servers and networking hardware running virtualized hardware and software on behalf of users. You also learned that some of these servers run a distributed orchestration application to manage creating, reading, updating, and deleting Azure resources.
 
-However, as you would expect - Azure doesn't allow just anyone to perform one of these operations on a resource. Azure restricts access to these operations using a trusted digital identity service called **Azure Active Directory** (Azure AD). Azure AD stores user name, passwords, profile data, and other information. Azure AD users are segmented into **tenants**. A tenant is a logical construct that represents a secure, dedicated instance of Azure AD typically associated with an organization.
+However, as you would expect&mdash;Azure doesn't allow just anyone to perform one of these operations on a resource. Azure restricts access to these operations using a trusted digital identity service called **Azure Active Directory** (Azure AD). Azure AD stores user names, passwords, profile data, and other information. Azure AD users are segmented into **tenants**. A tenant is a logical construct that represents a secure, dedicated instance of Azure AD typically associated with an organization.
 
-In order to create a tenant, Azure requires a **privileged account**. This privileged account is associated with either an Azure account or an enterprise agreement. Both of these are billing constructs and are not stored in Azure AD &mdash; these accounts are stored in a highly secure billing database. 
+In order to create a tenant, Azure requires a **privileged account**. This privileged account is associated with either an Azure account or an enterprise agreement. Both of these are billing constructs and are not stored in Azure AD&mdash;these accounts are stored in a highly secure billing database. 
 
-Once the tenant has been created, a **tenant ID** is generated for the tenant and saved in a highly secure internal Azure AD database. A privileged account owner can then log in to an Azure portal and add users to the newly created Azure AD tenant. 
+Once the tenant has been created, a **tenant ID** is generated for the tenant and saved in a highly secure internal Azure AD database. <!-- RBC: This seems a little redundant of what's after the em dash above. Could we just say it's stored with the privileged account info? -->A privileged account owner can then log in to an Azure portal and add users to the newly created Azure AD tenant. 
 
-Most enterprises already have at least one identity management service, typically Active Directory Domain Services (AD DS). Azure AD is capable of synchronizing or federating user identity from AD DS, so enterprises do not need to manage identity separately in the two environments. This will be described in more detail in the intermediate and advanced adoption stage articles for digital identity.
+Most enterprises already have at least one identity management service, typically Active Directory Domain Services (Azure AD DS). Azure AD is capable of synchronizing or federating user identity from Azure AD DS, so enterprises do not need to manage identity separately in the two environments. This will be described in more detail in the intermediate and advanced adoption stage articles for digital identity.
 
 ## Next steps
 

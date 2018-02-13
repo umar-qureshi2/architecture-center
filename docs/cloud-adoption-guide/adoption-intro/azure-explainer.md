@@ -18,13 +18,13 @@ Within each rack or cluster, most of the servers are designated to run these vir
 
 Each instance of the fabric controller is connected to another set of servers running cloud orchestration software, typically known as a **front end**. The front end hosts the web services, RESTful APIs, and internal Azure databases used for all functions the cloud performs. 
 
-For example, the front end hosts the services that handle customer requests to allocate Azure resources such as [virtual networks][vnet], [virtual machines][vms], and services like [CosmosDB]. First, the front end validates the user and verifies the user is authorized to allocate the requested resources. If so, the front end consults a database to locate a server rack with sufficient capacity, and then instructs the fabric controller on the rack to allocate the resource.
+For example, the front end hosts the services that handle customer requests to allocate Azure resources such as [virtual networks][vnet], [virtual machines][vms], and services like [Cosmos DB][CosmosDB]. First, the front end validates the user and verifies the user is authorized to allocate the requested resources. If so, the front end consults a database to locate a server rack with sufficient capacity, and then instructs the fabric controller on the rack to allocate the resource.
 
-So, very simply, Azure is a huge collection of servers and networking hardware, along with a complex set of distributed applications that orchestrate the configuration and operation of the virtualized hardware and software on those servers. And it is this orchestration that makes Azure so powerful - users are no longer responsible for maintaining and upgrading hardware, Azure does all this behind the scenes. 
+So, very simply, Azure is a huge collection of servers and networking hardware, along with a complex set of distributed applications that orchestrate the configuration and operation of the virtualized hardware and software on those servers. And it is this orchestration that makes Azure so powerful&mdash;users are no longer responsible for maintaining and upgrading hardware, Azure does all this behind the scenes. 
 
 ## Next steps
 
-* Now that you understand the internal functioning of Azure, the first step to adopting Azure is to [understand digital identity in Azure](tenant-explainer.md). You are then ready to [create your first user in Azure AD][docs-add-users-to-aad].
+* Now that you understand the internal functioning of Azure, the first step to adopting Azure is to [understand digital identity in Azure](tenant-explainer.md). You are then ready to [create your first user in Azure Active Directory][docs-add-users-to-aad].
 
 <!-- Links -->
 
