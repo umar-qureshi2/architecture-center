@@ -37,7 +37,7 @@ The architecture has the following components:
 
 * **Azure DNS**. [Azure DNS][azure-dns] is a hosting service for DNS domains, providing name resolution using Microsoft Azure infrastructure. By hosting your domains in Azure, you can manage your DNS records using the same credentials, APIs, tools, and billing as your other Azure services. To use a custom domain name (such as `contoso.com`) create DNS records that map the custom domain name to the IP address. For more information, see [Configure a custom domain name in Azure App Service][custom-domain-name].  
 
-* **Azure SQL Database**. [SQL Database][sql-db] is a relational database-as-a-service in the cloud.
+* **Azure SQL Database**. [SQL Database][sql-db] is a relational database-as-a-service in the cloud. SQL Database shares its code base with the Microsoft SQL Server database engine. Depending on your application requirements, you can also use [Azure Database for MySQL](/azure/mysql) or [Azure Database for PostgreSQL](/azure/postgresql). These are fully managed database services, based on the open source MySQL Server and Postgres database engines, respectively.
 
 * **Logical server**. In Azure SQL Database, a logical server hosts your databases. You can create multiple databases per logical server.
 
@@ -56,8 +56,6 @@ You are charged for the instances in the App Service plan, even if the app is st
 
 ### SQL Database
 Use the [V12 version][sql-db-v12] of SQL Database. SQL Database supports Basic, Standard, and Premium [service tiers][sql-db-service-tiers], with multiple performance levels within each tier measured in [Database Transaction Units (DTUs)][sql-dtu]. Perform capacity planning and choose a tier and performance level that meets your requirements.
-
-Depending on your application requirements, you can also use [Azure Database for MySQL](/azure/mysql) or [Azure Database for PostgreSQL](/azure/postgresql). These are fully managed relational database services, based on the open source MySQL Server and Postgres database engines, respectively.
 
 ### Region
 Provision the App Service plan and the SQL Database in the same region to minimize network latency. Generally, choose the region closest to your users.
